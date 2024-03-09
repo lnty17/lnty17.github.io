@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>奇美 on 豪拜兒</title>
-    <link>https://lnty17.github.io/tags/%E5%A5%87%E7%BE%8E/</link>
+    <link>http://localhost:1313/tags/%E5%A5%87%E7%BE%8E/</link>
     <description>Recent content in 奇美 on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 23 Feb 2024 12:07:47 +0800</lastBuildDate>
-    <atom:link href="https://lnty17.github.io/tags/%E5%A5%87%E7%BE%8E/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2024最新台灣雨季必備-節能家電首選-7款除濕機推薦|豪拜兒</title>
-      <link>https://lnty17.github.io/blog/2024-electrical-appliances-dehumidifier/</link>
-      <pubDate>Fri, 23 Feb 2024 12:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/blog/2024-electrical-appliances-dehumidifier/</guid>
-      <description>&lt;p&gt;台灣位於亞熱帶地區，一年四季都有著潮濕的天氣，尤其在雨季，空氣中更是充滿濃濃的水氣。過度的潮濕可能導致物品、食物發霉變質，甚至孳生出黴菌、塵蟎等微生物。潮濕的環境也可能對建築物造成影響，例如牆面地板發霉、剝落等問題。&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Thu, 22 Feb 2024 12:07:47 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%A5%87%E7%BE%8E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024最佳微波爐選擇指南-7款微波爐推薦|豪拜兒</title>
-      <link>https://lnty17.github.io/blog/2024-electrical-appliances-microwave/</link>
+      <link>http://localhost:1313/blog/2024-electrical-appliances-microwave/</link>
       <pubDate>Thu, 22 Feb 2024 12:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/blog/2024-electrical-appliances-microwave/</guid>
-      <description>&lt;p&gt;微波爐非常方便快捷，且具有多功能性，不僅可以加熱食物，還可以解凍、煮食物，甚至還可以烘烤、烹飪一些簡單的菜餚。相比傳統的烤箱或煮食器具，微波爐甚至更省電。另外，使用微波爐加熱食物可以減少對油脂和添加劑的需求，&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/2024-electrical-appliances-microwave/</guid>
+      <description>&lt;h1 id=&#34;2024最佳微波爐選擇指南-7款微波爐推薦豪拜兒&#34;&gt;2024最佳微波爐選擇指南-7款微波爐推薦|豪拜兒&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/2024-microwave/SHARP%E5%A4%8F%E6%99%AE%E8%87%AA%E5%8B%95%E6%96%99%E7%90%86%E5%85%BC%E7%83%98%E5%9F%B9%E6%B0%B4%E6%B3%A2%E7%88%90(AX-XS5T).jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;微波爐非常方便快捷，且具有多功能性，不僅可以加熱食物，還可以解凍、煮食物，甚至還可以烘烤、烹飪一些簡單的菜餚。相比傳統的烤箱或煮食器具，微波爐甚至更省電。另外，使用微波爐加熱食物可以減少對油脂和添加劑的需求，&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
