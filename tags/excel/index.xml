@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/excel/</link>
+    <description>Recent content in Excel on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 16 Jun 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>豪拜兒|Excel 加法運算教學：使用 SUM 函數及 Alt&#43;快捷鍵</title>
+      <link>https://lnty17.github.io/blog/excel-sum/</link>
+      <pubDate>Sun, 16 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-sum/</guid>
+      <description>豪拜兒|Excel 加法運算教學：使用 SUM 函數及 Alt+ 快捷鍵 Excel 是一款強大的數據處理工具，其中加法運算是最常用的數學運算之一。本文將介紹如何使用 Excel 進行加法運算，包括使用 SUM 函數和其快捷鍵 Alt+。</description>
+    </item>
+    <item>
+      <title>豪拜兒|為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵</title>
+      <link>https://lnty17.github.io/blog/excel-shortcuts/</link>
+      <pubDate>Sat, 15 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-shortcuts/</guid>
+      <description>豪拜兒|為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵 在現代職場中，Excel 已經成為一項必備技能。不僅能夠快速處理大量和重複的數據，還可以製作出專業的報表和圖表，學習 Excel 對於提高工作品質和效率有著非常大的幫助。&#xA;Excel 的多種應用 舉例來說，如果您的工作經常需要計算產品良率、出貨達交率、營收，甚至是計算複雜的選擇權策略單價錢，Excel 都可以幫助您快速整理與運算。通過掌握 Excel，可以更有效地處理各種工作任務，從而在職場中脫穎而出。</description>
+    </item>
+  </channel>
+</rss>
