@@ -6,19 +6,47 @@
     <description>Recent content in blog on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 16 Jun 2024 18:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 18:07:47 +0800</lastBuildDate>
     <atom:link href="https://lnty17.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>豪拜兒|Excel教學：製作2022年入職員工資訊表的高效方法</title>
+      <link>https://lnty17.github.io/blog/excel-cellfomat/</link>
+      <pubDate>Mon, 27 May 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-cellfomat/</guid>
+      <description>豪拜兒|Excel教學：製作2022年入職員工資訊表的高效方法 假設要製作一個2022年入職的員工資訊表，如何避免一字一字地輸入資料呢？手動輸入不僅費時，而且容易出錯。今天，我們要分享一個極其方便的技巧，讓您能快速、高效地完成這項工作。這個技巧就是利用Excel儲存格的自訂格式功能，通過簡單的設定，您可以一次性完成多個儲存格的格式設定，大大提高工作效率。&#xA;自訂格式功能可以讓您根據需要設置特殊的數字格式，自動替換輸入的數值，這不僅節省時間，還能確保數據的一致性。接下來，我們將通過具體的範例來詳細說明如何使用這一功能來設置員工資訊表。無論是工號、部門、性別還是入職時間，都可以通過自訂格式輕鬆搞定。準備好讓您的Excel技巧更上一層樓吧！&#xA;以下是今天的範例表格，我們將利用自訂格式功能，避免冗長輸入，高效地完成此表格。&#xA;自訂格式的基本原理 在Excel的儲存格格式中的“自訂格式”中，“0”代表佔了一個位置，如果在儲存格中輸入數值，“0”就會被替換掉。這個概念可能有點抽象，但看了下面的例子應該就能明白。&#xA;快捷鍵複習：Ctrl+1 在範例開始之前，複習一下快捷鍵Ctrl+1。這個快捷鍵用來叫出儲存格格式設定的視窗，小夥伴們可以試試看。&#xA;步驟詳解 設定工號欄位的格式 框選工號欄的空白格：首先，選取需要設置格式的空白儲存格範圍。這些儲存格將會用來輸入員工的工號。 按Ctrl+1，選擇“自訂”：按下快捷鍵Ctrl+1，這會打開“儲存格格式”對話框。在這裡，選擇左側的“自訂”選項。 在“類型”中輸入20220000，按確定：在“類型”框中輸入20220000，這樣設定後，當您在這些儲存格中輸入數字時，會自動顯示為類似於20220001的格式。 輸入數值測試：在儲存格中輸入1，按Enter，您會看到出現的值是20220001。同理，輸入3，會出現20220003。這樣就不需要手動輸入完整冗長的工號格式。 設定部門欄位的格式 框選部門欄的空白格：選取需要設置部門名稱的空白儲存格範圍。 按Ctrl+1，選擇“自訂”：再次按下快捷鍵Ctrl+1，進入“儲存格格式”對話框，並選擇“自訂”。 在“類型”框中輸入業務0部，設定後，輸入的數字會替換“0”並顯示為部門名稱。 輸入數值測試：在儲存格中輸入4，按Enter，您會看到出現的值是業務4部，同理，若輸入2，則出現業務2部。 設定性別欄位的格式 框選性別欄的空白格：選取需要設置性別信息的空白儲存格範圍。 按Ctrl+1，選擇“自訂”：按下快捷鍵Ctrl+1，進入“儲存格格式”對話框，並選擇“自訂”。 在“類型”框中輸入[=1]&amp;ldquo;男&amp;rdquo;;[=2]&amp;ldquo;女&amp;rdquo;。這樣設定後，輸入1會顯示“男”，輸入2會顯示“女”。 輸入數值測試：輸入1或2進行測試，確認是否顯示為相應的性別信息。 設定入職時間欄位的格式 框選入職時間欄的空白格：選取需要設置入職時間的空白儲存格範圍。 按Ctrl+1，選擇“自訂”：按下快捷鍵Ctrl+1，進入“儲存格格式”對話框，並選擇“自訂”。 在“類型”框中輸入2022年00月00日。這樣設定後，您只需要輸入數字即可顯示為完整的日期格式。 輸入數值測試：在儲存格中輸入1201或1109等數字，會自動顯示為2022年12月01日或2022年11月09日。 小結 透過自訂格式和快捷鍵的應用，您能夠迅速建立一個完整的員工資訊表，有效地避免輸入重複的文字，從而節省大量時間並提升工作效率。</description>
+    </item>
+    <item>
+      <title>豪拜兒|Excel教學：使用Ctrl&#43;G快捷鍵高效移除空白列的方法</title>
+      <link>https://lnty17.github.io/blog/excel-ctrlg/</link>
+      <pubDate>Fri, 24 May 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-ctrlg/</guid>
+      <description>豪拜兒|Excel教學：使用Ctrl+G快捷鍵高效移除空白列的方法 在處理Excel資料時，我們經常會遇到需要移除空白列的情況。如果資料量不多，可以手動一列一列地選取後刪除，但如果有上百筆資料，這樣的操作會非常耗時。今天，我們來學習如何使用Ctrl+G這個高效刪除空白行的方法！&#xA;移除Excel中的空白列 步驟1：檢查資料中的空白列 首先，檢查資料，確認哪些列是空白的。我們將使用一個自動化的方法來選取並刪除這些空白列。 步驟2：選取資料範圍 將要作業的資料範圍框選起來。這樣可以確保我們只針對需要處理的部分進行操作。 步驟3：打開&amp;quot;前往&amp;quot;功能 按下快捷鍵Ctrl+G，這會打開&amp;quot;到&amp;quot;對話框。在對話框中，選擇&amp;quot;特殊&amp;quot;。 步驟4：選取空白儲存格 在&amp;quot;特殊目標&amp;quot;對話框中，選取&amp;quot;空格&amp;quot;選項。按下確定後，所有空白儲存格會被選取並反白顯示。 步驟5：刪除空白儲存格 在任一被反白的空白儲存格上按滑鼠右鍵，選擇刪除。在彈出的對話框中，選擇&amp;quot;下方儲存格上移&amp;quot;，然後按下確定。 步驟6：完成操作 這樣，所有選取的空白列就會被刪除，並且下方的資料會自動上移，填補空白。 小結 使用Ctrl+G快捷鍵批量刪除空白行是一個高效的方法，可以節省大量時間並提高工作效率。希望這些步驟能幫助您更輕鬆地管理Excel資料！</description>
+    </item>
+    <item>
+      <title>豪拜兒|Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧</title>
+      <link>https://lnty17.github.io/blog/excel-product/</link>
+      <pubDate>Wed, 22 May 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-product/</guid>
+      <description>豪拜兒|Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 在上一篇文章中，我們介紹了加法SUM函數的基本用法，讓大家能夠輕鬆處理數據的總和運算。今天，我們將進一步探討Excel中的另一個基本且重要的運算：乘法。無論是在財務報表中計算總成本，還是在數據分析中進行複雜的乘積運算，掌握Excel中的乘法技巧都能大大提高工作效率。接下來，我們將介紹兩種在Excel中執行乘法的方法：直接乘法和PRODUCT函數。&#xA;方法一：直接乘法 假設有A1、B1、C1儲存格的數值要相乘，我們可以在儲存格中輸入公式=A1*B1*C1後按Enter。這裡的*符號就是Excel中表示乘法的符號。&#xA;具體步驟 選中目標儲存格。 輸入公式=A1*B1*C1。 按Enter鍵確定，Excel將自動計算並顯示乘積結果。 方法二：使用PRODUCT函數 &amp;ldquo;PRODUCT&amp;quot;函數是Excel中用於執行乘法運算的一種公式，可以將多個數字相乘並返回乘積。</description>
+    </item>
+    <item>
+      <title>豪拜兒|掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能</title>
+      <link>https://lnty17.github.io/blog/excel-f4/</link>
+      <pubDate>Mon, 20 May 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-f4/</guid>
+      <description>豪拜兒|掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 今天要分享Excel中非常方便的快捷鍵F4，快捷鍵F4具有兩大功能：“重複之前動作”和“切換公式中的相對參照與絕對參照”。這兩個功能能極大地提升工作效率。&#xA;功能一：重複之前的動作 F4鍵的第一個功能是“重複之前的動作”。假設您需要在表格中插入多行，通常我們會右鍵點選插入功能。如果您已經插入了一行，接著還需要插入更多行，只需按下F4鍵，即可重複插入行的動作，而不必重新右鍵選擇插入。&#xA;具體步驟 右鍵點選需要插入的位置，選擇“插入”。 完成插入動作後，按下F4鍵，即可自動重複插入動作。 功能二：切換相對參照與絕對參照 F4鍵的第二個功能是“切換公式中的相對參照與絕對參照”。這在公式運算中非常有用。&#xA;使用F4切換參照方式 當我們在公式中按下F4，可以看到公式中出現“$”符號。這個符號表示鎖定，具體表現如下：</description>
+    </item>
     <item>
       <title>豪拜兒|Excel 加法運算教學：使用 SUM 函數及 Alt&#43;快捷鍵</title>
       <link>https://lnty17.github.io/blog/excel-sum/</link>
-      <pubDate>Sun, 16 Jun 2024 18:07:47 +0800</pubDate>
+      <pubDate>Fri, 17 May 2024 18:07:47 +0800</pubDate>
       <guid>https://lnty17.github.io/blog/excel-sum/</guid>
       <description>豪拜兒|Excel 加法運算教學：使用 SUM 函數及 Alt+ 快捷鍵 Excel 是一款強大的數據處理工具，其中加法運算是最常用的數學運算之一。本文將介紹如何使用 Excel 進行加法運算，包括使用 SUM 函數和其快捷鍵 Alt+。</description>
     </item>
     <item>
       <title>豪拜兒|為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵</title>
       <link>https://lnty17.github.io/blog/excel-shortcuts/</link>
-      <pubDate>Sat, 15 Jun 2024 18:07:47 +0800</pubDate>
+      <pubDate>Wed, 15 May 2024 18:07:47 +0800</pubDate>
       <guid>https://lnty17.github.io/blog/excel-shortcuts/</guid>
       <description>豪拜兒|為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵 在現代職場中，Excel 已經成為一項必備技能。不僅能夠快速處理大量和重複的數據，還可以製作出專業的報表和圖表，學習 Excel 對於提高工作品質和效率有著非常大的幫助。&#xA;Excel 的多種應用 舉例來說，如果您的工作經常需要計算產品良率、出貨達交率、營收，甚至是計算複雜的選擇權策略單價錢，Excel 都可以幫助您快速整理與運算。通過掌握 Excel，可以更有效地處理各種工作任務，從而在職場中脫穎而出。</description>
     </item>
