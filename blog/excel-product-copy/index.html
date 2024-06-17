@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+
+    <title>豪拜兒|Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧</title>
+  
+   
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8783799515937965"
+  crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="在上一篇文章中，我們介紹了加法SUM函數的基本用法，讓大家能夠輕鬆處理數據的總和運算。今天，我們將進一步探討Excel中的另一個基本且重要的運算：乘法。">
+  <meta name="author" content="豪拜兒">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.123.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+ 
+ 
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" type="image/x-icon">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J08ZKSMF3F');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://localhost:1313/"><img class="img-fluid"
+          src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://localhost:1313/"><img class="img-fluid"
+            src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/">所有文章</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E9%9B%BB%E5%99%A8%E7%94%A2%E5%93%81/">電器產品</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/">毛小孩專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E5%93%81%E5%91%B3%E7%94%9F%E6%B4%BB/">品味生活</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/english-article/">English article</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/about/">關於我</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+
+      
+      
+      <div class="search pl-lg-4">
+        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+        <div class="search-wrapper">
+          <form action="http://localhost:1313//search" class="h-100">
+            <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+          </form>
+          <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+        </div>
+      </div>
+      
+      
+
+      
+    </nav>
+  </div>
+</header>
+
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
+          class="text-primary">學習專區</a>
+        
+        
+        <div class="mb-3 post-meta">
+          
+          <span>By 豪拜兒</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>22 May 2024</span>
+          
+        </div>
+        
+        
+        
+        <div class="content mb-5">
+          <h1 id="豪拜兒excel乘法運算教學直接乘法與product函數的使用技巧">豪拜兒|Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧</h1>
+<p><img src="../../images/excel/excel.png" alt="image"></p>
+<p>在上一篇文章中，我們介紹了加法SUM函數的基本用法，讓大家能夠輕鬆處理數據的總和運算。今天，我們將進一步探討Excel中的另一個基本且重要的運算：乘法。無論是在財務報表中計算總成本，還是在數據分析中進行複雜的乘積運算，掌握Excel中的乘法技巧都能大大提高工作效率。接下來，我們將介紹兩種在Excel中執行乘法的方法：直接乘法和PRODUCT函數。</p>
+<h3 id="方法一直接乘法">方法一：直接乘法</h3>
+<p>假設有A1、B1、C1儲存格的數值要相乘，我們可以在儲存格中輸入公式<code>=A1*B1*C1</code>後按Enter。這裡的<code>*</code>符號就是Excel中表示乘法的符號。</p>
+<h5 id="具體步驟">具體步驟</h5>
+<ol>
+<li>選中目標儲存格。</li>
+<li>輸入公式<code>=A1*B1*C1</code>。</li>
+<li>按Enter鍵確定，Excel將自動計算並顯示乘積結果。</li>
+</ol>
+<h3 id="方法二使用product函數">方法二：使用PRODUCT函數</h3>
+<p>&ldquo;PRODUCT&quot;函數是Excel中用於執行乘法運算的一種公式，可以將多個數字相乘並返回乘積。</p>
+<h5 id="product函數的語法">PRODUCT函數的語法</h5>
+<p><code>=PRODUCT(number1, [number2], ...)</code></p>
+<p>其中，number1、number2等參數是要相乘的數字，可以是儲存格引用、數字或其他的Excel函數。</p>
+<h3 id="範例">範例</h3>
+<p>要計算A1、B1、C1儲存格的乘積，可以使用以下公式：</p>
+<p><code>=PRODUCT(A1, B1, C1)</code></p>
+<p>或者，計算A1到C1範圍內所有儲存格的乘積，可以使用以下公式：</p>
+<p><code>=PRODUCT(A1:C1)</code></p>
+<h3 id="product函數的特性">PRODUCT函數的特性</h3>
+<p>值得注意的是，&ldquo;PRODUCT&quot;函數會忽略空儲存格和包含非數字值的儲存格。如果相乘的單元格中包含空值或非數字值，則它們將被視為1進行計算。</p>
+<p>希望這些方法能幫助您在Excel中更高效地進行乘法運算。</p>
+<h3 id="心得">心得</h3>
+<h4 id="為什麼需要學習-excel">為什麼需要學習 Excel？</h4>
+<p>學習 Excel 不僅能夠提升數據處理和分析能力，還能顯著提高工作效率。無論是進行基本的數據整理，還是進階的數據分析，Excel 都是不可或缺的工具。掌握 Excel，將能夠提升工作效率，通過快捷鍵和自動化功能，減少重複性工作。此外，將增強數據分析能力，使用各種公式和圖表，輕鬆分析和展示數據。熟練掌握 Excel 也能增加就業競爭力，這是許多職位的基本要求，尤其是在財務、數據分析和行政等領域。</p>
+<h4 id="系統地學習-excel">系統地學習 Excel</h4>
+<p>如果想要更系統地學習 Excel，或是希望進一步提升自己的 Excel 技能，可以參考以下學習資源：在 Hahow 平台上，可以找到許多優質的 Excel 課程，推薦以下初級和進階課程，從基礎開始，逐步深入掌握各種實用技巧。</p>
+<blockquote>
+<ul>
+<li><strong>Excel 新手入門必修課：<a href="https://tinyurl.com/29po3mcp">點我前往課程介紹</a></strong></li>
+<li><strong>職場必備的 Excel 關鍵技法－進階：<a href="https://tinyurl.com/26h5htqk">點我前往課程介紹</a></strong></li>
+</ul>
+</blockquote>
+<h4 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h4>
+<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
+<p>不要錯過這個提升自我的機會，立即註冊 Hahow，為職業生涯加分！</p>
+<ul>
+<li>
+<h5 id="點擊圖片前往-hohow學習更多線上課程">點擊圖片前往 Hohow，學習更多線上課程</h5>
+</li>
+</ul>
+<p><a href="https://affckr.site/track/clicks/4850/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=&amp;t=https%3A%2F%2Fhahow.in%2Fapselect-event%3Fmts_s%3Dap%26mts_m%3Dao%26mts_c%3D19ap"><img src="https://affckr.site/track/imp/img/181682/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=" alt="點我前往Hahow"></a></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "http://localhost:1313/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/fuse.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/mark.js"></script>
+
+<script src="http://localhost:1313/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+</body>
+</html>
