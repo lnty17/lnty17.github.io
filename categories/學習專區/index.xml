@@ -6,8 +6,29 @@
     <description>Recent content in 學習專區 on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 27 May 2024 18:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 18:07:47 +0800</lastBuildDate>
     <atom:link href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>豪拜兒|Excel教學：一秒填滿取消合併儲存格後的空白格！</title>
+      <link>https://lnty17.github.io/blog/excel-ctrlg-filled/</link>
+      <pubDate>Mon, 03 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-ctrlg-filled/</guid>
+      <description>豪拜兒|Excel教學：一秒填滿取消合併儲存格後的空白格！ 大家是否遇過取消合併儲存格後，需要一個個的複製貼上將空白格填滿的情況呢？不用擔心！現在分享一個可以在一秒鐘內完成填充的方法，利用快捷鍵 Ctrl+G。&#xA;高速填充空白格的操作步驟如下： 解除合併儲存格後，出現好多個空白格 當你解除合併的儲存格後，可能會在表格中看到很多空白格。&#xA;先將 A 欄選起來 首先，選中需要填充的範圍，例如這裡是 A 欄。</description>
+    </item>
+    <item>
+      <title>豪拜兒|Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！</title>
+      <link>https://lnty17.github.io/blog/excel-folder/</link>
+      <pubDate>Sat, 01 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-folder/</guid>
+      <description>豪拜兒|Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！ 假設今天我們要為每一個員工建立獨立的資料夾，來放置各個員工相關的資料。當員工人數不多時，可以逐一手動建立資料夾，但如果員工人數眾多呢？現在分享一個只需一分鐘就可以完成批量建立資料夾的方法，快來看看怎麼做吧！&#xA;首先在 Excel 輸入要建立資料夾的人名，必需是橫列的格式 在 Excel 中，將要建立資料夾的每位員工姓名依橫列排列好。&#xA;複製到記事本，先輸入&amp;quot;md &amp;ldquo;，md 後必須有個空白格 將這些姓名資料複製到記事本中，並在每個姓名之前加上 md，注意後面必須有一個空白格。</description>
+    </item>
+    <item>
+      <title>豪拜兒|Excel教學：如何使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號</title>
+      <link>https://lnty17.github.io/blog/excel-row-and-column/</link>
+      <pubDate>Wed, 29 May 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-row-and-column/</guid>
+      <description>豪拜兒|Excel教學：如何使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號 是不是曾經遇過好不容易編排好的序號，卻因為刪除了某行列，又要重新編排一次的麻煩事呢？&#xA;在日常的 Excel 使用中，當我們需要經常刪減表格的行列時，會面臨一個常見的問題：原本編排好的序號或者行列數字突然不再連貫。例如，你可能已經設定了 A 列的序號從 1 到 11，但當你刪除其中的某些行時，這些序號就會出現斷裂。</description>
+    </item>
     <item>
       <title>豪拜兒|Excel教學：製作2022年入職員工資訊表的高效方法</title>
       <link>https://lnty17.github.io/blog/excel-cellfomat/</link>
