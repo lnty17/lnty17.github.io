@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  
+
+    <title>豪拜兒|Excel教程：學習如何使用IF函數進行條件判斷</title>
+  
+   
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8783799515937965"
+  crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="IF函數作為Excel中的一個核心功能之一，不僅可以根據特定的條件進行邏輯判斷，還能根據判斷結果返回不同的值或執行不同的操作。這使得它在各種應用場景中都表現出色...">
+  <meta name="author" content="豪拜兒">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.123.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+ 
+ 
+  <link rel="shortcut icon" href="https://lnty17.github.io/images/favicon.ico" type="image/x-icon">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J08ZKSMF3F');
+</script>
+
+<script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2NjcyZmM1N2FkYTVkNjM3ZmJjYThlNjkiLCJpYXQiOjE3MTg4MTE3MzV9.QynBGj4KVcidpcjG8ywHQ4MY20iw5_5YEkO9g3AULBg",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://lnty17.github.io/"><img class="img-fluid"
+          src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://lnty17.github.io/"><img class="img-fluid"
+            src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/">所有文章</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/">好物推薦</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/">毛小孩專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              生活大小事
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%B4%93%E5%A3%93%E5%B0%8F%E7%89%A9/">紓壓小物</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/ai%E7%9B%B8%E9%97%9C/">AI相關</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/english-article/">English article</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/about/">關於我</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+
+      
+      
+      <div class="search pl-lg-4">
+        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+        <div class="search-wrapper">
+          <form action="https://lnty17.github.io//search" class="h-100">
+            <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+          </form>
+          <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+        </div>
+      </div>
+      
+      
+
+      
+    </nav>
+  </div>
+</header>
+
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
+          class="text-primary">學習專區</a>
+        
+        
+        <div class="mb-3 post-meta">
+          
+          <span>By 豪拜兒</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>10 June 2024</span>
+          
+        </div>
+        
+        
+        
+        <div class="content mb-5">
+          <h1 id="豪拜兒excel教程學習如何使用if函數進行條件判斷">豪拜兒|Excel教程：學習如何使用IF函數進行條件判斷</h1>
+<p><img src="../../images/excel/excel.png" alt="image"></p>
+<p>在現代的辦公環境中，Excel已經成為一個不可或缺的工具，特別是在處理和分析大量數據時。IF函數作為Excel中的一個核心功能之一，不僅可以根據特定的條件進行邏輯判斷，還能根據判斷結果返回不同的值或執行不同的操作。這使得它在各種應用場景中都表現出色，無論是在財務分析、數據報表製作、還是在日常的數據整理和處理中。</p>
+<p>IF函數的靈活性和多功能性使得用戶可以根據具體需求設定各種不同的條件判斷，從而自動化地處理數據，減少手動操作的時間和錯誤的風險。掌握IF函數的使用不僅能夠提高工作效率，還能確保數據的準確性和一致性，這對於任何需要依賴Excel進行數據分析和報告的專業人士來說都是至關重要的技能。</p>
+<p>在本文中，我們將深入探討IF函數的基本語法和應用技巧，幫助你理解如何有效地利用這個強大的函數來處理你的數據工作。無論你是新手還是有一定經驗的Excel使用者，這些知識都將為你提供實用而實際的解決方案。讓我們開始吧，深入了解如何在Excel中使用IF函數來進行條件判斷和數據處理！</p>
+<h3 id="範例利用if函數對成績判定及格與不及格">範例：利用IF函數對成績判定及格與不及格</h3>
+<h5 id="步驟一定義評語判定標準">步驟一、定義評語判定標準</h5>
+<p>定義大於等於60分為及格，小於60分為不及格</p>
+<p><img src="../../images/excel/IF1.png" alt="image"></p>
+<h5 id="步驟二使用if函數">步驟二、使用IF函數</h5>
+<p>選擇評語欄（假設在C列），輸入以下IF函數：</p>
+<p><code>=IF(B2&gt;=60, &quot;及格&quot;, &quot;不及格&quot;)</code></p>
+<ul>
+<li>IF函數</li>
+</ul>
+<p><img src="../../images/excel/IF2.png" alt="image"></p>
+<p>B2是期中考分數位置。如果B2中的成績大於或等於60，則顯示&quot;及格&quot;；否則顯示&quot;不及格&quot;。</p>
+<ul>
+<li>如果B2中的成績大於或等於60</li>
+</ul>
+<p><img src="../../images/excel/IF3.png" alt="image"></p>
+<ul>
+<li>顯示&quot;及格&quot;</li>
+</ul>
+<p><img src="../../images/excel/IF4.png" alt="image"></p>
+<ul>
+<li>否則顯示&quot;不及格&quot;</li>
+</ul>
+<p><img src="../../images/excel/IF5.png" alt="image"></p>
+<h5 id="步驟三填充下方儲存格">步驟三、填充下方儲存格</h5>
+<p>使用Excel的自動填充功能將IF函數應用到下方的儲存格中，以快速生成所有學生的評語。</p>
+<p><img src="../../images/excel/IF7.png" alt="image"></p>
+<h3 id="巢狀if函數">巢狀IF函數</h3>
+<h5 id="步驟一使用巢狀if函數進行更細分的條件判斷">步驟一、使用巢狀IF函數進行更細分的條件判斷</h5>
+<p>IF函數也可以巢狀使用，來更細化地判斷不同的條件。例如，對於不及格的學生可以進一步判斷是否能參加補考。</p>
+<p><code>=IF(B2&gt;=60, &quot;及格&quot;, IF(B2&gt;=35, &quot;不及格可以補考&quot;, &quot;不及格死當&quot;))</code></p>
+<p>在這個例子中，如果成績大於等於60分，顯示&quot;及格&quot;；如果成績介於35到59分之間，顯示&quot;不及格可以補考&quot;；否則顯示&quot;不及格死當&quot;。</p>
+<ul>
+<li>成績大於等於60分，顯示&quot;及格&quot;，再將剛剛標示為&quot;不及格&quot;的位置替換成一組新的IF函數</li>
+</ul>
+<p><img src="../../images/excel/IF8.png" alt="image"></p>
+<ul>
+<li>如果成績介於35到59分之間，顯示&quot;不及格可以補考&quot;，否則顯示&quot;不及格死當&quot;</li>
+</ul>
+<p><img src="../../images/excel/IF9.png" alt="image"></p>
+<h5 id="步驟二完成">步驟二、完成</h5>
+<p>使用自動填充功能將這個IF函數應用到所有學生的評語儲存格中，以完成所有評語的填寫工作。</p>
+<p><img src="../../images/excel/IF10.png" alt="image"></p>
+<p>這些步驟將幫助你學習如何在Excel中使用IF函數來進行條件判斷，這是處理和分析數據時非常實用的技能。</p>
+<h3 id="心得">心得</h3>
+<h4 id="為什麼需要學習-excel">為什麼需要學習 Excel？</h4>
+<p>學習 Excel 不僅能夠提升數據處理和分析能力，還能顯著提高工作效率。無論是進行基本的數據整理，還是進階的數據分析，Excel 都是不可或缺的工具。掌握 Excel，將能夠提升工作效率，通過快捷鍵和自動化功能，減少重複性工作。此外，將增強數據分析能力，使用各種公式和圖表，輕鬆分析和展示數據。熟練掌握 Excel 也能增加就業競爭力，這是許多職位的基本要求，尤其是在財務、數據分析和行政等領域。</p>
+<h4 id="系統地學習-excel">系統地學習 Excel</h4>
+<p>如果想要更系統地學習 Excel，或是希望進一步提升自己的 Excel 技能，可以參考以下學習資源：在 Hahow 平台上，可以找到許多優質的 Excel 課程，推薦以下初級和進階課程，從基礎開始，逐步深入掌握各種實用技巧。</p>
+<blockquote>
+<ul>
+<li><strong>Excel 新手入門必修課：<a href="https://tinyurl.com/29po3mcp">點我前往課程介紹</a></strong></li>
+<li><strong>職場必備的 Excel 關鍵技法－進階：<a href="https://tinyurl.com/26h5htqk">點我前往課程介紹</a></strong></li>
+</ul>
+</blockquote>
+<h4 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h4>
+<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
+<p>不要錯過這個提升自我的機會，立即註冊 Hahow，為職業生涯加分！</p>
+<ul>
+<li>
+<h5 id="點擊圖片前往-hohow學習更多線上課程">點擊圖片前往 Hohow，學習更多線上課程</h5>
+</li>
+</ul>
+<p><a href="https://affckr.site/track/clicks/4850/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=&amp;t=https%3A%2F%2Fhahow.in%2Fapselect-event%3Fmts_s%3Dap%26mts_m%3Dao%26mts_c%3D19ap"><img src="https://affckr.site/track/imp/img/181682/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=" alt="點我前往Hahow"></a></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://lnty17.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://lnty17.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/mark.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://lnty17.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+</body>
+</html>

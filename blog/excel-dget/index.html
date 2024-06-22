@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  
+
+    <title>豪拜兒|Excel教學：DGET函數—超越VLOOKUP的強大數據查找功能</title>
+  
+   
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8783799515937965"
+  crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="今天，我們將介紹一個傳說中比 VLOOKUP 更強大的函數——DGET 函數。無論是查找目標在範圍的任意位置，還是需要同時滿足多個條件，DGET 函數都能輕鬆應對。">
+  <meta name="author" content="豪拜兒">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.123.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+ 
+ 
+  <link rel="shortcut icon" href="https://lnty17.github.io/images/favicon.ico" type="image/x-icon">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J08ZKSMF3F');
+</script>
+
+<script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2NjcyZmM1N2FkYTVkNjM3ZmJjYThlNjkiLCJpYXQiOjE3MTg4MTE3MzV9.QynBGj4KVcidpcjG8ywHQ4MY20iw5_5YEkO9g3AULBg",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://lnty17.github.io/"><img class="img-fluid"
+          src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://lnty17.github.io/"><img class="img-fluid"
+            src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/">所有文章</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/">好物推薦</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/">毛小孩專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              生活大小事
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%B4%93%E5%A3%93%E5%B0%8F%E7%89%A9/">紓壓小物</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/ai%E7%9B%B8%E9%97%9C/">AI相關</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/english-article/">English article</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/about/">關於我</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+
+      
+      
+      <div class="search pl-lg-4">
+        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+        <div class="search-wrapper">
+          <form action="https://lnty17.github.io//search" class="h-100">
+            <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+          </form>
+          <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+        </div>
+      </div>
+      
+      
+
+      
+    </nav>
+  </div>
+</header>
+
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
+          class="text-primary">學習專區</a>
+        
+        
+        <div class="mb-3 post-meta">
+          
+          <span>By 豪拜兒</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>05 June 2024</span>
+          
+        </div>
+        
+        
+        
+        <div class="content mb-5">
+          <h1 id="豪拜兒excel教學dget函數超越vlookup的強大數據查找功能">豪拜兒|Excel教學：DGET函數—超越VLOOKUP的強大數據查找功能</h1>
+<p><img src="../../images/excel/excel.png" alt="image"></p>
+<p>在之前的文章中，我們已經介紹了 VLOOKUP 函數在查找數據方面的強大功能。這個函數能夠根據指定的查找值，從資料表中快速找到對應的數據，對於處理大量數據來說，無疑是個非常實用的工具。然而，VLOOKUP 也有它的限制，比如它只能在查找目標位於第一欄的情況下工作，而且無法直接處理多條件查找的需求。如果你經常使用 Excel 進行數據管理，這些限制可能會讓你感到困擾。</p>
+<p>今天，我們將介紹一個傳說中比 VLOOKUP 更強大的函數——DGET 函數。這個函數不僅能克服 VLOOKUP 的限制，還能提供更靈活的查找功能。無論是查找目標在範圍的任意位置，還是需要同時滿足多個條件，DGET 函數都能輕鬆應對。本文將詳細講解 DGET 函數的語法和使用方法，並通過具體的例子展示其強大的數據查找功能。</p>
+<p>如果你曾經遇到過因為 VLOOKUP 的限制而感到困擾的情況，那麼這篇文章將是你提升 Excel 技能的一個好機會。讓我們一起來學習如何使用 DGET 函數，從而更高效地處理數據查找需求。</p>
+<h5 id="dget-函數的語法如下">DGET 函數的語法如下：</h5>
+<blockquote>
+<ul>
+<li><code>DGET(database, field, criteria)</code></li>
+<li>database：要查找數據的範圍，包括列標題和數據。</li>
+<li>field：要查找的欄位名稱，可以是欄位標題或列索引。</li>
+<li>criteria：要查找的目標值，這邊記得要把標題也框起來。</li>
+</ul>
+</blockquote>
+<p>以下是之前在 VLOOKUP 篇出現過的範例，我們改用 DGET 再做一次。</p>
+<p>假設老闆要我們從公司上百人的員工資料中，挑出少數人的部門、工號、年齡資訊，該怎麼做呢？用以下表格進行說明，假設我們要在藍色表單中查找資料，然後將資料呈現於杏色表單，也就是說，我們要從眾多資料中，快速歸結出李四、洪八、吳十的部門、工號、年齡資訊。</p>
+<p><img src="../../images/excel/DGET1.png" alt="image"></p>
+<h3 id="操作步驟">操作步驟</h3>
+<p>在 B14 儲存格開始公式的輸入：</p>
+<p><code>=DGET(A1:F11, B13, A13:A14)</code></p>
+<p>這裡第一個參數是要查找的範圍 A1:F11，第二個參數是要查找的欄位名稱 B13，第三個參數是查找的標準 A13:A14。</p>
+<h5 id="查找的範圍-a1f11">查找的範圍 A1:F11</h5>
+<p><img src="../../images/excel/DGET2.png" alt="image"></p>
+<h5 id="查找的欄位名稱-b13">查找的欄位名稱 B13</h5>
+<p><img src="../../images/excel/DGET3.png" alt="image"></p>
+<h5 id="查找的標準-a13a14">查找的標準 A13:A14</h5>
+<p>公式輸入完畢後按 Enter，會顯示 &ldquo;財務&rdquo;，表示查找成功。</p>
+<p><img src="../../images/excel/DGET4.png" alt="image"></p>
+<h3 id="vlookup-的限制">VLOOKUP 的限制</h3>
+<p>VLOOKUP 函數有一個限制：查找目標必須在第一欄。例如，如果我們的查找目標是姓名，必須讓藍色表格的姓名欄在框選範圍的第一欄。但 DGET 函數不受此限制，即使姓名欄被移到第二欄，DGET 函數依然可以執行查找。</p>
+<p><img src="../../images/excel/DGET5.png" alt="image"></p>
+<h3 id="多條件查找">多條件查找</h3>
+<p>DGET 函數也可以實現多條件的查找。假設 &ldquo;李四&rdquo; 是個大眾名，公司同時有兩位李四，但隸屬於不同部門，我們要怎麼搜索到正確李四的資料呢？</p>
+<h5 id="用-vlookup-函數查找-結果錯誤">用 VLOOKUP 函數查找 (結果錯誤)</h5>
+<p>用 VLOOKUP函數查找&quot;研發部門&quot; 李四的工號資料：</p>
+<p>會返回 &ldquo;1230135&rdquo;，這不是 &ldquo;研發部門&rdquo; 李四的工號。VLOOKUP 由上而下依序查找，返回了先找到的 &ldquo;財務部門&rdquo; 李四的資料。</p>
+<p><code>=VLOOKUP(A15, A1:F12, 6, 0)</code></p>
+<p><img src="../../images/excel/DGET6.png" alt="image"></p>
+<h5 id="用dget-的多條件查找-結果正確">用DGET 的多條件查找 (結果正確)</h5>
+<p>換用 DGET 函數試試看，操作步驟如下：</p>
+<p><code>=DGET(A1:F12, C14, A14:B15)</code></p>
+<p>這裡查找的範圍是 A1:F12，指定查找欄位是 &ldquo;C14 工號&rdquo;。搜尋的標準需滿足多條件 A14:B15，姓名是 &ldquo;李四&rdquo;，且屬於研發部門。按下 Enter，返回的值是 &ldquo;1210256&rdquo;，正確地查找到了研發部門李四的工號。</p>
+<p><img src="../../images/excel/DGET7.png" alt="image"></p>
+<h3 id="小結">小結</h3>
+<p>DGET 函數比 VLOOKUP 函數更靈活，特別是在多條件查找和非第一列查找方面更具優勢。希望小夥伴們能對這兩個函數都熟悉一番，充分利用它們來提高工作效率！</p>
+<h3 id="心得">心得</h3>
+<h4 id="為什麼需要學習-excel">為什麼需要學習 Excel？</h4>
+<p>學習 Excel 不僅能夠提升數據處理和分析能力，還能顯著提高工作效率。無論是進行基本的數據整理，還是進階的數據分析，Excel 都是不可或缺的工具。掌握 Excel，將能夠提升工作效率，通過快捷鍵和自動化功能，減少重複性工作。此外，將增強數據分析能力，使用各種公式和圖表，輕鬆分析和展示數據。熟練掌握 Excel 也能增加就業競爭力，這是許多職位的基本要求，尤其是在財務、數據分析和行政等領域。</p>
+<h4 id="系統地學習-excel">系統地學習 Excel</h4>
+<p>如果想要更系統地學習 Excel，或是希望進一步提升自己的 Excel 技能，可以參考以下學習資源：在 Hahow 平台上，可以找到許多優質的 Excel 課程，推薦以下初級和進階課程，從基礎開始，逐步深入掌握各種實用技巧。</p>
+<blockquote>
+<ul>
+<li><strong>Excel 新手入門必修課：<a href="https://tinyurl.com/29po3mcp">點我前往課程介紹</a></strong></li>
+<li><strong>職場必備的 Excel 關鍵技法－進階：<a href="https://tinyurl.com/26h5htqk">點我前往課程介紹</a></strong></li>
+</ul>
+</blockquote>
+<h4 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h4>
+<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
+<p>不要錯過這個提升自我的機會，立即註冊 Hahow，為職業生涯加分！</p>
+<ul>
+<li>
+<h5 id="點擊圖片前往-hohow學習更多線上課程">點擊圖片前往 Hohow，學習更多線上課程</h5>
+</li>
+</ul>
+<p><a href="https://affckr.site/track/clicks/4850/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=&amp;t=https%3A%2F%2Fhahow.in%2Fapselect-event%3Fmts_s%3Dap%26mts_m%3Dao%26mts_c%3D19ap"><img src="https://affckr.site/track/imp/img/181682/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=" alt="點我前往Hahow"></a></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://lnty17.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://lnty17.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/mark.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://lnty17.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+</body>
+</html>

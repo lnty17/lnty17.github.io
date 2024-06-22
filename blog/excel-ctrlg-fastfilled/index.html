@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+
+    <title>豪拜兒|Excel教學：掌握自動填充功能，快速提升工作效率</title>
+  
+   
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8783799515937965"
+  crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="今天要分享一個 Excel 中相當基本但又必不可缺的功能 —「自動填充」。無論你是 Excel 初學者還是經驗豐富的使用者，自動填充功能都是你必須掌握的一項技能。">
+  <meta name="author" content="豪拜兒">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.123.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+ 
+ 
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" type="image/x-icon">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J08ZKSMF3F');
+</script>
+
+<script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2NjcyZmM1N2FkYTVkNjM3ZmJjYThlNjkiLCJpYXQiOjE3MTg4MTE3MzV9.QynBGj4KVcidpcjG8ywHQ4MY20iw5_5YEkO9g3AULBg",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://localhost:1313/"><img class="img-fluid"
+          src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://localhost:1313/"><img class="img-fluid"
+            src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/">所有文章</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/">好物推薦</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/">毛小孩專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              生活大小事
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%B4%93%E5%A3%93%E5%B0%8F%E7%89%A9/">紓壓小物</a>
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/ai%E7%9B%B8%E9%97%9C/">AI相關</a>
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/english-article/">English article</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/about/">關於我</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+
+      
+      
+      <div class="search pl-lg-4">
+        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+        <div class="search-wrapper">
+          <form action="http://localhost:1313//search" class="h-100">
+            <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+          </form>
+          <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+        </div>
+      </div>
+      
+      
+
+      
+    </nav>
+  </div>
+</header>
+
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
+          class="text-primary">學習專區</a>
+        
+        
+        <div class="mb-3 post-meta">
+          
+          <span>By 豪拜兒</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>05 June 2024</span>
+          
+        </div>
+        
+        
+        
+        <div class="content mb-5">
+          <h1 id="豪拜兒excel教學掌握自動填充功能快速提升工作效率">豪拜兒|Excel教學：掌握自動填充功能，快速提升工作效率</h1>
+<p><img src="../../images/excel/excel.png" alt="image"></p>
+<p>今天要分享一個 Excel 中相當基本但又必不可缺的功能 —「自動填充」。無論你是 Excel 初學者還是經驗豐富的使用者，自動填充功能都是你必須掌握的一項技能。這個功能可以仿照前面儲存格的內容、公式、格式，對後續儲存格進行快速的填充，大大提高了我們處理數據的效率。</p>
+<p>自動填充功能不僅適用於單純的數據重複輸入，還可以應用於一系列數字的填充、自動生成日期、填充公式等多種場景。特別是在需要處理大量數據的時候，自動填充能節省大量時間，避免了手動輸入的繁瑣和可能出現的錯誤。無論是對一列數據進行快速填充，還是根據已經輸入的數據模式生成更多數據，自動填充都能輕鬆完成。</p>
+<p>接下來，我們將通過幾個具體的例子，詳細講解如何使用自動填充功能來提升工作效率。希望通過這篇教學文章，能讓你更熟練地使用這個強大的工具，進而更高效地完成各種 Excel 任務。快來看看怎麼操作吧！</p>
+<h3 id="自動填充操作步驟">自動填充操作步驟：</h3>
+<h5 id="快速填充的兩種方法">快速填充的兩種方法</h5>
+<p>當我們點選儲存格時，將滑鼠移到選框的右下角，會出現一個「+」符號。此時有兩種做法來完成快速填充：</p>
+<ol>
+<li>方法一：按住滑鼠左鍵，將「+」符號往要填充的位置拉選。例如，往下拉選可以填充整列或整欄。</li>
+<li>方法二：在「+」符號出現後，雙擊滑鼠左鍵，一樣可以實現自動填充的功能。</li>
+</ol>
+<p><img src="../../images/excel/filled1.png" alt="image"></p>
+<h5 id="例子1數字的快速填充">例子1：數字的快速填充</h5>
+<p>假設我們在 A2 儲存格中輸入數字「1」，然後進行快速填充。當我們使用上述任一方法往下拉選時，可以看到整欄都被填充了數字「1」。</p>
+<p><img src="../../images/excel/filled3.png" alt="image">
+<img src="../../images/excel/filled2.png" alt="image"></p>
+<h5 id="例子2連續號碼的快速填充">例子2：連續號碼的快速填充</h5>
+<p>如果同時框選 A2 和 A3 儲存格，並往下進行快速填充，Excel 會仿照 A2 和 A3 的模式，將後續儲存格填充為連續的號碼。這樣 A2 到 A9 欄會被填充為「1~8」的連續數字。</p>
+<p><img src="../../images/excel/filled4.png" alt="image">
+<img src="../../images/excel/filled5.png" alt="image"></p>
+<h5 id="例子3公式的快速填充">例子3：公式的快速填充</h5>
+<p>在 A2 欄輸入公式後，往下進行快速填充，Excel 會將空白格都填上相同的公式。這樣可以快速應用公式到多個儲存格中。以下將 Excel 切換成瀏覽公式的模式，讓大家更清楚看到儲存格被用公式填充的效果。</p>
+<p><img src="../../images/excel/filled6.png" alt="image">
+<img src="../../images/excel/filled7.png" alt="image"></p>
+<p>自動填充功能不僅簡單易用，而且能大幅提高工作效率。無論是填充數字、連續號碼，還是公式，都能輕鬆搞定。希望這篇教學對你有所幫助，快試試看吧！</p>
+<h3 id="心得">心得</h3>
+<h4 id="為什麼需要學習-excel">為什麼需要學習 Excel？</h4>
+<p>學習 Excel 不僅能夠提升數據處理和分析能力，還能顯著提高工作效率。無論是進行基本的數據整理，還是進階的數據分析，Excel 都是不可或缺的工具。掌握 Excel，將能夠提升工作效率，通過快捷鍵和自動化功能，減少重複性工作。此外，將增強數據分析能力，使用各種公式和圖表，輕鬆分析和展示數據。熟練掌握 Excel 也能增加就業競爭力，這是許多職位的基本要求，尤其是在財務、數據分析和行政等領域。</p>
+<h4 id="系統地學習-excel">系統地學習 Excel</h4>
+<p>如果想要更系統地學習 Excel，或是希望進一步提升自己的 Excel 技能，可以參考以下學習資源：在 Hahow 平台上，可以找到許多優質的 Excel 課程，推薦以下初級和進階課程，從基礎開始，逐步深入掌握各種實用技巧。</p>
+<blockquote>
+<ul>
+<li><strong>Excel 新手入門必修課：<a href="https://tinyurl.com/29po3mcp">點我前往課程介紹</a></strong></li>
+<li><strong>職場必備的 Excel 關鍵技法－進階：<a href="https://tinyurl.com/26h5htqk">點我前往課程介紹</a></strong></li>
+</ul>
+</blockquote>
+<h4 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h4>
+<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
+<p>不要錯過這個提升自我的機會，立即註冊 Hahow，為職業生涯加分！</p>
+<ul>
+<li>
+<h5 id="點擊圖片前往-hohow學習更多線上課程">點擊圖片前往 Hohow，學習更多線上課程</h5>
+</li>
+</ul>
+<p><a href="https://affckr.site/track/clicks/4850/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=&amp;t=https%3A%2F%2Fhahow.in%2Fapselect-event%3Fmts_s%3Dap%26mts_m%3Dao%26mts_c%3D19ap"><img src="https://affckr.site/track/imp/img/181682/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=" alt="點我前往Hahow"></a></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "http://localhost:1313/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/fuse.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/mark.js"></script>
+
+<script src="http://localhost:1313/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+</body>
+</html>

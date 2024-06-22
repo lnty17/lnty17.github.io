@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+
+    <title>豪拜兒|提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧</title>
+  
+   
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8783799515937965"
+  crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="在 Excel 中，除了基本的 SUM 函數外，還有兩個非常實用的「兄弟」函數：SUMIF 和 SUMIFS。這兩個函數的名稱已經很直觀地告訴我們它們的作用，讓我們來看看...">
+  <meta name="author" content="豪拜兒">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.123.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+ 
+ 
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" type="image/x-icon">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J08ZKSMF3F');
+</script>
+
+<script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2NjcyZmM1N2FkYTVkNjM3ZmJjYThlNjkiLCJpYXQiOjE3MTg4MTE3MzV9.QynBGj4KVcidpcjG8ywHQ4MY20iw5_5YEkO9g3AULBg",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://localhost:1313/"><img class="img-fluid"
+          src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://localhost:1313/"><img class="img-fluid"
+            src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/">所有文章</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/">好物推薦</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/">毛小孩專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              生活大小事
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%B4%93%E5%A3%93%E5%B0%8F%E7%89%A9/">紓壓小物</a>
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/ai%E7%9B%B8%E9%97%9C/">AI相關</a>
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
+              
+              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/categories/english-article/">English article</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/about/">關於我</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+
+      
+      
+      <div class="search pl-lg-4">
+        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+        <div class="search-wrapper">
+          <form action="http://localhost:1313//search" class="h-100">
+            <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+          </form>
+          <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+        </div>
+      </div>
+      
+      
+
+      
+    </nav>
+  </div>
+</header>
+
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
+          class="text-primary">學習專區</a>
+        
+        
+        <div class="mb-3 post-meta">
+          
+          <span>By 豪拜兒</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>08 June 2024</span>
+          
+        </div>
+        
+        
+        
+        <div class="content mb-5">
+          <h1 id="豪拜兒提升excel效率掌握sumif與sumifs函數的使用技巧">豪拜兒|提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧</h1>
+<p><img src="../../images/excel/excel.png" alt="image"></p>
+<p>在 Excel 中，除了基本的 SUM 函數外，還有兩個非常實用的「兄弟」函數：SUMIF 和 SUMIFS。這兩個函數的名稱已經很直觀地告訴我們它們的作用，讓我們來看看它們如何幫助我們更精確地進行數字求和操作。</p>
+<p>首先是 SUMIF 函數，這個函數可以根據一個條件範圍來計算符合指定條件的數字總和。例如，當我們需要計算某一類別的數量時，就可以使用 SUMIF 函數來快速獲取結果。舉例來說，假設我們有一個包含水果類別和對應數量的表格，我們可以使用 SUMIF 函數來計算所有水果的總數量。</p>
+<p>接下來是 SUMIFS 函數，這個函數不僅可以應用單一條件，還可以同時應用多個條件來進行數字求和。這使得我們可以更靈活地進行數據分析，例如同時滿足類別是水果且名稱是鳳梨的數量求和。SUMIFS 函數的語法更為靈活，允許我們按需指定多個範圍和對應的條件，這樣可以更精確地定位並計算我們需要的數值。</p>
+<p>這些函數的應用不僅限於數據分析專業人士，對於日常工作中需要進行數字統計和報表製作的人來說同樣重要。通過掌握這些函數，您可以更加高效地處理數據，提升工作效率，並確保計算的準確性。無論是財務報表的總計算、庫存管理的統計還是銷售分析的數字匯總，這些函數都能為您帶來便利和價值。</p>
+<p>在接下來的範例中，我們將具體演示如何使用 SUMIF 函數來計算特定條件下的數量，並展示 SUMIFS 函數如何應用多個條件來精確計算數字。讓我們一起深入了解和學習這些實用的 Excel 函數，提升我們的數據處理能力吧！</p>
+<h3 id="使用-sumif-函數計算特定條件下的數量">使用 SUMIF 函數計算特定條件下的數量</h3>
+<p>假設我們有一個表格，包含了不同類別的產品和對應的數量，我們想計算所有屬於「水果」類別的產品數量。</p>
+<p><img src="../../images/excel/SUMIF1.png" alt="image"></p>
+<h5 id="步驟一輸入-sumif-函數在選擇的儲存格中輸入-sumif-函數例如">步驟一、輸入 SUMIF 函數：在選擇的儲存格中輸入 SUMIF 函數，例如：</h5>
+<p><code>=SUMIF(A2:A12, E5, C2:C12)</code></p>
+<ul>
+<li>A2:A12：條件範圍，這裡是產品類別的範圍。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF2.png" alt="image"></p>
+<ul>
+<li>E5：指定的條件，這裡是要計算「水果」類別的數量。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF3.png" alt="image"></p>
+<ul>
+<li>C2:C12：數量範圍，這裡是相應的產品數量。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF4.png" alt="image"></p>
+<h5 id="步驟二按-enter-鍵計算">步驟二、按 Enter 鍵計算</h5>
+<p>按 Enter 鍵完成函數輸入，Excel 將會計算符合條件的數量並顯示在所選儲存格中。</p>
+<p><img src="../../images/excel/SUMIF5.png" alt="image"></p>
+<h3 id="使用-sumifs-函數應用多個條件計算數量">使用 SUMIFS 函數應用多個條件計算數量</h3>
+<p>現在，我們想計算同時符合多個條件的產品數量，例如屬於「水果」類別且名稱是「鳳梨」的數量。</p>
+<h5 id="步驟一輸入-sumifs-函數在選擇的儲存格中輸入-sumifs-函數例如">步驟一、輸入 SUMIFS 函數：在選擇的儲存格中輸入 SUMIFS 函數，例如：</h5>
+<p><code>=SUMIFS(C2:C12, A2:A12, E5, B2:B12, F5)</code></p>
+<ul>
+<li>C2:C12：數量範圍，這裡是產品數量的範圍。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF6.png" alt="image"></p>
+<ul>
+<li>A2:A12：第一個範圍，這裡是產品類別的範圍。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF7.png" alt="image"></p>
+<ul>
+<li>E5：第一個條件，指定產品類別為「水果」。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF8.png" alt="image"></p>
+<ul>
+<li>B2:B12：第二個範圍，這裡是產品名稱的範圍。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF9.png" alt="image"></p>
+<ul>
+<li>F5：第二個條件，指定產品名稱為「鳳梨」。</li>
+</ul>
+<p><img src="../../images/excel/SUMIF10.png" alt="image"></p>
+<h5 id="步驟二按-enter-鍵計算-1">步驟二、按 Enter 鍵計算</h5>
+<p>按 Enter 鍵完成函數輸入，Excel 將會計算同時滿足所有條件的數量並顯示在所選儲存格中。</p>
+<p><img src="../../images/excel/SUMIF11.png" alt="image"></p>
+<h3 id="小結">小結</h3>
+<p>這些操作步驟將幫助您有效地使用 SUMIF 和 SUMIFS 函數來進行數字求和，無論是在日常工作中還是數據分析任務中。</p>
+<h3 id="心得">心得</h3>
+<h4 id="為什麼需要學習-excel">為什麼需要學習 Excel？</h4>
+<p>學習 Excel 不僅能夠提升數據處理和分析能力，還能顯著提高工作效率。無論是進行基本的數據整理，還是進階的數據分析，Excel 都是不可或缺的工具。掌握 Excel，將能夠提升工作效率，通過快捷鍵和自動化功能，減少重複性工作。此外，將增強數據分析能力，使用各種公式和圖表，輕鬆分析和展示數據。熟練掌握 Excel 也能增加就業競爭力，這是許多職位的基本要求，尤其是在財務、數據分析和行政等領域。</p>
+<h4 id="系統地學習-excel">系統地學習 Excel</h4>
+<p>如果想要更系統地學習 Excel，或是希望進一步提升自己的 Excel 技能，可以參考以下學習資源：在 Hahow 平台上，可以找到許多優質的 Excel 課程，推薦以下初級和進階課程，從基礎開始，逐步深入掌握各種實用技巧。</p>
+<blockquote>
+<ul>
+<li><strong>Excel 新手入門必修課：<a href="https://tinyurl.com/29po3mcp">點我前往課程介紹</a></strong></li>
+<li><strong>職場必備的 Excel 關鍵技法－進階：<a href="https://tinyurl.com/26h5htqk">點我前往課程介紹</a></strong></li>
+</ul>
+</blockquote>
+<h4 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h4>
+<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
+<p>不要錯過這個提升自我的機會，立即註冊 Hahow，為職業生涯加分！</p>
+<ul>
+<li>
+<h5 id="點擊圖片前往-hohow學習更多線上課程">點擊圖片前往 Hohow，學習更多線上課程</h5>
+</li>
+</ul>
+<p><a href="https://affckr.site/track/clicks/4850/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=&amp;t=https%3A%2F%2Fhahow.in%2Fapselect-event%3Fmts_s%3Dap%26mts_m%3Dao%26mts_c%3D19ap"><img src="https://affckr.site/track/imp/img/181682/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=" alt="點我前往Hahow"></a></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "http://localhost:1313/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/fuse.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/mark.js"></script>
+
+<script src="http://localhost:1313/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+</body>
+</html>
