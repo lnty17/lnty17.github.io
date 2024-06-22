@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>豪拜兒|Excel教學：使用ROW()和COLUMN()自動更新行列的連續序號</title>
-      <link>https://lnty17.github.io/blog/excel-row-and-column/</link>
+      <link>https://lnty17.github.io/blog/excel-row-column/</link>
       <pubDate>Wed, 29 May 2024 18:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/blog/excel-row-and-column/</guid>
+      <guid>https://lnty17.github.io/blog/excel-row-column/</guid>
       <description>豪拜兒|Excel教學：使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號 是不是曾經遇過好不容易編排好的序號，卻因為刪除了某行列，又要重新編排一次的麻煩事呢？&#xA;在日常的 Excel 使用中，我們經常會遇到這樣的情況：需要頻繁刪減表格中的行列，而原本編排好的序號或行列數字突然不再連貫。例如，你可能已經設定了 A 列的序號從 1 到 11，但當你刪除其中的某些行時，這些序號就會出現斷裂，變得不再連續。這樣的情況下，不僅影響數據的美觀性和可讀性，更可能導致後續數據處理的混亂。</description>
     </item>
     <item>
