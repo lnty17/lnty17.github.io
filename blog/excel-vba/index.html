@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  
+
+    <title>豪拜兒|Excel VBA 金融資料抓取，打造股票研究系統</title>
+  
+   
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8783799515937965"
+  crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="isual Basic for Applications（VBA）是一種由Microsoft開發的強大的程式語言，專門用於增強和自動化Microsoft Office軟件中的功能。特別是在Excel中，VBA提供了無限的可能性...">
+  <meta name="author" content="豪拜兒">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.123.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+ 
+ 
+  <link rel="shortcut icon" href="https://lnty17.github.io/images/favicon.ico" type="image/x-icon">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J08ZKSMF3F');
+</script>
+
+<script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2NjcyZmM1N2FkYTVkNjM3ZmJjYThlNjkiLCJpYXQiOjE3MTg4MTE3MzV9.QynBGj4KVcidpcjG8ywHQ4MY20iw5_5YEkO9g3AULBg",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script>
+
+
+<style>
+   
+  body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  </style>
+  
+  <script>
+  
+  document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  
+  document.addEventListener('copy', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  document.addEventListener('cut', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  
+  document.onkeydown = function(e) {
+      if (e.ctrlKey && (e.key === 'u' || e.key === 'c' || e.key === 'x' || e.key === 's' || e.key === 'a')) {
+          e.preventDefault();
+          return false;
+      }
+  };
+  </script>
+  
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://lnty17.github.io/"><img class="img-fluid"
+          src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://lnty17.github.io/"><img class="img-fluid"
+            src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/">所有文章</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/">好物推薦</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/">毛小孩專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              生活大小事
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%B4%93%E5%A3%93%E5%B0%8F%E7%89%A9/">紓壓小物</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/ai%E7%9B%B8%E9%97%9C/">AI相關</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/english-article/">English article</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/about/">關於我</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+
+      
+      
+      <div class="search pl-lg-4">
+        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+        <div class="search-wrapper">
+          <form action="https://lnty17.github.io//search" class="h-100">
+            <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+          </form>
+          <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+        </div>
+      </div>
+      
+      
+
+      
+    </nav>
+  </div>
+</header>
+
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
+          class="text-primary">學習專區</a>
+        
+        
+        <div class="mb-3 post-meta">
+          
+          <span>By 豪拜兒</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>23 June 2024</span>
+          
+        </div>
+        
+        
+        
+        <div class="content mb-5">
+          <h1 id="豪拜兒excel-vba-金融資料抓取打造股票研究系統">豪拜兒|Excel VBA 金融資料抓取，打造股票研究系統</h1>
+<p><img src="../../images/excel/excel.png" alt="image"></p>
+<p>Visual Basic for Applications（VBA）是一種由Microsoft開發的強大的程式語言，專門用於增強和自動化Microsoft Office軟件中的功能。特別是在Excel中，VBA提供了無限的可能性，可以幫助用戶完成從數據處理到報告生成的多種任務。無論你是辦公室工作者、金融專業人士、教育者還是業餘愛好者，學習VBA都能夠顯著提升你的工作效率和技能水平。</p>
+<p>VBA基於Visual Basic（VB），專為嵌入在Microsoft Office軟件中而設計。它使用直觀的語法和結構，可以通過編寫腳本和宏(巨集)來自動執行任務和增強功能。在Excel中，VBA允許用戶通過創建和執行自定義的宏(巨集)來自動化數據處理、報表生成和其他常見任務。</p>
+<h3 id="vba的應用場景">VBA的應用場景</h3>
+<h5 id="辦公室工作者的應用">辦公室工作者的應用：</h5>
+<p>數據分析師和業務分析師可以利用VBA來自動化數據匯總和報表生成，節省大量時間並提高準確性。
+行政助理和研究人員可以通過VBA來定制化生成符合特定需求的文檔和報告，提高效率和工作品質。</p>
+<h5 id="金融專業人士的應用">金融專業人士的應用：</h5>
+<p>股票和投資分析師可以利用VBA來抓取和分析市場數據，自動化股票選擇和組合分析，並生成自定義的投資報告。
+會計師和財務經理可以使用VBA來處理會計數據、進行財務建模，並自動化財務報告和預算分析。</p>
+<h5 id="教育者和學生的應用">教育者和學生的應用：</h5>
+<p>教育工作者可以利用VBA來設計教育模擬和互動學習工具，幫助學生更好地理解和應用教學內容。
+學生可以通過學習VBA來提升對Excel和其他Microsoft Office軟件的使用能力，並在學業和日常生活中更高效地處理數據和信息。</p>
+<h3 id="為什麼學習vba">為什麼學習VBA？</h3>
+<p>學習VBA不僅僅是為了掌握一門程式語言，更是為了提升工作效率和競爭力。這項技能不需要額外的編程環境，只需利用已經熟悉的Excel即可開始。相比於其他程式語言，VBA的學習曲線較緩，對於初學者來說更容易上手和理解。</p>
+<h3 id="vba基礎設置">VBA基礎設置</h3>
+<h5 id="啟用開發人員選項">啟用開發人員選項</h5>
+<p>要開始使用VBA，首先需要確保在Microsoft Office中啟用了開發人員選項。這樣可以讓你訪問到Visual Basic Editor（VBE），進而編輯和運行VBA代碼。</p>
+<h4 id="在excel中啟用開發人員選項的步驟如下">在Excel中啟用開發人員選項的步驟如下：</h4>
+<ul>
+<li>打開Excel應用程式。</li>
+<li>點擊上方菜單的「文件」（或者Office圖標），選擇「選項」。</li>
+<li>在Excel選項對話框中，選擇「自訂功能區」。</li>
+<li>勾選「開發人員工具」，然後點擊「確定」。</li>
+</ul>
+<p>類似的操作也適用於其他Microsoft Office應用程式（如Word、PowerPoint等），這樣你就可以在這些應用程式中使用VBA了。</p>
+<h5 id="打開visual-basic-editorvbe">打開Visual Basic Editor（VBE）</h5>
+<p>一旦啟用了開發人員選項，你可以通過以下步驟打開VBE來編輯和運行VBA代碼：</p>
+<ul>
+<li>在Excel中，按下「Alt + F11」鍵組合，或者點擊菜單中的「開發人員」，然後選擇「Visual Basic」。</li>
+<li>這將打開Visual Basic Editor，它是一個用於編輯、調試和運行VBA代碼的集成開發環境（IDE）。</li>
+</ul>
+<h3 id="vba基礎語法相關內容">VBA基礎語法相關內容</h3>
+<h5 id="創建和運行簡單的sub程序">創建和運行簡單的Sub程序</h5>
+<p>VBA的主要組成部分是Sub程序（或簡稱Sub）和函數（Function）。Sub程序是一段執行特定任務的代碼塊，它沒有返回值。以下是一個簡單的示例，顯示如何在Excel中輸出一個簡單的消息框：</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Sub SayHello()
+MsgBox &#34;Hello, World!&#34;
+End Sub
+</code></pre><p>在Visual Basic Editor中創建新的模塊（Module），然後將上述代碼複製並粘貼到模塊中。按下「F5」鍵運行這段代碼，你將會看到一個彈出的消息框顯示「Hello, World!」。</p>
+<h5 id="變量的聲明和賦值">變量的聲明和賦值</h5>
+<p>在VBA中，變量是用於存儲數據的名稱，它可以是各種數據類型，例如整數、字符串、日期等。在使用變量之前，需要聲明它們的類型。以下是一個聲明和賦值變量的示例：</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Sub VariableExample()
+    Dim myNumber As Integer
+    Dim myName As String
+    
+    myNumber = 10
+    myName = &#34;John Doe&#34;
+    
+    MsgBox &#34;My number is &#34; &amp; myNumber &amp; &#34; and my name is &#34; &amp; myName
+End Sub
+</code></pre><p>在這個示例中，我們聲明了一個整數類型的變量myNumber和一個字符串類型的變量myName，並賦予它們初始值。最後一行代碼使用MsgBox函數顯示包含這些變量值的消息框。</p>
+<h5 id="控制結構的使用">控制結構的使用</h5>
+<p>VBA支持各種控制結構，例如條件語句（If&hellip;Then&hellip;Else）、循環語句（For&hellip;Next）、選擇語句（Select Case）等，這些結構用於根據條件執行代碼塊或多次執行代碼塊。</p>
+<p>以下是一個使用If&hellip;Then&hellip;Else語句的示例：</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Sub CheckNumber()
+    Dim myNumber As Integer
+    
+    myNumber = 15
+    
+    If myNumber &gt; 10 Then
+        MsgBox &#34;The number is greater than 10.&#34;
+    Else
+        MsgBox &#34;The number is 10 or less.&#34;
+    End If
+End Sub
+</code></pre><p>在這個示例中，根據變量myNumber的值，程序會彈出不同的消息框。</p>
+<p>這些是VBA的基本設置和語法相關內容。通過理解這些基礎知識，可以開始寫出簡單的VBA代碼來完成各種任務，從而提高你的工作效率和Excel應用的能力。</p>
+<h3 id="excel-vba-金融資料抓取--打造股票研究系統">Excel VBA 金融資料抓取 | 打造股票研究系統</h3>
+<p>推薦一個使用的VBA打造屬於自己股票研究系統的課程《Excel VBA 金融資料抓取 | 打造股票研究系統》。這堂課程將從VBA的基礎知識開始，逐步引導你完成資料抓取、數據整理和報告生成，並教你如何利用Excel VBA打造專屬的選股資料庫和股票分析工具。不需要額外安裝複雜的編程環境，只需利用你熟悉的Excel即可開始學習和應用VBA，提升你的投資分析能力和工作效率。</p>
+<blockquote>
+<ul>
+<li>
+<h5 id="excel-vba-金融資料抓取--打造股票研究系統點我前往課程介紹httpstinyurlcom27mrxx9n">Excel VBA 金融資料抓取 | 打造股票研究系統：<a href="https://tinyurl.com/27mrxx9n">點我前往課程介紹</a></h5>
+</li>
+</ul>
+</blockquote>
+<h3 id="總結">總結</h3>
+<p>學習VBA不僅可以幫助你更好地利用Excel的功能，還能夠為你的職業生涯增添新的技能和機會。無論你是初學者還是已有一定程度的編程基礎，掌握VBA都將是一個寶貴的資產。開始你的VBA之旅，提升工作效率，探索無限可能性！</p>
+<h3 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h3>
+<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
+<p>不要錯過這個提升自我的機會，立即註冊 Hahow，為職業生涯加分！</p>
+<ul>
+<li>
+<h5 id="點擊圖片前往-hohow學習更多線上課程">點擊圖片前往 Hohow，學習更多線上課程</h5>
+</li>
+</ul>
+<p><a href="https://affckr.site/track/clicks/4850/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=&amp;t=https%3A%2F%2Fhahow.in%2Fapselect-event%3Fmts_s%3Dap%26mts_m%3Dao%26mts_c%3D19ap"><img src="https://affckr.site/track/imp/img/181682/ce2bc2bf910026d7fb9cbd2e8d2b8914736245cc7ceae5e25826bf016f015f?subid_1=&amp;subid_2=&amp;subid_3=&amp;subid_4=&amp;subid_5=" alt="點我前往Hahow"></a></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://lnty17.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://lnty17.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/mark.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://lnty17.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+
+<style>
+   
+  body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  </style>
+  
+  <script>
+  
+  document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  
+  document.addEventListener('copy', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  document.addEventListener('cut', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  
+  document.onkeydown = function(e) {
+      if (e.ctrlKey && (e.key === 'u' || e.key === 'c' || e.key === 'x' || e.key === 's' || e.key === 'a')) {
+          e.preventDefault();
+          return false;
+      }
+  };
+  </script>
+  
+</body>
+</html>

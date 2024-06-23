@@ -6,8 +6,43 @@
     <description>Recent content in 學習專區 on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 10 Jun 2024 18:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2024 09:07:47 +0800</lastBuildDate>
     <atom:link href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>豪拜兒|Excel VLOOKUP 函數詳細教學：從基礎到進階應用</title>
+      <link>https://lnty17.github.io/blog/excel-vlookup/</link>
+      <pubDate>Sun, 23 Jun 2024 09:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-vlookup/</guid>
+      <description>豪拜兒|Excel VLOOKUP 函數詳細教學：從基礎到進階應用 Excel 中的 VLOOKUP 函數是一個非常實用的工具，用於在範圍內進行&amp;quot;垂直方向&amp;quot;的查找並返回相應的數值。無論是在日常工作中處理大規模數據，還是在分析資料時需要快速定位特定信息，VLOOKUP 都能提供極大的幫助。本文將詳細介紹 VLOOKUP 函數的基本語法和使用方法，並通過實例說明如何在工作中應用此函數。</description>
+    </item>
+    <item>
+      <title>豪拜兒|Excel VBA 金融資料抓取，打造股票研究系統</title>
+      <link>https://lnty17.github.io/blog/excel-vba/</link>
+      <pubDate>Sun, 23 Jun 2024 08:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-vba/</guid>
+      <description>豪拜兒|Excel VBA 金融資料抓取，打造股票研究系統 Visual Basic for Applications（VBA）是一種由Microsoft開發的強大的程式語言，專門用於增強和自動化Microsoft Office軟件中的功能。特別是在Excel中，VBA提供了無限的可能性，可以幫助用戶完成從數據處理到報告生成的多種任務。無論你是辦公室工作者、金融專業人士、教育者還是業餘愛好者，學習VBA都能夠顯著提升你的工作效率和技能水平。&#xA;VBA基於Visual Basic（VB），專為嵌入在Microsoft Office軟件中而設計。它使用直觀的語法和結構，可以通過編寫腳本和宏(巨集)來自動執行任務和增強功能。在Excel中，VBA允許用戶通過創建和執行自定義的宏(巨集)來自動化數據處理、報表生成和其他常見任務。</description>
+    </item>
+    <item>
+      <title>豪拜兒|完整指南：Excel 日期函數使用技巧及範例解析</title>
+      <link>https://lnty17.github.io/blog/excel-date/</link>
+      <pubDate>Mon, 17 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-date/</guid>
+      <description>豪拜兒|完整指南：Excel 日期函數使用技巧及範例解析 在日常的Excel使用中，日期函數是處理和分析日期相關數據不可或缺的工具。本文將詳細介紹幾個常用的Excel日期函數，包括如何創建日期值、返回當前日期、計算日期差距以及從日期中提取年、月、日等信息，讓您能更加靈活和高效地應用這些功能。&#xA;DATE 函數 語法： DATE(year, month, day)&#xA;year： 年份。 month： 月份。 day： 日期。 例子： =DATE(2023, 5, 1) 將返回 2023 年 5 月 1 日的日期。 TODAY 函數 語法： TODAY()</description>
+    </item>
+    <item>
+      <title>豪拜兒|Excel中常用運算函數：MIN、MAX和AVERAGE</title>
+      <link>https://lnty17.github.io/blog/excel-max/</link>
+      <pubDate>Sat, 15 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-max/</guid>
+      <description>豪拜兒|Excel中常用運算函數：MIN、MAX和AVERAGE 在日常使用Excel進行數據分析和計算時，MIN、MAX和AVERAGE是三個非常常見且實用的函數。這些函數分別用於求取數據範圍中的最小值、最大值和平均值，它們能夠快速且準確地幫助我們分析數據，進而做出相應的決策或報告。&#xA;在使用這些函數之前，讓我們先複習一下Excel中範圍的表示方法：：代表範圍，例如A1：A10，表示從A1到A10的範圍。&#xA;範例：求一月銷售的最大值、最小值與平均值 最大值： 輸入公式 =MAX(B2:B12)，得到一月銷售的最大值。 最小值： 輸入公式 =MIN(B2:B12)，得到一月銷售的最小值。 平均值： 輸入公式 =AVERAGE(B2:B12)，得到一月銷售的平均值。 這些函數能夠快速計算出數據範圍中的極值和平均數，不僅使數據分析更加高效，也提升了報表製作的準確性和效率。無論是在財務報告、銷售分析還是其他數據處理任務中，MIN、MAX和AVERAGE都是不可或缺的工具，能夠大幅簡化我們的工作流程和分析過程。</description>
+    </item>
+    <item>
+      <title>豪拜兒|Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用</title>
+      <link>https://lnty17.github.io/blog/excel-lrm/</link>
+      <pubDate>Wed, 12 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-lrm/</guid>
+      <description>豪拜兒|Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用 在 Excel 中，有三個強大的函數可以幫助我們有效地分割文字，它們分別是 LEFT、RIGHT 和 MID 函數。這些函數可以根據指定的位置和字符數將文本字符串分割成不同的部分，非常適合於需要從文字中提取特定信息或進行格式化的任務。&#xA;LEFT 函數 LEFT 函數用於從文字的左側提取指定數量的字符。語法：</description>
+    </item>
     <item>
       <title>豪拜兒|Excel教程：學習如何使用IF函數進行條件判斷</title>
       <link>https://lnty17.github.io/blog/excel-if/</link>
