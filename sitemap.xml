@@ -87,7 +87,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E6%97%A5%E5%B8%B8%E7%94%A8%E5%93%81/</loc>
+    <loc>https://lnty17.github.io/tags/%E5%B0%8F%E7%89%A9%E7%A6%AE%E7%89%A9/</loc>
+    <lastmod>2024-07-19T13:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%B0%8F%E7%89%A9%E7%A6%AE%E7%89%A9/</loc>
     <lastmod>2024-07-19T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -277,6 +282,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E6%97%A5%E5%B8%B8%E7%94%A8%E5%93%81/</loc>
+    <lastmod>2024-04-07T09:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://lnty17.github.io/blog/raincoat/</loc>
     <lastmod>2024-04-07T09:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -327,17 +337,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%B4%93%E5%A3%93%E5%B0%8F%E7%89%A9/</loc>
-    <lastmod>2024-03-31T08:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/tags/%E7%A6%AE%E7%89%A9/</loc>
-    <lastmod>2024-03-31T08:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/%E7%B4%93%E5%A3%93%E5%B0%8F%E7%89%A9/</loc>
     <lastmod>2024-03-31T08:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -393,11 +393,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://lnty17.github.io/tags/oster/</loc>
-    <lastmod>2024-03-29T02:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/xiaomi/</loc>
     <lastmod>2024-03-29T02:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
