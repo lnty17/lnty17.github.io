@@ -197,11 +197,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/gift-allinhouse/</loc>
-    <lastmod>2024-07-30T13:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/gift-birthday/</loc>
     <lastmod>2024-07-30T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -347,26 +342,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/excel/</loc>
-    <lastmod>2024-06-23T09:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/</loc>
-    <lastmod>2024-06-23T09:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-vlookup/</loc>
-    <lastmod>2024-06-23T09:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-vba/</loc>
-    <lastmod>2024-06-23T08:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/pet-catlittermat/</loc>
     <lastmod>2024-06-22T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -374,86 +349,6 @@
   </url><url>
     <loc>https://lnty17.github.io/blog/provesr/</loc>
     <lastmod>2024-06-19T05:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-date/</loc>
-    <lastmod>2024-06-17T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-max/</loc>
-    <lastmod>2024-06-15T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-lrm/</loc>
-    <lastmod>2024-06-12T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-if/</loc>
-    <lastmod>2024-06-10T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-sumif/</loc>
-    <lastmod>2024-06-08T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-fastfilled/</loc>
-    <lastmod>2024-06-05T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-dget/</loc>
-    <lastmod>2024-06-05T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-ctrlg-filled/</loc>
-    <lastmod>2024-06-03T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-folder/</loc>
-    <lastmod>2024-06-01T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-row-column/</loc>
-    <lastmod>2024-05-29T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-cellfomat/</loc>
-    <lastmod>2024-05-27T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-ctrlg/</loc>
-    <lastmod>2024-05-24T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-product/</loc>
-    <lastmod>2024-05-22T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-f4/</loc>
-    <lastmod>2024-05-20T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-sum/</loc>
-    <lastmod>2024-05-17T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/excel-shortcuts/</loc>
-    <lastmod>2024-05-15T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

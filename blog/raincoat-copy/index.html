@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
-  <title>豪拜兒|Excel教學：使用ROW()和COLUMN()自動更新行列的連續序號 | </title>
+  <title>雨衣也可以很時尚，MAKKU日系機能型兩件式雨衣推薦 - 豪拜兒 | </title>
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在日常的 Excel 使用中，我們經常會遇到這樣的情況：需要頻繁刪減表格中的行列，而原本編排好的序號或行列數字突然不再連貫。為了解決這個問題，我們可以...">
+  <meta name="description" content="隨著梅雨季節的來臨，添購一件時尚又實用的雨衣變得至關重要。MAKKU日系機能型兩件式雨衣提供高效防水性能與時尚設計，適合各種戶外活動。">
   <meta name="author" content="豪拜兒">
 
   
@@ -16,7 +16,7 @@
   <meta name="theme-name" content="liva-hugo" />
 
   
-  <link rel="canonical" href="http://localhost:1313/blog/excel-row-column/">
+  <link rel="canonical" href="http://localhost:1313/blog/raincoat-copy/">
 
   <meta name="generator" content="Hugo 0.123.1">
 
@@ -55,13 +55,13 @@
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "豪拜兒|Excel教學：使用ROW()和COLUMN()自動更新行列的連續序號",
+      "headline": "雨衣也可以很時尚，MAKKU日系機能型兩件式雨衣推薦 - 豪拜兒",
       "image": "http:\/\/localhost:1313\/images/og-image.png",
       "author": {
         "@type": "Person",
         "name": "豪拜兒"
       },
-      "datePublished": "2024-05-29 18:07:47 \u002b0800 CST",
+      "datePublished": "2024-04-07 09:07:47 \u002b0800 CST",
       "publisher": {
         "@type": "Organization",
         "name": "",
@@ -70,7 +70,7 @@
           "url": "http:\/\/localhost:1313\/images/logo1.png"
         }
       },
-      "description": "在日常的 Excel 使用中，我們經常會遇到這樣的情況：需要頻繁刪減表格中的行列，而原本編排好的序號或行列數字突然不再連貫。為了解決這個問題，我們可以..."
+      "description": "隨著梅雨季節的來臨，添購一件時尚又實用的雨衣變得至關重要。MAKKU日系機能型兩件式雨衣提供高效防水性能與時尚設計，適合各種戶外活動。"
     }
     </script>
     
@@ -150,12 +150,6 @@
           </li>
           
           
-          
-          <li class="nav-item">
-            <a class="nav-link" href="http://localhost:1313/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
-          </li>
-          
-          
         </ul>
 
         
@@ -183,8 +177,8 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
-          class="text-primary">學習專區</a>
+        <a href="/categories/%e7%94%9f%e6%b4%bb%e5%a4%a7%e5%b0%8f%e4%ba%8b/%e6%97%a5%e5%b8%b8%e7%94%a8%e5%93%81/"
+          class="text-primary">生活大小事 日常用品</a>
         
 
         
@@ -193,53 +187,64 @@
           <span>By 豪拜兒</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>29 May 2024</span>
+          <span>07 April 2024</span>
           
         </div>
         
         
         
         <div class="content mb-5">
-          <h1 id="豪拜兒excel教學使用row和column函數自動更新刪除行列後的連續序號">豪拜兒|Excel教學：使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號</h1>
-<p><img src="../../images/excel/excel.png" alt="image"></p>
-<p>是不是曾經遇過好不容易編排好的序號，卻因為刪除了某行列，又要重新編排一次的麻煩事呢？</p>
-<p>在日常的 Excel 使用中，我們經常會遇到這樣的情況：需要頻繁刪減表格中的行列，而原本編排好的序號或行列數字突然不再連貫。例如，你可能已經設定了 A 列的序號從 1 到 11，但當你刪除其中的某些行時，這些序號就會出現斷裂，變得不再連續。這樣的情況下，不僅影響數據的美觀性和可讀性，更可能導致後續數據處理的混亂。</p>
-<p>這種情況下，手動重新編排序號既耗時又容易出錯，尤其是當數據量較大時。為了解決這個問題，我們可以利用 Excel 中的 ROW() 和 COLUMN() 函數，來實現自動更新刪除行列後的連續序號。這樣一來，即使刪除了某些行列，序號也能自動保持連貫，不需要手動重新調整。</p>
-<h3 id="解決方法使用-row-和-column-函數">解決方法：使用 ROW() 和 COLUMN() 函數</h3>
-<h5 id="原本的表格欄-a-的序號依序是-111-的連續數字">原本的表格欄 A 的序號依序是 1~11 的連續數字</h5>
-<p><img src="../../images/excel/ROW1.png" alt="image"></p>
-<h5 id="如果刪除了部分橫列將導致序號變得不連貫">如果刪除了部分橫列，將導致序號變得不連貫</h5>
-<p>當你刪除 A 列中的中間幾行後，原來的 1 到 11 的序號就會出現斷裂，變成不連續的數字。這種情況下，需要一種自動化的方式來重新排列這些序號，使它們保持連貫性。</p>
-<p><img src="../../images/excel/ROW2.png" alt="image"></p>
-<h5 id="使用-row-函數來動態生成序號">使用 ROW() 函數來動態生成序號</h5>
-<p>為了解決這個問題，我們可以利用 Excel 中的 ROW() 函數。這個函數可以自動抓取當前儲存格所在的行數。例如，如果你希望 A 列從第二行開始依次編號，你可以在 A2 儲存格輸入公式 <code>=ROW()-1</code>。這樣做的目的是扣除標題行，讓序號從 1 開始連續編排。</p>
-<p><img src="../../images/excel/ROW3.png" alt="image"></p>
-<h5 id="使用自動填充功能來快速應用公式">使用自動填充功能來快速應用公式</h5>
-<p>Excel 的自動填充功能非常強大，可以輕鬆地將公式應用到多個儲存格中。當你在 A2 儲存格輸入了 <code>=ROW()-1</code> 後，只需將滑鼠游標移動到儲存格右下角的小方塊，雙擊或拖動即可快速填充到 A 列的其他儲存格中，完成自動序號更新。</p>
-<h5 id="切換成公式模式來查看結果">切換成公式模式來查看結果</h5>
-<p>切換到 Excel 的公式模式，你會看到 A 列所有儲存格的公式都變成了 <code>=ROW()-1</code>，這樣就確保了序號的連續性和準確性。。</p>
-<p>!<img src="../../images/excel/ROW4.png" alt="image"></p>
-<h5 id="實驗一下將黃色的部分刪除">實驗一下，將黃色的部分刪除</h5>
-<p>為了測試這種方法的有效性，你可以刪除 A 列中的某些行。即使刪除了這些行，你會發現 A 列的序號仍然保持連續，沒有出現斷裂或者不連續的情況。</p>
-<p><img src="../../images/excel/ROW5.png" alt="image"></p>
-<h5 id="使用-column-函數處理欄數序號">使用 COLUMN() 函數處理欄數序號</h5>
-<p>類似地，如果你需要在其他欄位中處理欄數的序號，可以使用 <code>=COLUMN()</code> 函數來達到同樣的效果。這樣可以讓你在刪減列時，自動調整所有欄位的序號，確保它們始終保持正確和連續。</p>
-<p><img src="../../images/excel/ROW6.png" alt="image"></p>
-<p>這種方法不僅節省了重新編排序號的時間，還使得你的表格管理更加有效和易於維護。希望這些技巧能夠幫助你更好地應對日常的 Excel 表格操作！</p>
-<h3 id="為什麼需要學習-excel難道不可以依賴-ai-工具嗎">為什麼需要學習 Excel？難道不可以依賴 AI 工具嗎？</h3>
-<p>過去，學習 Excel 不僅能提升數據處理和分析能力，還能顯著提高工作效率。掌握各種 Excel 公式和 VBA 技巧，可以有效提升工作效率，通過自動化功能減少重複性工作。此外，熟練掌握 Excel 也能增加就業競爭力，因為許多職位，尤其是在財務、數據分析和行政等領域，都將其視為基本要求。</p>
-<p>隨著 AI 技術的問世，與 AI 工具合作的情況下，我們可能不再需要從零開始編寫公式或 VBA 程式。例如，免費版的 ChatGPT-3.5 能生成和解釋 Excel 中的常見公式，如 SUM、VLOOKUP、IF 等，並幫助解決基本的數據處理問題。付費版的 ChatGPT-4.0 在公式生成和解釋方面同樣出色，能更好地處理複雜的公式和多步驟的數據分析任務，並提供更精確的幫助，還能協助生成各類型的圖表。</p>
-<p>然而，對於 Excel 完全不熟悉的人，仍然難以與 AI 有效溝通並驗證結果。因此，小編認為，為了更好地與 AI 協作，對 Excel 的基本了解仍然是必要的。建議可以參考以下Hahow學習資源：</p>
-<blockquote>
+          <h1 id="時尚與功能兼具的makku日系機能型兩件式雨衣推薦">時尚與功能兼具的MAKKU日系機能型兩件式雨衣推薦</h1>
+<img src="../../images/pet/MAKKU%e6%97%a5%e7%b3%bb%e6%a9%9f%e8%83%bd%e5%9e%8b%e5%85%a9%e4%bb%b6%e5%bc%8f%e9%9b%a8%e8%a1%a3.jpg" alt="MAKKU日系機能型兩件式雨衣" loading="lazy">
+
+<p>隨著梅雨季節的來臨，陰雨綿綿的天氣將成為我們每天面對的挑戰。選擇一件兼具美觀與實用的雨衣變得至關重要。雨衣主要分為兩種款式：<strong>一件式</strong>和<strong>兩件式</strong>。兩件式雨衣由外套和褲子組成，可以根據需要單獨穿著或一起搭配，提供了更大的靈活性和選擇空間。而一件式雨衣則將外套和褲子合而為一，整體設計更為簡潔，適合快速應對意外降雨。</p>
+<h2 id="兩件式雨衣的特點">兩件式雨衣的特點</h2>
 <ul>
-<li><strong>Excel 新手入門必修課：<a href="https://tinyurl.com/29po3mcp">點我前往課程介紹</a></strong></li>
-<li><strong>職場必備的 Excel 關鍵技法－進階：<a href="https://tinyurl.com/26h5htqk">點我前往課程介紹</a></strong></li>
+<li><strong>靈活性</strong>：兩件式雨衣由外套和褲子組成，可根據需求單獨穿著或兩件一起搭配，靈活多變。</li>
+<li><strong>多功能性</strong>：分開的設計適應不同天氣和活動，僅穿外套或褲子即可應對多變的環境。</li>
+<li><strong>通風性</strong>：外套和褲子可分開穿著，通常具備較好的通風性，提升舒適度。</li>
+<li><strong>適應性</strong>：可根據需要單獨穿外套或褲子，更好地適應不同氣候和活動需求。</li>
+<li><strong>方便穿脫</strong>：分開設計使穿脫更加便利，根據需要單獨穿外套或褲子。</li>
 </ul>
-</blockquote>
-<h3 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h3>
-<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
-<h3 id="更多文章">更多文章</h3>
-<p><em><strong>想要更深入了解Excel的習性和如何照顧牠們嗎？請點擊以下連結閱讀更多相關文章。<a href="https://lnty17.github.io/tags/excel/">點我前往更多文章</a></strong></em></p>
+<h2 id="一件式雨衣的特點">一件式雨衣的特點</h2>
+<ul>
+<li><strong>簡潔方便</strong>：一件式雨衣整體設計簡單，易於穿脫，適合應對突如其來的降雨。</li>
+<li><strong>輕便</strong>：相比兩件式雨衣，一件式雨衣在攜帶時更輕便，佔用空間較小，適合輕量化裝備的需求。</li>
+</ul>
+<h2 id="材質小學堂">材質小學堂</h2>
+<ul>
+<li><strong>耐水壓</strong>：耐水壓達10,000mm，提供高效防水性能。耐水壓越高，材料對水的滲透抵抗力越強，能夠應對各種惡劣天氣條件。</li>
+<li><strong>聚酯纖維 &amp; PVC強化層</strong>：聚酯纖維耐磨損，PVC強化層提供優異的防水性能，有效阻擋雨水。</li>
+<li><strong>聚酯纖維網布</strong>：具良好透氣性，讓汗氣和潮氣排出，保持乾爽，且材質輕便。</li>
+</ul>
+<h2 id="選購建議">選購建議</h2>
+<p>根據不同的活動和使用場景，選擇雨衣時可以考慮以下建議：</p>
+<ul>
+<li><strong>登山和徒步</strong>：選擇高耐水壓的雨衣，並要求良好的透氣性。輕便、易折疊的設計方便攜帶。</li>
+<li><strong>城市生活</strong>：一件式雨衣簡潔時尚，適合日常使用和城市通勤。選擇輕便、易穿脫的設計，確保防水性能。</li>
+<li><strong>騎行和自行車通勤</strong>：選擇具有反光材料或鮮明顏色的雨衣，以提高雨天能見度。確保雨衣設計不妨礙騎行舒適性和操作性。</li>
+</ul>
+<h2 id="makku日系機能型兩件式耐水壓雨衣推薦">MAKKU日系機能型兩件式耐水壓雨衣推薦</h2>
+<ul>
+<li>
+<h5 id="__購買連結點我購買makku日系機能型兩件式雨衣httpsshopeee6pdd52zbyc__"><strong>購買連結：<a href="https://shope.ee/6pdd52zbyC">點我購買MAKKU日系機能型兩件式雨衣</a></strong></h5>
+</li>
+</ul>
+<p>MAKKU機能型兩件式雨衣擁有耐水壓10,000mm H2O，是下雨天騎車或戶外活動的最佳選擇。以下是其特色：</p>
+<ul>
+<li><strong>時尚外觀</strong>：設計類似防風外套，時尚且亮眼，即使不下雨也可當風衣穿著，增加夜間安全性。</li>
+<li><strong>防水性能</strong>：耐水壓達10,000mm H2O，比一般雨衣更具防水能力。</li>
+<li><strong>貼心設計</strong>：可收納式帽子和帽沿，防止雨水滴落。可調節手臂和袖口鬆緊，防止雨水滲入。</li>
+<li><strong>舒適透氣</strong>：外層防水，背部通風，內層胸口口袋方便放置小物。網狀內襯透氣，不黏身。</li>
+<li><strong>方便收納</strong>：可調鬆緊的雨褲底部遮罩防止泥水潑濺，附收納小袋，方便收納不佔空間。</li>
+<li><strong>尺寸</strong>：多種尺寸選擇，滿足不同體型需求。</li>
+<li><strong>材質</strong>：外層100%聚酯纖維PVC強化層，內層100%聚酯纖維網布。</li>
+<li><strong>重量</strong>：輕便，僅1.2kg。</li>
+</ul>
+<p>無論是日常通勤還是戶外活動，MAKKU的這款兩件式雨衣都能提供卓越的防水保護和時尚外觀。希望這篇推薦能幫助你找到最適合的雨衣，讓梅雨季節的雨天不再煩擾！</p>
+<hr>
+<h2 id="更多文章">更多文章</h2>
+<p><em><strong>想要了解更多日常用品嗎？請點擊以下連結閱讀更多相關文章：<a href="https://lnty17.github.io/tags/%e6%97%a5%e5%b8%b8%e7%94%a8%e5%93%81/">點我前往更多文章</a></strong></em></p>
 
         </div>
         
