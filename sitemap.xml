@@ -22,17 +22,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/%E6%97%A5%E5%B8%B8%E7%94%A8%E5%93%81/</loc>
+    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%94%9F%E6%B4%BB%E7%94%A8%E5%93%81/</loc>
     <lastmod>2024-09-29T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E6%97%A5%E5%B8%B8%E7%94%A8%E5%93%81/</loc>
+    <loc>https://lnty17.github.io/tags/%E7%94%9F%E6%B4%BB%E7%94%A8%E5%93%81/</loc>
     <lastmod>2024-09-29T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/toilet/</loc>
+    <loc>https://lnty17.github.io/blog/useful-toilet/</loc>
     <lastmod>2024-09-29T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -62,12 +62,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%B0%8F%E7%89%A9%E7%A6%AE%E7%89%A9/</loc>
+    <loc>https://lnty17.github.io/tags/%E7%A6%AE%E7%89%A9/</loc>
     <lastmod>2024-09-26T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/%E7%A6%AE%E7%89%A9/</loc>
+    <loc>https://lnty17.github.io/categories/%E9%80%81%E7%A6%AE%E8%87%AA%E7%94%A8/</loc>
     <lastmod>2024-09-26T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -97,12 +97,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/drain/</loc>
+    <loc>https://lnty17.github.io/blog/useful-drain/</loc>
     <lastmod>2024-09-21T09:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/iherb/</loc>
+    <loc>https://lnty17.github.io/tags/%E6%97%A5%E5%B8%B8%E7%94%A8%E5%93%81/</loc>
+    <lastmod>2024-09-21T09:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lnty17.github.io/blog/useful-iherb/</loc>
     <lastmod>2024-09-01T09:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -127,7 +132,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/bin/</loc>
+    <loc>https://lnty17.github.io/blog/useful-bin/</loc>
     <lastmod>2024-08-19T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -147,17 +152,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/categories/3c%E9%9B%BB%E5%99%A8/</loc>
+    <loc>https://lnty17.github.io/categories/3c%E5%AE%B6%E9%9B%BB/</loc>
     <lastmod>2024-08-14T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/drivingrecorder/</loc>
+    <loc>https://lnty17.github.io/blog/useful-driving-recorder/</loc>
     <lastmod>2024-08-14T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/socks/</loc>
+    <loc>https://lnty17.github.io/blog/useful-socks/</loc>
     <lastmod>2024-08-14T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -167,27 +172,32 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/keyboard/</loc>
+    <loc>https://lnty17.github.io/blog/useful-keyboard/</loc>
     <lastmod>2024-08-13T20:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/ergostand/</loc>
+    <loc>https://lnty17.github.io/blog/useful-ergostand/</loc>
     <lastmod>2024-08-13T04:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-powerbank_travel/</loc>
+    <loc>https://lnty17.github.io/tags/3c%E5%AE%B6%E9%9B%BB/</loc>
     <lastmod>2024-08-11T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/pet-catfood/</loc>
+    <loc>https://lnty17.github.io/blog/3c-powerbank_travel/</loc>
+    <lastmod>2024-08-11T12:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lnty17.github.io/blog/cat-food/</loc>
     <lastmod>2024-08-10T03:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-headphones/</loc>
+    <loc>https://lnty17.github.io/blog/3c-headphones/</loc>
     <lastmod>2024-08-07T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -197,7 +207,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/pet-catweight/</loc>
+    <loc>https://lnty17.github.io/blog/cat-weight/</loc>
     <lastmod>2024-08-06T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -212,12 +222,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/surfshark/</loc>
+    <loc>https://lnty17.github.io/blog/useful-surfshark/</loc>
     <lastmod>2024-08-04T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/pet-catessentials/</loc>
+    <loc>https://lnty17.github.io/blog/cat-essentials/</loc>
     <lastmod>2024-08-02T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -237,7 +247,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/earnapp/</loc>
+    <loc>https://lnty17.github.io/blog/useful-earnapp/</loc>
     <lastmod>2024-07-28T16:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -247,7 +257,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/pet-cathidden/</loc>
+    <loc>https://lnty17.github.io/blog/cat-hidden/</loc>
     <lastmod>2024-07-28T15:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -257,7 +267,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/affliiate/</loc>
+    <loc>https://lnty17.github.io/blog/useful-affliiate/</loc>
     <lastmod>2024-07-24T09:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -287,12 +297,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/ai-fliki/</loc>
-    <lastmod>2024-07-22T13:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/ai%E7%9B%B8%E9%97%9C/</loc>
+    <loc>https://lnty17.github.io/blog/useful-ai-fliki/</loc>
     <lastmod>2024-07-22T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -312,6 +317,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A/</loc>
+    <lastmod>2024-07-15T20:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://lnty17.github.io/tags/sale/</loc>
     <lastmod>2024-07-15T20:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -322,12 +332,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/categories/%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A/</loc>
-    <lastmod>2024-07-15T20:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/sale_20240718/</loc>
+    <loc>https://lnty17.github.io/blog/sale-shopee-0718/</loc>
     <lastmod>2024-07-15T20:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -352,22 +357,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/pet-catlittermat/</loc>
+    <loc>https://lnty17.github.io/blog/catlitter-mat/</loc>
     <lastmod>2024-06-22T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/provesr/</loc>
+    <loc>https://lnty17.github.io/blog/useful-provesr/</loc>
     <lastmod>2024-06-19T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/swimpool/</loc>
+    <loc>https://lnty17.github.io/blog/useful-swimpool/</loc>
     <lastmod>2024-04-08T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/raincoat/</loc>
+    <loc>https://lnty17.github.io/blog/useful-raincoat/</loc>
     <lastmod>2024-04-07T09:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -392,23 +397,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-powerbank/</loc>
+    <loc>https://lnty17.github.io/blog/3c-powerbank/</loc>
     <lastmod>2024-04-06T12:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/blog/airbuggy/</loc>
-    <lastmod>2024-04-05T22:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/%E5%AF%B5%E7%89%A9%E6%8E%A8%E8%BB%8A/</loc>
-    <lastmod>2024-04-05T22:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/%E5%AF%B5%E7%89%A9%E7%94%A8%E5%93%81%E6%8E%A8%E8%96%A6/</loc>
-    <lastmod>2024-04-05T22:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -417,7 +407,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-table-lamp/</loc>
+    <loc>https://lnty17.github.io/blog/3c-table-lamp/</loc>
     <lastmod>2024-03-30T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -437,7 +427,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/yotubemusic-rock/</loc>
+    <loc>https://lnty17.github.io/blog/youtube-music-rock/</loc>
     <lastmod>2024-03-30T03:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -467,7 +457,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024--tumbler/</loc>
+    <loc>https://lnty17.github.io/blog/3c-tumbler/</loc>
     <lastmod>2024-03-29T02:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -487,12 +477,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024--blender/</loc>
+    <loc>https://lnty17.github.io/blog/3c-blender/</loc>
     <lastmod>2024-03-28T22:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/hairdye/</loc>
+    <loc>https://lnty17.github.io/blog/useful-hairdye/</loc>
     <lastmod>2024-03-27T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -502,7 +492,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024--shavedice/</loc>
+    <loc>https://lnty17.github.io/blog/3c-shavedice/</loc>
     <lastmod>2024-03-25T08:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -512,7 +502,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/yotubemusic-lofi/</loc>
+    <loc>https://lnty17.github.io/blog/youtube-music-lofi/</loc>
     <lastmod>2024-03-20T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -542,7 +532,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-speaker/</loc>
+    <loc>https://lnty17.github.io/blog/3c-speaker/</loc>
     <lastmod>2024-03-19T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -562,7 +552,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-pressure-cooker/</loc>
+    <loc>https://lnty17.github.io/blog/3c-pressure-cooker/</loc>
     <lastmod>2024-03-18T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -572,12 +562,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-lock/</loc>
+    <loc>https://lnty17.github.io/blog/3c-lock/</loc>
     <lastmod>2024-03-17T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/yotubemusic-funk/</loc>
+    <loc>https://lnty17.github.io/blog/youtube-music-funk/</loc>
     <lastmod>2024-03-16T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -587,12 +577,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-feeder/</loc>
+    <loc>https://lnty17.github.io/blog/3c-feeder/</loc>
     <lastmod>2024-03-12T22:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/yotubemusic/</loc>
+    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E7%94%A8%E5%93%81/</loc>
+    <lastmod>2024-03-12T22:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lnty17.github.io/blog/youtube-music/</loc>
     <lastmod>2024-03-10T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -602,22 +597,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/pan/</loc>
+    <loc>https://lnty17.github.io/blog/useful-pan/</loc>
     <lastmod>2024-03-07T23:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-earphone/</loc>
+    <loc>https://lnty17.github.io/blog/3c-earphone/</loc>
     <lastmod>2024-03-06T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-dishwasher/</loc>
+    <loc>https://lnty17.github.io/blog/3c-dishwasher/</loc>
     <lastmod>2024-03-04T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-tv/</loc>
+    <loc>https://lnty17.github.io/blog/3c-electrical-tv/</loc>
     <lastmod>2024-03-02T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -627,7 +622,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-mifans/</loc>
+    <loc>https://lnty17.github.io/blog/3c-mifans/</loc>
     <lastmod>2024-03-02T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -637,7 +632,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-disposal/</loc>
+    <loc>https://lnty17.github.io/blog/3c-disposal/</loc>
     <lastmod>2024-02-27T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -652,12 +647,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-dehumidifier/</loc>
+    <loc>https://lnty17.github.io/blog/3c-dehumidifier/</loc>
     <lastmod>2024-02-23T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-microwave/</loc>
+    <loc>https://lnty17.github.io/blog/3c-microwave/</loc>
     <lastmod>2024-02-22T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -672,12 +667,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-cooker/</loc>
+    <loc>https://lnty17.github.io/blog/3c-cooker/</loc>
     <lastmod>2024-02-21T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-sweepingrobot/</loc>
+    <loc>https://lnty17.github.io/blog/3c-sweeping-robot/</loc>
     <lastmod>2024-02-19T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -697,7 +692,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-fryoven/</loc>
+    <loc>https://lnty17.github.io/blog/3c-fryoven/</loc>
     <lastmod>2024-02-18T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -707,12 +702,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-airfryer/</loc>
+    <loc>https://lnty17.github.io/blog/3c-airfryer/</loc>
     <lastmod>2024-02-17T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-airpurifier/</loc>
+    <loc>https://lnty17.github.io/blog/3c-airpurifier/</loc>
     <lastmod>2024-02-17T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -722,12 +717,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-laundry/</loc>
+    <loc>https://lnty17.github.io/blog/3c-laundry/</loc>
     <lastmod>2024-02-16T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/2024-electrical-appliances-hairdryer/</loc>
+    <loc>https://lnty17.github.io/blog/3c-hairdryer/</loc>
     <lastmod>2024-02-15T10:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
