@@ -37,6 +37,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://lnty17.github.io/blog/halloween/</loc>
+    <lastmod>2024-10-13T05:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://lnty17.github.io/blog/pet-airbuggy/</loc>
     <lastmod>2024-10-13T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -197,7 +202,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/useful-keyboard/</loc>
+    <loc>https://lnty17.github.io/blog/3c-keyboard/</loc>
     <lastmod>2024-08-13T20:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -207,7 +212,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/3c%E5%AE%B6%E9%9B%BB/</loc>
+    <loc>https://lnty17.github.io/tags/3c%E9%9B%BB%E5%99%A8/</loc>
+    <lastmod>2024-08-11T12:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lnty17.github.io/categories/3c%E9%9B%BB%E5%99%A8/</loc>
     <lastmod>2024-08-11T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -612,7 +622,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/blog/3c-electrical-tv/</loc>
+    <loc>https://lnty17.github.io/blog/3c-tv/</loc>
     <lastmod>2024-03-02T13:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
