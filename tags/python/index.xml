@@ -6,35 +6,21 @@
     <description>Recent content in Python on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 05:07:47 +0800</lastBuildDate>
     <atom:link href="https://lnty17.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://lnty17.github.io/blog/post-10/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://lnty17.github.io/blog/post-10/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <title>Python 是什麼？為什麼選擇 Python？Python 簡介與安裝指南 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/python-intro/</link>
+      <pubDate>Sun, 06 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/python-intro/</guid>
+      <description>Python 是什麼？為什麼選擇 Python？Python 簡介與安裝指南 Python 是什麼？為什麼選擇 Python？ Python 是一種高階的程式語言，以其簡單的語法、易於學習和強大的功能而聞名。Python 採用直譯式執行，並支援多種編程範式，適合初學者和專業開發者。Python 的易學特性，讓其成為全球最受歡迎的程式語言之一。</description>
     </item>
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://lnty17.github.io/blog/post-11/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://lnty17.github.io/blog/post-11/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://lnty17.github.io/blog/post-12/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://lnty17.github.io/blog/post-12/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://lnty17.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://lnty17.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <title>如何在 VS Code 中建立並執行一個新的 Python 專案 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/python-helloworld/</link>
+      <pubDate>Fri, 04 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/python-helloworld/</guid>
+      <description>在 VS Code 中開啟並建立一個新的 Python 專案 Python 以其簡單易讀的語法和強大的功能，在程式設計新手和專業開發者中廣受歡迎。這篇文章將帶你一步步了解如何在 Visual Studio Code (VS Code) 中建立一個新的 Python 專案，並撰寫你的第一個 Python 程式。</description>
     </item>
   </channel>
 </rss>

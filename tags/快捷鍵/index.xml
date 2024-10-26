@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>快捷鍵 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%8D%B5/</link>
+    <description>Recent content in 快捷鍵 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 10 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%8D%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel 教學：掌握自動填充功能，快速提升工作效率的技巧與實用指南 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-fastfilled/</link>
+      <pubDate>Thu, 10 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-fastfilled/</guid>
+      <description>Excel 教學：掌握自動填充功能，快速提升工作效率的技巧與實用指南 在 Excel 中，自動填充 是一個不可或缺的基本功能。無論你是 Excel 初學者還是有經驗的使用者，這項技能都能大大提升你的工作效率。自動填充可以快速複製數字、日期、公式等內容，適用於處理大量數據，避免手動輸入的繁瑣操作與潛在的錯誤。&#xA;為什麼要使用自動填充？ Excel 的 自動填充功能 不僅僅適用於重複數據輸入，它還能夠識別數據的模式並自動生成連續數字或日期，甚至可以快速應用公式到多個儲存格中。這在需要大量數據處理時極為便利，幫助節省時間並減少出錯機率。</description>
+    </item>
+  </channel>
+</rss>

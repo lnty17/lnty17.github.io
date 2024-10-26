@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>批量建立資料夾 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/%E6%89%B9%E9%87%8F%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%A4%BE/</link>
+    <description>Recent content in 批量建立資料夾 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 01 Jun 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/%E6%89%B9%E9%87%8F%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%A4%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！ - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-folder/</link>
+      <pubDate>Sat, 01 Jun 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-folder/</guid>
+      <description>Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！ 在工作中，我們經常會遇到需要為每位員工建立獨立資料夾的情況，這些資料夾用來存放員工的個人檔案、績效報告或培訓記錄。如果員工人數不多，手動逐一建立資料夾是可行的，但面對數十或數百名員工時，這樣的操作方式顯得效率低下且容易出錯。&#xA;今天，我們要介紹一個簡單快速的方法，只需使用 Excel 和 批處理文件（BAT檔案），便能在一分鐘內批量建立大量資料夾。這樣可以有效節省時間，並確保每個資料夾命名一致，避免手動操作的錯誤。快來學習如何操作吧！&#xA;為什麼選擇批量建立資料夾？ 當處理大量員工資料時，手動建立資料夾耗時且容易出錯。通過將員工姓名輸入到 Excel 中，並生成 BAT 批處理文件，可以自動化這個過程。這不僅大大提升效率，還能確保資料夾的準確性與一致性，適合任何數量的資料夾創建需求。</description>
+    </item>
+  </channel>
+</rss>

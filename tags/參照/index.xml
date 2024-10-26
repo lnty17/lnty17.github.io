@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>參照 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/%E5%8F%83%E7%85%A7/</link>
+    <description>Recent content in 參照 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 07 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/%E5%8F%83%E7%85%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-f4/</link>
+      <pubDate>Mon, 07 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-f4/</guid>
+      <description>掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 今天，我們要分享 Excel 中非常方便且實用的快捷鍵 F4。這個快捷鍵具備兩大功能：“重複之前動作” 和 “切換公式中的相對參照與絕對參照”。這兩個功能不僅簡單易用，而且能極大地提升你的工作效率，讓你在處理 Excel 任務時事半功倍。&#xA;為什麼F4快捷鍵如此重要？ 在日常的 Excel 操作中，無論是進行數據輸入、格式設置，還是編輯公式，我們經常需要重複某些特定的動作。手動重複這些操作不僅耗時，而且容易出錯。此時，F4快捷鍵 的“重複之前動作”功能就能派上用場。只需按一下 F4 鍵，Excel 便會自動重複你上一次的操作，無需再次手動執行，節省了大量時間和精力。</description>
+    </item>
+  </channel>
+</rss>

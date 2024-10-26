@@ -2,137 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excel on 豪拜兒</title>
-    <link>http://localhost:1313/tags/excel/</link>
+    <link>https://lnty17.github.io/tags/excel/</link>
     <description>Recent content in Excel on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 23 Jun 2024 09:07:47 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/excel/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>豪拜兒|Excel VLOOKUP 函數詳細教學：從基礎到進階應用</title>
-      <link>http://localhost:1313/blog/excel-vlookup/</link>
-      <pubDate>Sun, 23 Jun 2024 09:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-vlookup/</guid>
-      <description>豪拜兒|Excel VLOOKUP 函數詳細教學：從基礎到進階應用 Excel 中的 VLOOKUP 函數是一個非常實用的工具，用於在範圍內進行&amp;quot;垂直方向&amp;quot;的查找並返回相應的數值。無論是在日常工作中處理大規模數據，還是在分析資料時需要快速定位特定信息，VLOOKUP 都能提供極大的幫助。本文將詳細介紹 VLOOKUP 函數的基本語法和使用方法，並通過實例說明如何在工作中應用此函數。</description>
+      <title>Excel教學：製作2022年入職員工資訊表的高效方法 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-cellfomat/</link>
+      <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-cellfomat/</guid>
+      <description>Excel教學：製作2022年入職員工資訊表的高效方法 在日常工作中，我們經常需要處理大量員工數據，尤其是製作員工入職表時，逐字逐欄地手動輸入數據不僅耗時，還容易出錯。今天，我們將介紹如何利用 Excel 自訂格式功能 來快速完成這項任務，幫助您節省時間並提高準確性。這個技巧能讓您快速設定工號、部門、性別和入職時間等欄位，從而大幅提高工作效率。&#xA;為什麼使用自訂格式？ 自訂格式 是 Excel 提供的一個強大功能，它可以根據您的需求自動替換輸入的數字，無需手動調整每個單元格格式。這在處理批量數據時尤為實用，尤其是在製作如員工入職表等具有標準化輸入需求的文件時，能幫助您確保數據的一致性並減少出錯機會。</description>
     </item>
     <item>
-      <title>豪拜兒|Excel VBA 金融資料抓取，打造股票研究系統</title>
-      <link>http://localhost:1313/blog/excel-vba/</link>
-      <pubDate>Sun, 23 Jun 2024 08:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-vba/</guid>
-      <description>豪拜兒|Excel VBA 金融資料抓取，打造股票研究系統 Visual Basic for Applications（VBA）是一種由Microsoft開發的強大的程式語言，專門用於增強和自動化Microsoft Office軟件中的功能。特別是在Excel中，VBA提供了無限的可能性，可以幫助用戶完成從數據處理到報告生成的多種任務。無論你是辦公室工作者、金融專業人士、教育者還是業餘愛好者，學習VBA都能夠顯著提升你的工作效率和技能水平。&#xA;VBA基於Visual Basic（VB），專為嵌入在Microsoft Office軟件中而設計。它使用直觀的語法和結構，可以通過編寫腳本和宏(巨集)來自動執行任務和增強功能。在Excel中，VBA允許用戶通過創建和執行自定義的宏(巨集)來自動化數據處理、報表生成和其他常見任務。</description>
+      <title>Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-lrm/</link>
+      <pubDate>Wed, 16 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-lrm/</guid>
+      <description>Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用 在 Excel 中，有三個非常實用的函數可以幫助我們進行文字分割，它們分別是 LEFT、RIGHT 和 MID 函數。這些函數可以根據指定的位置和字符數將文本字符串分割成不同的部分，特別適合用於需要從文字中提取特定信息或格式化數據的任務。&#xA;為什麼使用文字分割函數？ LEFT、RIGHT 和 MID 函數能快速、準確地從文本中提取特定字符，尤其在數據處理和清理任務中非常高效。無論是從字串中抽取編號、日期或名字，這些函數都能自動化繁瑣的數據操作，減少手動處理的時間和錯誤機率。</description>
     </item>
     <item>
-      <title>豪拜兒|完整指南：Excel 日期函數使用技巧及範例解析</title>
-      <link>http://localhost:1313/blog/excel-date/</link>
-      <pubDate>Mon, 17 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-date/</guid>
-      <description>豪拜兒|完整指南：Excel 日期函數使用技巧及範例解析 在日常的Excel使用中，日期函數是處理和分析日期相關數據不可或缺的工具。本文將詳細介紹幾個常用的Excel日期函數，包括如何創建日期值、返回當前日期、計算日期差距以及從日期中提取年、月、日等信息，讓您能更加靈活和高效地應用這些功能。&#xA;DATE 函數 語法： DATE(year, month, day)&#xA;year： 年份。 month： 月份。 day： 日期。 例子： =DATE(2023, 5, 1) 將返回 2023 年 5 月 1 日的日期。 TODAY 函數 語法： TODAY()</description>
+      <title>Excel 教程：學習如何使用 IF 函數進行條件判斷，提升數據處理能力的實用指南 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-if/</link>
+      <pubDate>Sun, 13 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-if/</guid>
+      <description>Excel 教程：學習如何使用 IF 函數進行條件判斷，提升數據處理能力的實用指南 在現代的辦公環境中，Excel 已經成為處理和分析數據的核心工具之一。其中，IF 函數 是一個不可或缺的邏輯判斷工具。無論你是分析財務報表、處理業務數據，還是執行其他需要進行條件判斷的工作，IF 函數都能根據不同條件返回不同結果，幫助你更精準地管理數據。&#xA;為什麼選擇 IF 函數？ IF 函數 的靈活性和強大功能，讓用戶能夠根據具體需求設置條件，並自動化處理數據。透過 IF 函數，你可以根據判斷條件自動生成報表、數據分析結果，並減少手動操作所帶來的錯誤風險。掌握這個函數，無疑會提升你處理複雜數據的能力。</description>
     </item>
     <item>
-      <title>豪拜兒|Excel中常用運算函數：MIN、MAX和AVERAGE</title>
-      <link>http://localhost:1313/blog/excel-max/</link>
-      <pubDate>Sat, 15 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-max/</guid>
-      <description>豪拜兒|Excel中常用運算函數：MIN、MAX和AVERAGE 在日常使用Excel進行數據分析和計算時，MIN、MAX和AVERAGE是三個非常常見且實用的函數。這些函數分別用於求取數據範圍中的最小值、最大值和平均值，它們能夠快速且準確地幫助我們分析數據，進而做出相應的決策或報告。&#xA;在使用這些函數之前，讓我們先複習一下Excel中範圍的表示方法：：代表範圍，例如A1：A10，表示從A1到A10的範圍。&#xA;範例：求一月銷售的最大值、最小值與平均值 最大值： 輸入公式 =MAX(B2:B12)，得到一月銷售的最大值。 最小值： 輸入公式 =MIN(B2:B12)，得到一月銷售的最小值。 平均值： 輸入公式 =AVERAGE(B2:B12)，得到一月銷售的平均值。 這些函數能夠快速計算出數據範圍中的極值和平均數，不僅使數據分析更加高效，也提升了報表製作的準確性和效率。無論是在財務報告、銷售分析還是其他數據處理任務中，MIN、MAX和AVERAGE都是不可或缺的工具，能夠大幅簡化我們的工作流程和分析過程。</description>
+      <title>Excel 教學：掌握自動填充功能，快速提升工作效率的技巧與實用指南 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-fastfilled/</link>
+      <pubDate>Thu, 10 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-fastfilled/</guid>
+      <description>Excel 教學：掌握自動填充功能，快速提升工作效率的技巧與實用指南 在 Excel 中，自動填充 是一個不可或缺的基本功能。無論你是 Excel 初學者還是有經驗的使用者，這項技能都能大大提升你的工作效率。自動填充可以快速複製數字、日期、公式等內容，適用於處理大量數據，避免手動輸入的繁瑣操作與潛在的錯誤。&#xA;為什麼要使用自動填充？ Excel 的 自動填充功能 不僅僅適用於重複數據輸入，它還能夠識別數據的模式並自動生成連續數字或日期，甚至可以快速應用公式到多個儲存格中。這在需要大量數據處理時極為便利，幫助節省時間並減少出錯機率。</description>
     </item>
     <item>
-      <title>豪拜兒|Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用</title>
-      <link>http://localhost:1313/blog/excel-lrm/</link>
-      <pubDate>Wed, 12 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-lrm/</guid>
-      <description>豪拜兒|Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用 在 Excel 中，有三個強大的函數可以幫助我們有效地分割文字，它們分別是 LEFT、RIGHT 和 MID 函數。這些函數可以根據指定的位置和字符數將文本字符串分割成不同的部分，非常適合於需要從文字中提取特定信息或進行格式化的任務。&#xA;LEFT 函數 LEFT 函數用於從文字的左側提取指定數量的字符。語法：</description>
+      <title>掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-f4/</link>
+      <pubDate>Mon, 07 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-f4/</guid>
+      <description>掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 今天，我們要分享 Excel 中非常方便且實用的快捷鍵 F4。這個快捷鍵具備兩大功能：“重複之前動作” 和 “切換公式中的相對參照與絕對參照”。這兩個功能不僅簡單易用，而且能極大地提升你的工作效率，讓你在處理 Excel 任務時事半功倍。&#xA;為什麼F4快捷鍵如此重要？ 在日常的 Excel 操作中，無論是進行數據輸入、格式設置，還是編輯公式，我們經常需要重複某些特定的動作。手動重複這些操作不僅耗時，而且容易出錯。此時，F4快捷鍵 的“重複之前動作”功能就能派上用場。只需按一下 F4 鍵，Excel 便會自動重複你上一次的操作，無需再次手動執行，節省了大量時間和精力。</description>
     </item>
     <item>
-      <title>豪拜兒|Excel 教程：學習如何使用 IF 函數進行條件判斷，提升數據處理能力的實用指南</title>
-      <link>http://localhost:1313/blog/excel-if/</link>
-      <pubDate>Mon, 10 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-if/</guid>
-      <description>豪拜兒|Excel 教程：學習如何使用 IF 函數進行條件判斷，提升數據處理能力的實用指南 在現代的辦公環境中，Excel已經成為一個不可或缺的工具，特別是在處理和分析大量數據時。IF函數作為Excel中的一個核心功能之一，不僅可以根據特定的條件進行邏輯判斷，還能根據判斷結果返回不同的值或執行不同的操作。這使得它在各種應用場景中都表現出色，無論是在財務分析、數據報表製作、還是在日常的數據整理和處理中。&#xA;IF函數的靈活性和多功能性使得用戶可以根據具體需求設定各種不同的條件判斷，從而自動化地處理數據，減少手動操作的時間和錯誤的風險。掌握IF函數的使用不僅能夠提高工作效率，還能確保數據的準確性和一致性，這對於任何需要依賴Excel進行數據分析和報告的專業人士來說都是至關重要的技能。&#xA;在本文中，我們將深入探討IF函數的基本語法和應用技巧，幫助你理解如何有效地利用這個強大的函數來處理你的數據工作。無論你是新手還是有一定經驗的Excel使用者，這些知識都將為你提供實用而實際的解決方案。讓我們開始吧，深入了解如何在Excel中使用IF函數來進行條件判斷和數據處理！&#xA;範例：利用IF函數對成績判定及格與不及格 步驟一、定義評語判定標準 定義大於等於60分為及格，小於60分為不及格</description>
+      <title>Excel教學：DGET函數—超越VLOOKUP的強大數據查找功能 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-dget/</link>
+      <pubDate>Sat, 05 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-dget/</guid>
+      <description>Excel教學：DGET函數—超越VLOOKUP的強大數據查找功能 在 Excel 中，VLOOKUP 是我們常用來查找數據的強大工具，能夠根據指定的查找值，快速從資料表中找到對應的結果。然而，VLOOKUP 也有其局限性，尤其在查找目標位於非第一列或需要多條件查找時表現不佳。&#xA;為了解決這些問題，Excel 提供了一個更強大的函數：DGET。DGET 不僅克服了 VLOOKUP 的這些限制，還能在查找範圍內的任意列執行數據查找，甚至支持多條件查找。本文將詳細介紹 DGET 函數的使用方法，並通過具體範例展示其優勢。</description>
     </item>
     <item>
-      <title>豪拜兒|提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧</title>
-      <link>http://localhost:1313/blog/excel-sumif/</link>
-      <pubDate>Sat, 08 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-sumif/</guid>
-      <description>豪拜兒|提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 在 Excel 中，除了基本的 SUM 函數外，還有兩個非常實用的「兄弟」函數：SUMIF 和 SUMIFS。這兩個函數的名稱已經很直觀地告訴我們它們的作用，讓我們來看看它們如何幫助我們更精確地進行數字求和操作。&#xA;首先是 SUMIF 函數，這個函數可以根據一個條件範圍來計算符合指定條件的數字總和。例如，當我們需要計算某一類別的數量時，就可以使用 SUMIF 函數來快速獲取結果。舉例來說，假設我們有一個包含水果類別和對應數量的表格，我們可以使用 SUMIF 函數來計算所有水果的總數量。</description>
+      <title>Excel教學：使用Ctrl&#43;G快捷鍵高效移除空白列的方法 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-ctrlg/</link>
+      <pubDate>Thu, 03 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-ctrlg/</guid>
+      <description>Excel教學：使用Ctrl+G快捷鍵高效移除空白列的方法 在處理 Excel 資料時，我們經常會遇到需要移除空白列的情況。這些空白列可能是由於數據整理中的遺漏，或者是錯誤輸入導致的結果。當面對少量資料時，手動移除是可行的，但如果數據量龐大，一列一列選取刪除就變得非常耗時且效率低下。&#xA;今天，我們要介紹一個高效的方法，使用快捷鍵 Ctrl+G，幫助您迅速選取並移除所有的空白列。這個技巧不僅能夠節省時間，還能讓工作表保持整潔，提高數據處理的效率。&#xA;快速移除空白列的好處 在處理大量數據時，空白列會影響數據的整體性。利用 Ctrl+G 快捷鍵可以快速找到並移除所有空白列，避免手動操作中的繁瑣和錯誤。</description>
     </item>
     <item>
-      <title>豪拜兒|Excel 教學：掌握自動填充功能，快速提升工作效率的技巧與實用指南</title>
-      <link>http://localhost:1313/blog/excel-fastfilled/</link>
-      <pubDate>Wed, 05 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-fastfilled/</guid>
-      <description>豪拜兒|Excel 教學：掌握自動填充功能，快速提升工作效率的技巧與實用指南 今天要分享一個 Excel 中相當基本但又必不可缺的功能 —「自動填充」。無論你是 Excel 初學者還是經驗豐富的使用者，自動填充功能都是你必須掌握的一項技能。這個功能可以仿照前面儲存格的內容、公式、格式，對後續儲存格進行快速的填充，大大提高了我們處理數據的效率。&#xA;自動填充功能不僅適用於單純的數據重複輸入，還可以應用於一系列數字的填充、自動生成日期、填充公式等多種場景。特別是在需要處理大量數據的時候，自動填充能節省大量時間，避免了手動輸入的繁瑣和可能出現的錯誤。無論是對一列數據進行快速填充，還是根據已經輸入的數據模式生成更多數據，自動填充都能輕鬆完成。&#xA;接下來，我們將通過幾個具體的例子，詳細講解如何使用自動填充功能來提升工作效率。希望通過這篇教學文章，能讓你更熟練地使用這個強大的工具，進而更高效地完成各種 Excel 任務。快來看看怎麼操作吧！</description>
+      <title>Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-ctrlg-filled/</link>
+      <pubDate>Tue, 01 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-ctrlg-filled/</guid>
+      <description>Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧 在處理大量數據的過程中，許多人遇到過取消合併儲存格後，留下許多空白格的情況。手動一個個填滿這些空白格不僅費時費力，還容易出錯，特別是在數據量大的情況下更是令人頭痛。不過，不用擔心！今天我們將介紹一個高效的解決方法，讓您利用快捷鍵 Ctrl+G，一秒內輕鬆填滿所有空白格，從而大幅提升工作效率。&#xA;Excel 的這個技巧簡單易用，尤其適合需要處理多組數據的用戶。以下是具體操作步驟，無論您是處理小範圍的數據還是大批量的空白格，這個技巧都能幫助您快速完成工作。&#xA;為什麼使用 Ctrl+G 快速填充？ 使用 Ctrl+G 快捷鍵進行空白格填充的好處不僅是速度快，還能保證數據的一致性。當您解除合併儲存格時，通常會留下大量空白儲存格，而這些空格必須快速且準確地填滿，以保持數據表的整潔和準確性。</description>
     </item>
     <item>
-      <title>豪拜兒|Excel教學：DGET函數—超越VLOOKUP的強大數據查找功能</title>
-      <link>http://localhost:1313/blog/excel-dget/</link>
-      <pubDate>Wed, 05 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-dget/</guid>
-      <description>豪拜兒|Excel教學：DGET函數—超越VLOOKUP的強大數據查找功能 在之前的文章中，我們已經介紹了 VLOOKUP 函數在查找數據方面的強大功能。這個函數能夠根據指定的查找值，從資料表中快速找到對應的數據，對於處理大量數據來說，無疑是個非常實用的工具。然而，VLOOKUP 也有它的限制，比如它只能在查找目標位於第一欄的情況下工作，而且無法直接處理多條件查找的需求。如果你經常使用 Excel 進行數據管理，這些限制可能會讓你感到困擾。&#xA;今天，我們將介紹一個傳說中比 VLOOKUP 更強大的函數——DGET 函數。這個函數不僅能克服 VLOOKUP 的限制，還能提供更靈活的查找功能。無論是查找目標在範圍的任意位置，還是需要同時滿足多個條件，DGET 函數都能輕鬆應對。本文將詳細講解 DGET 函數的語法和使用方法，並通過具體的例子展示其強大的數據查找功能。</description>
+      <title>完整指南：Excel 日期函數使用技巧及範例解析 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-date/</link>
+      <pubDate>Tue, 17 Sep 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-date/</guid>
+      <description>完整指南：Excel 日期函數使用技巧及範例解析 在日常的 Excel 使用中，日期函數 是處理和分析日期相關數據不可或缺的工具。無論是生成日期、計算日期之間的差距，還是提取年、月、日等信息，這些函數都能幫助您更靈活地管理數據。本文將詳細介紹幾個常用的 Excel 日期函數，並通過範例幫助您掌握這些技巧。&#xA;為什麼使用日期函數？ Excel 的日期函數能夠幫助我們在處理和計算與時間有關的數據時，快速生成所需結果。這些函數特別適合以下場景：</description>
     </item>
     <item>
-      <title>豪拜兒|Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧</title>
-      <link>http://localhost:1313/blog/excel-ctrlg-filled/</link>
-      <pubDate>Mon, 03 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-ctrlg-filled/</guid>
-      <description>豪拜兒|Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧 大家是否遇過取消合併儲存格後，需要一個個的複製貼上將空白格填滿的情況呢？這種情況不僅耗時，而且容易出錯，特別是當你需要處理大量數據時，更是令人頭疼。不用擔心！今天要分享一個可以在一秒鐘內完成填充的方法，利用快捷鍵 Ctrl+G。這個方法既簡單又高效，能大幅提升你的工作效率，讓你輕鬆應對各種數據填充的需求。&#xA;使用 Excel 進行數據處理時，經常需要合併和取消合併儲存格。合併儲存格後，取消合併通常會留下許多空白格，這些空白格需要被快速填充，以保持數據的連貫性和完整性。手動填充這些空白格，不僅繁瑣，而且非常容易出錯。然而，利用 Excel 提供的快捷鍵和特殊功能，我們可以在幾個簡單的步驟內，快速完成這些看似繁瑣的工作。</description>
-    </item>
-    <item>
-      <title>豪拜兒|Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！</title>
-      <link>http://localhost:1313/blog/excel-folder/</link>
+      <title>Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！ - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-folder/</link>
       <pubDate>Sat, 01 Jun 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-folder/</guid>
-      <description>豪拜兒|Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！ 假設今天我們需要為每一個員工建立獨立的資料夾，用來存放各個員工的相關資料。當員工人數不多時，可以逐一手動建立資料夾，但如果員工人數眾多呢？這時候，手動建立資料夾不僅耗時，還容易出錯。今天，我們要分享一個只需一分鐘就可以完成批量建立資料夾的方法，快來看看怎麼做吧！&#xA;在處理大量員工資料時，我們經常會遇到需要為每個員工建立單獨資料夾的情況。這些資料夾用於存放員工的個人檔案、績效報告、培訓記錄等。手動逐一建立資料夾可能還可以應付幾個員工，但面對數十、數百名員工時，這樣的操作方式顯然既低效又容易出錯。為了提高工作效率，我們可以借助 Excel 和簡單的批處理文件（BAT 文件），來快速批量建立資料夾。&#xA;這個方法非常簡單，只需要幾個步驟就能完成。首先，我們會在 Excel 中輸入所有員工的姓名，然後將這些姓名轉換成批處理命令，最後通過執行批處理文件來批量創建資料夾。整個過程不到一分鐘，便能輕鬆完成數百個資料夾的建立。這種方法不僅節省了大量時間，還避免了手動操作可能帶來的錯誤。&#xA;接下來，我們將詳細介紹如何使用這個方法來批量建立員工資料夾。通過這篇教學文章，你將學會如何利用 Excel 和批處理文件，在短短幾分鐘內完成原本需要耗費大量時間的操作。這不僅能提高你的工作效率，還能確保每個員工資料夾都能準確無誤地建立起來。</description>
-    </item>
-    <item>
-      <title>豪拜兒|Excel教學：使用ROW()和COLUMN()自動更新行列的連續序號</title>
-      <link>http://localhost:1313/blog/excel-row-column/</link>
-      <pubDate>Wed, 29 May 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-row-column/</guid>
-      <description>豪拜兒|Excel教學：使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號 是不是曾經遇過好不容易編排好的序號，卻因為刪除了某行列，又要重新編排一次的麻煩事呢？&#xA;在日常的 Excel 使用中，我們經常會遇到這樣的情況：需要頻繁刪減表格中的行列，而原本編排好的序號或行列數字突然不再連貫。例如，你可能已經設定了 A 列的序號從 1 到 11，但當你刪除其中的某些行時，這些序號就會出現斷裂，變得不再連續。這樣的情況下，不僅影響數據的美觀性和可讀性，更可能導致後續數據處理的混亂。</description>
-    </item>
-    <item>
-      <title>豪拜兒|Excel教學：製作2022年入職員工資訊表的高效方法</title>
-      <link>http://localhost:1313/blog/excel-cellfomat/</link>
-      <pubDate>Mon, 27 May 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-cellfomat/</guid>
-      <description>豪拜兒|Excel教學：製作2022年入職員工資訊表的高效方法 假設要製作一個2022年入職的員工資訊表，如何避免一字一字地輸入資料呢？手動輸入不僅費時，而且容易出錯。今天，我們要分享一個極其方便的技巧，讓您能快速、高效地完成這項工作。這個技巧就是利用Excel儲存格的自訂格式功能，通過簡單的設定，您可以一次性完成多個儲存格的格式設定，大大提高工作效率。&#xA;自訂格式功能可以讓您根據需要設置特殊的數字格式，自動替換輸入的數值，這不僅節省時間，還能確保數據的一致性。接下來，我們將通過具體的範例來詳細說明如何使用這一功能來設置員工資訊表。無論是工號、部門、性別還是入職時間，都可以通過自訂格式輕鬆搞定。準備好讓您的Excel技巧更上一層樓吧！&#xA;以下是今天的範例表格，我們將利用自訂格式功能，避免冗長輸入，高效地完成此表格。&#xA;自訂格式的基本原理 在Excel的儲存格格式中的“自訂格式”中，“0”代表佔了一個位置，如果在儲存格中輸入數值，“0”就會被替換掉。這個概念可能有點抽象，但看了下面的例子應該就能明白。&#xA;快捷鍵複習：Ctrl+1 在範例開始之前，複習一下快捷鍵Ctrl+1。這個快捷鍵用來叫出儲存格格式設定的視窗，小夥伴們可以試試看。&#xA;步驟詳解 設定工號欄位的格式 框選工號欄的空白格：首先，選取需要設置格式的空白儲存格範圍。這些儲存格將會用來輸入員工的工號。 按Ctrl+1，選擇“自訂”：按下快捷鍵Ctrl+1，這會打開“儲存格格式”對話框。在這裡，選擇左側的“自訂”選項。 在“類型”中輸入20220000，按確定：在“類型”框中輸入20220000，這樣設定後，當您在這些儲存格中輸入數字時，會自動顯示為類似於20220001的格式。 輸入數值測試：在儲存格中輸入1，按Enter，您會看到出現的值是20220001。同理，輸入3，會出現20220003。這樣就不需要手動輸入完整冗長的工號格式。 設定部門欄位的格式 框選部門欄的空白格：選取需要設置部門名稱的空白儲存格範圍。 按Ctrl+1，選擇“自訂”：再次按下快捷鍵Ctrl+1，進入“儲存格格式”對話框，並選擇“自訂”。 在“類型”框中輸入業務0部，設定後，輸入的數字會替換“0”並顯示為部門名稱。 輸入數值測試：在儲存格中輸入4，按Enter，您會看到出現的值是業務4部，同理，若輸入2，則出現業務2部。 設定性別欄位的格式 框選性別欄的空白格：選取需要設置性別信息的空白儲存格範圍。 按Ctrl+1，選擇“自訂”：按下快捷鍵Ctrl+1，進入“儲存格格式”對話框，並選擇“自訂”。 在“類型”框中輸入[=1]&amp;ldquo;男&amp;rdquo;;[=2]&amp;ldquo;女&amp;rdquo;。這樣設定後，輸入1會顯示“男”，輸入2會顯示“女”。 輸入數值測試：輸入1或2進行測試，確認是否顯示為相應的性別信息。 設定入職時間欄位的格式 框選入職時間欄的空白格：選取需要設置入職時間的空白儲存格範圍。 按Ctrl+1，選擇“自訂”：按下快捷鍵Ctrl+1，進入“儲存格格式”對話框，並選擇“自訂”。 在“類型”框中輸入2022年00月00日。這樣設定後，您只需要輸入數字即可顯示為完整的日期格式。 輸入數值測試：在儲存格中輸入1201或1109等數字，會自動顯示為2022年12月01日或2022年11月09日。 小結 透過自訂格式和快捷鍵的應用，您能夠迅速建立一個完整的員工資訊表，有效地避免輸入重複的文字，從而節省大量時間並提升工作效率。</description>
-    </item>
-    <item>
-      <title>豪拜兒|Excel教學：使用Ctrl&#43;G快捷鍵高效移除空白列的方法</title>
-      <link>http://localhost:1313/blog/excel-ctrlg/</link>
-      <pubDate>Fri, 24 May 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-ctrlg/</guid>
-      <description>豪拜兒|Excel教學：使用Ctrl+G快捷鍵高效移除空白列的方法 在處理 Excel 資料時，我們經常會遇到需要移除空白列的情況。空白列可能是因為數據整理過程中的遺漏，也可能是由於某些數據輸入錯誤而產生的。當資料量不多時，我們可以手動一列一列地選取後刪除，雖然這樣的操作較為直觀，但當我們面對上百甚至上千筆資料時，這種方法就顯得非常耗時且效率低下。&#xA;不過，不用擔心！今天，我們要分享一個高效刪除空白行的方法，利用快捷鍵 Ctrl+G。這個方法不僅能夠快速找到所有的空白列，還能一鍵刪除，讓你的 Excel 工作表變得整潔有序，從而大大提高數據處理的效率。&#xA;快捷鍵 Ctrl+G 是 Excel 中一個非常強大的功能，它能夠快速定位到特定類型的儲存格，比如空白儲存格、包含公式的儲存格等。在我們需要快速清理空白行的時候，Ctrl+G 就能派上大用場。通過這個功能，我們可以輕鬆選取所有的空白列，並立即將它們刪除，無需逐一手動操作，節省了大量時間。</description>
-    </item>
-    <item>
-      <title>豪拜兒|Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧</title>
-      <link>http://localhost:1313/blog/excel-product/</link>
-      <pubDate>Wed, 22 May 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-product/</guid>
-      <description>豪拜兒|Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 在上一篇文章中，我們介紹了加法 SUM 函數的基本用法，讓大家能夠輕鬆處理數據的總和運算。加法是數據處理中的基礎操作之一，但僅僅掌握加法並不足以應對複雜的數據分析需求。今天，我們將進一步探討 Excel 中另一個基本且重要的運算：乘法。無論是在財務報表中計算總成本，還是在數據分析中進行複雜的乘積運算，掌握 Excel 中的乘法技巧都能大大提高工作效率。&#xA;乘法在 Excel 中的應用非常廣泛，特別是在處理大量數據時尤為重要。比如，在財務報表中，我們經常需要計算產品的總成本（單價乘以數量），或者在統計分析中計算多組數據的乘積。這些乘法運算如果手動逐一計算，不僅耗時耗力，還容易出錯。因此，熟悉 Excel 中的乘法操作，能夠幫助我們更快捷、準確地完成數據處理工作。</description>
-    </item>
-    <item>
-      <title>豪拜兒|掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能</title>
-      <link>http://localhost:1313/blog/excel-f4/</link>
-      <pubDate>Mon, 20 May 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-f4/</guid>
-      <description>豪拜兒|掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 今天，我們要分享 Excel 中非常方便且實用的快捷鍵 F4。這個快捷鍵具備兩大功能：“重複之前動作”和“切換公式中的相對參照與絕對參照”。這兩個功能不僅簡單易用，而且能極大地提升你的工作效率，讓你在處理 Excel 任務時事半功倍。&#xA;在日常的 Excel 操作中，無論是進行數據輸入、格式設置，還是編輯公式，我們經常需要重複某些特定的動作。手動重複這些操作不僅耗時，而且容易出錯。此時，快捷鍵 F4 的“重複之前動作”功能就能派上用場。只需按一下 F4 鍵，Excel 便會自動重複你上一次的操作，無需再次手動執行，節省了大量時間和精力。</description>
-    </item>
-    <item>
-      <title>豪拜兒|Excel 加法運算教學：使用 SUM 函數及 Alt&#43;快捷鍵</title>
-      <link>http://localhost:1313/blog/excel-sum/</link>
-      <pubDate>Fri, 17 May 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-sum/</guid>
-      <description>豪拜兒|Excel 加法運算教學：使用 SUM 函數及 Alt+ 快捷鍵 Excel 是一款廣泛應用於數據處理和分析的強大工具，而加法運算則是其中最基本且常用的數學運算之一。通過掌握 Excel 中的加法運算技巧，您可以更加高效地處理和分析數據，這對於日常工作中的各種任務至關重要。</description>
-    </item>
-    <item>
-      <title>豪拜兒|為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵</title>
-      <link>http://localhost:1313/blog/excel-shortcuts/</link>
-      <pubDate>Wed, 15 May 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-shortcuts/</guid>
-      <description>豪拜兒|為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵 在現代職場中，Excel 已經成為一項必備技能。不僅能夠快速處理大量和重複的數據，還可以製作出專業的報表和圖表，學習 Excel 對於提高工作品質和效率有著非常大的幫助。&#xA;而掌握和記憶 Excel 快捷鍵對於提升工作效率至關重要。它們可以幫助用戶在不離開鍵盤的情況下快速完成各種操作，從而節省寶貴的工作時間並提高操作速度。這些快捷鍵不僅能夠增強工作流程的流暢性，還能減少手動操作帶來的錯誤，從而提高數據處理的精確性和專業性。精通這些快捷鍵不僅是技能的展示，更是展示個人對效率和工作質量的重視，有助於在職場中提升專業形象和工作表現。</description>
+      <guid>https://lnty17.github.io/blog/excel-folder/</guid>
+      <description>Excel教學：快速批量建立員工資料夾，一分鐘內完成的方法！ 在工作中，我們經常會遇到需要為每位員工建立獨立資料夾的情況，這些資料夾用來存放員工的個人檔案、績效報告或培訓記錄。如果員工人數不多，手動逐一建立資料夾是可行的，但面對數十或數百名員工時，這樣的操作方式顯得效率低下且容易出錯。&#xA;今天，我們要介紹一個簡單快速的方法，只需使用 Excel 和 批處理文件（BAT檔案），便能在一分鐘內批量建立大量資料夾。這樣可以有效節省時間，並確保每個資料夾命名一致，避免手動操作的錯誤。快來學習如何操作吧！&#xA;為什麼選擇批量建立資料夾？ 當處理大量員工資料時，手動建立資料夾耗時且容易出錯。通過將員工姓名輸入到 Excel 中，並生成 BAT 批處理文件，可以自動化這個過程。這不僅大大提升效率，還能確保資料夾的準確性與一致性，適合任何數量的資料夾創建需求。</description>
     </item>
   </channel>
 </rss>

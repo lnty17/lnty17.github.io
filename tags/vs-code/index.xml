@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VS Code on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/vs-code/</link>
+    <description>Recent content in VS Code on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 04 Oct 2024 05:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在 VS Code 中建立並執行一個新的 Python 專案 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/python-helloworld/</link>
+      <pubDate>Fri, 04 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/python-helloworld/</guid>
+      <description>在 VS Code 中開啟並建立一個新的 Python 專案 Python 以其簡單易讀的語法和強大的功能，在程式設計新手和專業開發者中廣受歡迎。這篇文章將帶你一步步了解如何在 Visual Studio Code (VS Code) 中建立一個新的 Python 專案，並撰寫你的第一個 Python 程式。</description>
+    </item>
+  </channel>
+</rss>

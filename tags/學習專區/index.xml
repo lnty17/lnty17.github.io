@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>學習專區 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/</link>
+    <description>Recent content in 學習專區 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 03 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel教學：使用Ctrl&#43;G快捷鍵高效移除空白列的方法 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-ctrlg/</link>
+      <pubDate>Thu, 03 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-ctrlg/</guid>
+      <description>Excel教學：使用Ctrl+G快捷鍵高效移除空白列的方法 在處理 Excel 資料時，我們經常會遇到需要移除空白列的情況。這些空白列可能是由於數據整理中的遺漏，或者是錯誤輸入導致的結果。當面對少量資料時，手動移除是可行的，但如果數據量龐大，一列一列選取刪除就變得非常耗時且效率低下。&#xA;今天，我們要介紹一個高效的方法，使用快捷鍵 Ctrl+G，幫助您迅速選取並移除所有的空白列。這個技巧不僅能夠節省時間，還能讓工作表保持整潔，提高數據處理的效率。&#xA;快速移除空白列的好處 在處理大量數據時，空白列會影響數據的整體性。利用 Ctrl+G 快捷鍵可以快速找到並移除所有空白列，避免手動操作中的繁瑣和錯誤。</description>
+    </item>
+  </channel>
+</rss>

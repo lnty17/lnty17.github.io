@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VBA on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/vba/</link>
+    <description>Recent content in VBA on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 01 Oct 2024 05:00:00 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/vba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VBA 的語法與基本操作：掌握程式設計的核心技能 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/vba-automation/</link>
+      <pubDate>Tue, 01 Oct 2024 05:00:00 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/vba-automation/</guid>
+      <description>VBA 的語法與基本操作：掌握程式設計的核心技能 VBA（Visual Basic for Applications）是一個強大的工具，可以自動化許多 Excel 的日常工作，並提升工作效率。本篇文章將帶你深入了解 VBA 的基本語法與操作，從變數、資料型別，到條件語句與循環控制，幫助你撰寫簡單且實用的程式。</description>
+    </item>
+  </channel>
+</rss>

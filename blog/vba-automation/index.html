@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>VBA 的語法與基本操作：掌握程式設計的核心技能 - 豪拜兒</title>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="深入探討 VBA 語法與基本操作，讓你輕鬆掌握程式設計的基礎技能。透過了解變數、資料型別、條件語句和迴圈控制，撰寫自動化程式，提升工作效率。">
+  <meta name="author" content="豪拜兒">
+
+  
+
+  
+
+  
+  <meta name="theme-name" content="liva-hugo" />
+
+  
+  <link rel="canonical" href="https://lnty17.github.io/blog/vba-automation/">
+
+  <meta name="generator" content="Hugo 0.123.1">
+
+  
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/venobox/venobox.css">
+  
+
+  
+  
+  <link rel="stylesheet" href="https://lnty17.github.io/scss/style.min.css" media="screen">
+
+  
+  <link rel="shortcut icon" href="https://lnty17.github.io/images/favicon.ico" type="image/x-icon">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-J08ZKSMF3F');
+  </script>
+
+  
+  <script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"YOUR_API_KEY",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script>
+
+    
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "VBA 的語法與基本操作：掌握程式設計的核心技能 - 豪拜兒",
+      "image": "https:\/\/lnty17.github.io\/images/og-image.png",
+      "author": {
+        "@type": "Person",
+        "name": "豪拜兒"
+      },
+      "datePublished": "2024-10-01 05:00:00 \u002b0800 CST",
+      "publisher": {
+        "@type": "Organization",
+        "name": "",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/lnty17.github.io\/images/logo1.png"
+        }
+      },
+      "description": "深入探討 VBA 語法與基本操作，讓你輕鬆掌握程式設計的基礎技能。透過了解變數、資料型別、條件語句和迴圈控制，撰寫自動化程式，提升工作效率。"
+    }
+    </script>
+    
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://lnty17.github.io/"><img class="img-fluid"
+          src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://lnty17.github.io/"><img class="img-fluid"
+            src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/">所有文章</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/3c%E9%9B%BB%E5%99%A8/">3C電器</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%9C%8B%E5%85%A7%E6%97%85%E9%81%8A/">國內旅遊</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              生活大小事
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%94%9F%E6%B4%BB%E7%94%A8%E5%93%81/">生活用品</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
+              
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A/">期間限定</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E9%80%81%E7%A6%AE%E8%87%AA%E7%94%A8/">送禮自用</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%80%91/">毛小孩們</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://lnty17.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e5%b0%88%e5%8d%80"
+          class="text-primary">學習專區</a>
+        
+
+        
+        <div class="mb-3 post-meta">
+          
+          <span>By 豪拜兒</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 October 2024</span>
+          
+        </div>
+        
+        
+        
+        <div class="content mb-5">
+          <h1 id="vba-的語法與基本操作掌握程式設計的核心技能">VBA 的語法與基本操作：掌握程式設計的核心技能</h1>
+<img src="../../images/VBA/vba_syntax_basics.png" alt="VBA 的語法與基本操作" loading="lazy">
+
+<p>VBA（Visual Basic for Applications）是一個強大的工具，可以自動化許多 Excel 的日常工作，並提升工作效率。本篇文章將帶你深入了解 VBA 的基本語法與操作，從變數、資料型別，到條件語句與循環控制，幫助你撰寫簡單且實用的程式。</p>
+<h2 id="變數與常數">變數與常數</h2>
+<p>在 VBA 中，變數 和 常數 都是用來儲存資料的容器，但有一些重要的區別：</p>
+<p><em><strong>變數</strong></em> 是可以改變其值的容器。宣告變數的目的是為了確保程式知道將特定類型的資料（如整數、字串等）存放在記憶體中的某個位置，這有助於提高程式的效率和準確性。</p>
+<p><em><strong>常數</strong></em> 則是一個在程式運行期間不可更改的值。宣告常數可以讓程式更加穩定，避免不小心修改不該改變的數值。</p>
+<p>宣告變數和常數不僅能幫助管理資料，還能讓程式碼更容易閱讀和維護。</p>
+<hr>
+<ul>
+<li><strong>宣告變數</strong> 使用 <code>Dim</code> 關鍵字：</li>
+</ul>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Dim myVariable As Integer
+myVariable = 10
+</code></pre><ul>
+<li><strong>常數</strong> 使用 Const 宣告：</li>
+</ul>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Const Pi As Double = 3.14159
+</code></pre><hr>
+<h3 id="資料型別">資料型別</h3>
+<p>VBA 支援多種資料型別，讓你能夠有效處理不同的數據類型：</p>
+<ul>
+<li><strong>整數（Integer）</strong>: 儲存整數值。</li>
+<li><strong>字串（String）</strong>: 儲存文字資料。</li>
+<li><strong>日期（Date）</strong>: 儲存日期與時間。</li>
+</ul>
+<hr>
+<h3 id="資料型別範例">資料型別範例</h3>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Dim myString As String
+myString = &#34;Hello, VBA!&#34;
+
+Dim myDate As Date
+myDate = #2024-09-23#
+</code></pre><hr>
+<h2 id="條件語句ifthenelse">條件語句（If&hellip;Then&hellip;Else）</h2>
+<p>條件語句用來控制程式的流程，根據特定條件執行不同的操作。</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">If myVariable &gt; 5 Then
+    MsgBox &#34;大於 5&#34;
+Else
+    MsgBox &#34;小於或等於 5&#34;
+End If
+</code></pre><p>這段程式碼根據變數 myVariable 的值來顯示不同的訊息。</p>
+<hr>
+<h2 id="循環控制fornextdoloop">循環控制（For&hellip;Next、Do&hellip;Loop）</h2>
+<p>VBA 提供了迴圈來重複執行某些操作：</p>
+<h4 id="--fornext-迴圈">- <strong>For&hellip;Next 迴圈:</strong></h4>
+<p>當你知道迴圈的次數時，使用 For&hellip;Next。這種迴圈通常用於處理固定範圍的資料或執行特定次數的操作。</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Dim i As Integer
+For i = 1 To 10
+    Cells(i, 1).Value = i
+Next i
+</code></pre><p>這段程式會在 Excel A1 至 A10 儲存格中填入數字 1 到 10。</p>
+<ul>
+<li><em><strong>補充說明</strong></em>：在 VBA 中，<em><strong>.Value</strong></em> 是用來取得或設定儲存格的值的屬性。在 <code>Cells(i, 1).Value </code>這段程式碼中，Cells(i, 1) 代表第 i 行的第一列儲存格，而 .Value 會取得該儲存格中的值。</li>
+</ul>
+<p>例如，當你使用 Cells(1, 1).Value 時，會取得 A1 儲存格的內容。如果你想要設定這個儲存格的值，你也可以用 .Value 屬性來賦值，例如：</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Cells(1, 1).Value = &#34;Hello&#34;
+</code></pre><hr>
+<h4 id="--doloop-迴圈">- <strong>Do&hellip;Loop 迴圈</strong>:</h4>
+<p>當你不確定迴圈次數，需要根據條件來決定是否繼續執行時，使用 Do&hellip;Loop。這類迴圈通常適用於未知的數據集或動態條件。**</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Dim counter As Integer
+counter = 1
+Do While counter &lt;= 10
+    Cells(counter, 1).Value = counter
+    counter = counter + 1
+Loop
+</code></pre><hr>
+<h2 id="範例撰寫一個簡單的-vba-迴圈">範例：撰寫一個簡單的 VBA 迴圈</h2>
+<p>以下是一個範例，演示如何撰寫一個簡單的迴圈來自動填充 Excel 儲存格：</p>
+<pre tabindex="0"><code class="language-vba" data-lang="vba">Sub 填充儲存格()
+    Dim i As Integer
+    For i = 1 To 5
+        Cells(i, 1).Value = &#34;VBA 自動化&#34;
+    Next i
+End Sub
+</code></pre><p>這段程式會將 &ldquo;VBA 自動化&rdquo; 填入 Excel A1 到 A5 的儲存格中。</p>
+<hr>
+<h2 id="結語">結語</h2>
+<p>透過理解 VBA 的基本語法與程式結構，你將能夠自動化許多 Excel 任務，提升工作效率。不論是撰寫條件語句還是迴圈，這些技巧都是 VBA 程式設計的基礎。如果你想深入了解 VBA，請參考以下的推薦學習資源。</p>
+<h3 id="書籍推薦從入門到進階的學習資源">書籍推薦：從入門到進階的學習資源</h3>
+<p>如果你更喜歡透過閱讀來學習 VBA，以下是一本經典的書籍推薦，適合從入門到進階使用者。</p>
+<ul>
+<li><em><strong>最新Excel VBA基礎必修課</strong></em>。這本書提供了全面的 Excel VBA 基礎培訓，包括程式設計、問題解決以及實際範例，非常適合初學者開始學習 VBA。</li>
+</ul>
+<p><strong><a href="https://tinyurl.com/297nlj7u">點我前往金石堂 《最新Excel VBA基礎必修課》</a></strong></p>
+<p><strong><a href="https://s.shopee.tw/9pLjTttuPy">點我前往蝦皮 《最新Excel VBA基礎必修課》</a></strong></p>
+<hr>
+<h3 id="線上課程推薦隨時隨地學習">線上課程推薦：隨時隨地學習</h3>
+<p>線上課程的彈性學習方式對於繁忙的工作者來說非常實用。以下兩個平台提供了豐富的 VBA 和 Excel 課程，無論你是初學者還是進階使用者，都能找到適合的課程。</p>
+<h4 id="hahow-線上課程平台">Hahow 線上課程平台</h4>
+<p><strong>Hahow</strong> 是一個受歡迎的學習平台，涵蓋多種專業課程，適合不同層級的學習者。平台上的課程內容實用，並且由專業講師授課，讓學員可以在短時間內掌握實用技能。</p>
+<ul>
+<li><strong><a href="https://tinyurl.com/25uvvrss">玩轉數據與資料：Excel VBA 入門教學</a></strong>：這門課程專為初學者設計，能幫助您快速上手 VBA 的基本操作與數據處理。從 Excel VBA 入門的環境設定開始，透過實作範例練習，帶領學生寫出想要的程式碼，學習迴圈雨判斷式的多結構混合應用，來進行數據與資料的處理分析。</li>
+</ul>
+<h4 id="udemy-線上課程平台">Udemy 線上課程平台</h4>
+<p><strong>Udemy</strong> 提供了豐富的課程選擇，無論是技術技能（如 Excel、Python），還是軟技能（如時間管理、領導力），您都能在 Udemy 上找到適合的課程。該平台經常提供折扣，尤其在促銷期間，您可以以實惠的價格學到高品質的內容。</p>
+<ul>
+<li><strong><a href="https://tinyurl.com/28lmlvzr">Udemy 線上課程－VBA</a></strong>：這門課程從基礎開始，一直到進階的樞紐分析和數據可視化，適合希望快速提升 VBA 技能的人士。</li>
+</ul>
+<hr>
+<h2 id="延伸閱讀">延伸閱讀</h2>
+<p><em><strong>如果您想要更深入了解 Excel 的使用技巧，請點擊以下連結閱讀更多相關文章：<a href="https://codingdog666.github.io/categories/excel/">點我前往更多Excel文章</a></strong></em></p>
+<p><em><strong>如果您想要更深入其他VBA 的使用技巧，請點擊以下連結閱讀更多相關文章：<a href="https://codingdog666.github.io/categories/vba%E5%B7%A8%E9%9B%86/">點我前往更多VBA文章</a></strong></em></p>
+<p><em><strong>如果您想要更深入其他Python 的使用技巧，請點擊以下連結閱讀更多相關文章：<a href="https://codingdog666.github.io/categories/python/">點我前往更多Python文章</a></strong></em></p>
+<p><em><strong>如果您想要了解實用AI，請點擊以下連結閱讀更多相關文章：<a href="https://codingdog666.github.io/categories/ai/">點我前往更多實用AI文章</a></strong></em></p>
+
+        </div>
+        
+
+<section>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-12">
+        <h2 class="recent-post-title">Recent Posts</h2>
+      </div>
+    </div>
+    <div class="row">
+
+            
+      
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://lnty17.github.io/images/Cat/%E5%AF%B5%E7%89%A9%E6%84%9B%E8%B3%BC.jpg');"></div>
+          
+          <div class="media-body">
+            <div class="mb-3 post-meta">
+              <span>By 豪拜兒</span>
+              
+              <span class="border-bottom border-primary px-2 mx-1"></span>
+              <span>26 Oct 2024</span>
+              
+            </div>
+            <a href="https://lnty17.github.io/blog/cat-grass/" class="h5 d-block mb-3">貓咪必備！如何選購貓草及貓咪喜愛的種類推薦 - 豪拜兒</a>
+            <a href="https://lnty17.github.io/blog/cat-grass/" class="btn btn-outline-primary">read more</a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://lnty17.github.io/images/Cat/CatEar.png');"></div>
+          
+          <div class="media-body">
+            <div class="mb-3 post-meta">
+              <span>By 豪拜兒</span>
+              
+              <span class="border-bottom border-primary px-2 mx-1"></span>
+              <span>26 Oct 2024</span>
+              
+            </div>
+            <a href="https://lnty17.github.io/blog/cat-ear/" class="h5 d-block mb-3">貓咪語言解密！讀懂貓耳信號成為喵星語大師！ - 豪拜兒</a>
+            <a href="https://lnty17.github.io/blog/cat-ear/" class="btn btn-outline-primary">read more</a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://lnty17.github.io/images/Cat/CatPaws.png');"></div>
+          
+          <div class="media-body">
+            <div class="mb-3 post-meta">
+              <span>By 豪拜兒</span>
+              
+              <span class="border-bottom border-primary px-2 mx-1"></span>
+              <span>24 Oct 2024</span>
+              
+            </div>
+            <a href="https://lnty17.github.io/blog/cat-paws/" class="h5 d-block mb-3">為什麼貓咪如此保護牠們的爪子？揭開這些神聖工具的神秘面紗 - 豪拜兒</a>
+            <a href="https://lnty17.github.io/blog/cat-paws/" class="btn btn-outline-primary">read more</a>
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+        
+        
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://lnty17.github.io/"><img src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
+      </div>
+      
+      
+<script>
+  var indexURL = "https://lnty17.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://lnty17.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/mark.js"></script>
+
+<script src="https://lnty17.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://lnty17.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+
+
+<style>
+   
+  body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  </style>
+  
+  <script>
+  
+  document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  
+  document.addEventListener('copy', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  document.addEventListener('cut', function(e) {
+      e.preventDefault();
+  }, false);
+  
+  
+  document.onkeydown = function(e) {
+      if (e.ctrlKey && (e.key === 'u' || e.key === 'c' || e.key === 'x' || e.key === 's' || e.key === 'a')) {
+          e.preventDefault();
+          return false;
+      }
+  };
+  </script>
+
+</body>
+  
+ 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          
+          const links = document.querySelectorAll('a[href^="http"]');
+          
+          links.forEach(function(link) {
+            if (link.hostname !== window.location.hostname) {
+              link.setAttribute("target", "_blank");
+              link.setAttribute("rel", "noopener noreferrer");
+            }
+          });
+        });
+      </script>
+      
+</html>

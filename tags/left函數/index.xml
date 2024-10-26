@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LEFT函數 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/left%E5%87%BD%E6%95%B8/</link>
+    <description>Recent content in LEFT函數 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 16 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/left%E5%87%BD%E6%95%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-lrm/</link>
+      <pubDate>Wed, 16 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-lrm/</guid>
+      <description>Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用 在 Excel 中，有三個非常實用的函數可以幫助我們進行文字分割，它們分別是 LEFT、RIGHT 和 MID 函數。這些函數可以根據指定的位置和字符數將文本字符串分割成不同的部分，特別適合用於需要從文字中提取特定信息或格式化數據的任務。&#xA;為什麼使用文字分割函數？ LEFT、RIGHT 和 MID 函數能快速、準確地從文本中提取特定字符，尤其在數據處理和清理任務中非常高效。無論是從字串中抽取編號、日期或名字，這些函數都能自動化繁瑣的數據操作，減少手動處理的時間和錯誤機率。</description>
+    </item>
+  </channel>
+</rss>

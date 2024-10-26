@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcut on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/shortcut/</link>
+    <description>Recent content in Shortcut on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 23 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/shortcut/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel教學：製作2022年入職員工資訊表的高效方法 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-cellfomat/</link>
+      <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-cellfomat/</guid>
+      <description>Excel教學：製作2022年入職員工資訊表的高效方法 在日常工作中，我們經常需要處理大量員工數據，尤其是製作員工入職表時，逐字逐欄地手動輸入數據不僅耗時，還容易出錯。今天，我們將介紹如何利用 Excel 自訂格式功能 來快速完成這項任務，幫助您節省時間並提高準確性。這個技巧能讓您快速設定工號、部門、性別和入職時間等欄位，從而大幅提高工作效率。&#xA;為什麼使用自訂格式？ 自訂格式 是 Excel 提供的一個強大功能，它可以根據您的需求自動替換輸入的數字，無需手動調整每個單元格格式。這在處理批量數據時尤為實用，尤其是在製作如員工入職表等具有標準化輸入需求的文件時，能幫助您確保數據的一致性並減少出錯機會。</description>
+    </item>
+    <item>
+      <title>掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-f4/</link>
+      <pubDate>Mon, 07 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-f4/</guid>
+      <description>掌握Excel快捷鍵：用F4重複動作與執行絕對參照功能 今天，我們要分享 Excel 中非常方便且實用的快捷鍵 F4。這個快捷鍵具備兩大功能：“重複之前動作” 和 “切換公式中的相對參照與絕對參照”。這兩個功能不僅簡單易用，而且能極大地提升你的工作效率，讓你在處理 Excel 任務時事半功倍。&#xA;為什麼F4快捷鍵如此重要？ 在日常的 Excel 操作中，無論是進行數據輸入、格式設置，還是編輯公式，我們經常需要重複某些特定的動作。手動重複這些操作不僅耗時，而且容易出錯。此時，F4快捷鍵 的“重複之前動作”功能就能派上用場。只需按一下 F4 鍵，Excel 便會自動重複你上一次的操作，無需再次手動執行，節省了大量時間和精力。</description>
+    </item>
+    <item>
+      <title>Excel教學：使用Ctrl&#43;G快捷鍵高效移除空白列的方法 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-ctrlg/</link>
+      <pubDate>Thu, 03 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-ctrlg/</guid>
+      <description>Excel教學：使用Ctrl+G快捷鍵高效移除空白列的方法 在處理 Excel 資料時，我們經常會遇到需要移除空白列的情況。這些空白列可能是由於數據整理中的遺漏，或者是錯誤輸入導致的結果。當面對少量資料時，手動移除是可行的，但如果數據量龐大，一列一列選取刪除就變得非常耗時且效率低下。&#xA;今天，我們要介紹一個高效的方法，使用快捷鍵 Ctrl+G，幫助您迅速選取並移除所有的空白列。這個技巧不僅能夠節省時間，還能讓工作表保持整潔，提高數據處理的效率。&#xA;快速移除空白列的好處 在處理大量數據時，空白列會影響數據的整體性。利用 Ctrl+G 快捷鍵可以快速找到並移除所有空白列，避免手動操作中的繁瑣和錯誤。</description>
+    </item>
+    <item>
+      <title>Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-ctrlg-filled/</link>
+      <pubDate>Tue, 01 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-ctrlg-filled/</guid>
+      <description>Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧 在處理大量數據的過程中，許多人遇到過取消合併儲存格後，留下許多空白格的情況。手動一個個填滿這些空白格不僅費時費力，還容易出錯，特別是在數據量大的情況下更是令人頭痛。不過，不用擔心！今天我們將介紹一個高效的解決方法，讓您利用快捷鍵 Ctrl+G，一秒內輕鬆填滿所有空白格，從而大幅提升工作效率。&#xA;Excel 的這個技巧簡單易用，尤其適合需要處理多組數據的用戶。以下是具體操作步驟，無論您是處理小範圍的數據還是大批量的空白格，這個技巧都能幫助您快速完成工作。&#xA;為什麼使用 Ctrl+G 快速填充？ 使用 Ctrl+G 快捷鍵進行空白格填充的好處不僅是速度快，還能保證數據的一致性。當您解除合併儲存格時，通常會留下大量空白儲存格，而這些空格必須快速且準確地填滿，以保持數據表的整潔和準確性。</description>
+    </item>
+  </channel>
+</rss>

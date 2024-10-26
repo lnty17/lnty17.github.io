@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Date Function on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/date-function/</link>
+    <description>Recent content in Date Function on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 17 Sep 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/date-function/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>完整指南：Excel 日期函數使用技巧及範例解析 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-date/</link>
+      <pubDate>Tue, 17 Sep 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-date/</guid>
+      <description>完整指南：Excel 日期函數使用技巧及範例解析 在日常的 Excel 使用中，日期函數 是處理和分析日期相關數據不可或缺的工具。無論是生成日期、計算日期之間的差距，還是提取年、月、日等信息，這些函數都能幫助您更靈活地管理數據。本文將詳細介紹幾個常用的 Excel 日期函數，並通過範例幫助您掌握這些技巧。&#xA;為什麼使用日期函數？ Excel 的日期函數能夠幫助我們在處理和計算與時間有關的數據時，快速生成所需結果。這些函數特別適合以下場景：</description>
+    </item>
+  </channel>
+</rss>
