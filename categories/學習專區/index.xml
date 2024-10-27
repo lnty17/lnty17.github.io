@@ -9,11 +9,60 @@
     <lastBuildDate>Wed, 23 Oct 2024 18:07:47 +0800</lastBuildDate>
     <atom:link href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Excel加法運算教學：使用 SUM 函數及 Alt&#43; 快捷鍵 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-sum/</link>
+      <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-sum/</guid>
+      <description>Excel 加法運算教學：使用 SUM 函數及 Alt+ 快捷鍵 Excel 是一款廣泛應用於數據處理和分析的強大工具，而加法運算則是其中最基本且常用的數學運算之一。通過掌握 Excel 中的加法運算技巧，您可以更加高效地處理和分析數據，這對於日常工作中的各種任務至關重要。</description>
+    </item>
+    <item>
       <title>Excel教學：製作2022年入職員工資訊表的高效方法 - 豪拜兒</title>
       <link>https://lnty17.github.io/blog/excel-cellfomat/</link>
       <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
       <guid>https://lnty17.github.io/blog/excel-cellfomat/</guid>
       <description>Excel教學：製作2022年入職員工資訊表的高效方法 在日常工作中，我們經常需要處理大量員工數據，尤其是製作員工入職表時，逐字逐欄地手動輸入數據不僅耗時，還容易出錯。今天，我們將介紹如何利用 Excel 自訂格式功能 來快速完成這項任務，幫助您節省時間並提高準確性。這個技巧能讓您快速設定工號、部門、性別和入職時間等欄位，從而大幅提高工作效率。&#xA;為什麼使用自訂格式？ 自訂格式 是 Excel 提供的一個強大功能，它可以根據您的需求自動替換輸入的數字，無需手動調整每個單元格格式。這在處理批量數據時尤為實用，尤其是在製作如員工入職表等具有標準化輸入需求的文件時，能幫助您確保數據的一致性並減少出錯機會。</description>
+    </item>
+    <item>
+      <title>提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-sumif/</link>
+      <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-sumif/</guid>
+      <description>提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 在 Excel 中，除了常見的 SUM 函數 外，SUMIF 和 SUMIFS 是兩個進階且非常實用的函數，特別適合在依據條件進行數字求和時使用。這兩個函數能夠根據條件篩選並匯總數據，讓你在處理數據時更加高效。</description>
+    </item>
+    <item>
+      <title>為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-shortcuts/</link>
+      <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-shortcuts/</guid>
+      <description>為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵 在現代職場中，Excel 已經成為不可或缺的工具，無論是數據處理還是報表製作，Excel 都能幫助快速完成任務。而熟練掌握 Excel 快捷鍵 不僅可以提高工作效率，還能避免手動操作的錯誤。對於任何需要高效數據處理的專業人士來說，掌握這些技巧都是必不可少的。</description>
+    </item>
+    <item>
+      <title>Excel VLOOKUP 函數詳細教學：從基礎到進階應用 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-vlookup/</link>
+      <pubDate>Wed, 23 Oct 2024 09:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-vlookup/</guid>
+      <description>Excel VLOOKUP 函數詳細教學：從基礎到進階應用 VLOOKUP 函數 是 Excel 中用來進行垂直查找的強大工具，無論是處理大規模數據還是快速定位資料，VLOOKUP 都能提升數據處理效率。本文將從 VLOOKUP 函數的基礎用法 開始，逐步講解如何在各種情況下應用這個函數，並進一步介紹如何使用 數組公式 來擴展 VLOOKUP 的應用。</description>
+    </item>
+    <item>
+      <title>Excel教學：使用ROW()和COLUMN()自動更新行列的連續序號 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-row-column/</link>
+      <pubDate>Tue, 22 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-row-column/</guid>
+      <description>Excel教學：使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號 是不是曾經遇過好不容易編排好的序號，卻因為刪除了某行列而需要重新手動調整的麻煩呢？&#xA;在日常使用 Excel 中，經常需要增減行列，這時原本編排好的序號往往會不再連貫。舉例來說，當你刪除了 A 列中的某些行後，從 1 到 11 的序號可能會中斷，變得不再連續。這會影響數據的美觀性，甚至影響後續的數據處理。</description>
+    </item>
+    <item>
+      <title>Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-product/</link>
+      <pubDate>Mon, 21 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-product/</guid>
+      <description>Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 在上一篇文章中，我們介紹了加法 SUM 函數 的基本用法，幫助大家輕鬆處理數據的總和運算。而今天，我們將進一步介紹 Excel 中另一個非常常用且重要的運算：乘法。無論你是要處理財務報表中的總成本計算，還是進行統計分析中的數據乘積運算，Excel 的乘法技巧都能大大提升你的工作效率。&#xA;Excel 中的乘法應用非常廣泛，特別是在處理大量數據時尤為重要。掌握兩種方法——直接乘法 和 PRODUCT 函數，能幫助你在 Excel 中更高效地完成各種乘法運算，無論是簡單的乘積計算還是複雜的數據分析。</description>
+    </item>
+    <item>
+      <title>Excel中常用運算函數：MIN、MAX 和 AVERAGE 詳細教學 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-max/</link>
+      <pubDate>Sun, 20 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-max/</guid>
+      <description>Excel中常用運算函數：MIN、MAX 和 AVERAGE 詳細教學 在日常使用 Excel 進行數據分析時，MIN、MAX 和 AVERAGE 是三個非常實用且常用的函數。這些函數分別用來計算數據範圍中的 最小值、最大值 和 平均值，能夠幫助你快速分析和處理大量數據，並做出更準確的業務決策或報表。</description>
     </item>
     <item>
       <title>Excel中的文字分割技巧：LEFT、RIGHT和MID函數的使用 - 豪拜兒</title>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>數據查找 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/%E6%95%B8%E6%93%9A%E6%9F%A5%E6%89%BE/</link>
+    <description>Recent content in 數據查找 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 23 Oct 2024 09:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/%E6%95%B8%E6%93%9A%E6%9F%A5%E6%89%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel VLOOKUP 函數詳細教學：從基礎到進階應用 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-vlookup/</link>
+      <pubDate>Wed, 23 Oct 2024 09:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-vlookup/</guid>
+      <description>Excel VLOOKUP 函數詳細教學：從基礎到進階應用 VLOOKUP 函數 是 Excel 中用來進行垂直查找的強大工具，無論是處理大規模數據還是快速定位資料，VLOOKUP 都能提升數據處理效率。本文將從 VLOOKUP 函數的基礎用法 開始，逐步講解如何在各種情況下應用這個函數，並進一步介紹如何使用 數組公式 來擴展 VLOOKUP 的應用。</description>
+    </item>
+  </channel>
+</rss>

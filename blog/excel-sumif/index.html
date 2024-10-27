@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-tw"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>豪拜兒|提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 | </title>
-
+  <title>提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 - 豪拜兒</title>
+  
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在 Excel 中，除了基本的 SUM 函數外，還有兩個非常實用的「兄弟」函數：SUMIF 和 SUMIFS。這兩個函數的名稱已經很直觀地告訴我們它們的作用，讓我們來看看...">
+  <meta name="description" content="了解如何通過 Excel 中的 SUMIF 和 SUMIFS 函數，依據單一或多個條件進行數字求和，大幅提升工作效率。本文將逐步介紹這兩個實用函數的操作和應用範例。">
   <meta name="author" content="豪拜兒">
 
   
@@ -16,27 +16,27 @@
   <meta name="theme-name" content="liva-hugo" />
 
   
-  <link rel="canonical" href="http://localhost:1313/blog/excel-sumif/">
+  <link rel="canonical" href="https://lnty17.github.io/blog/excel-sumif/">
 
   <meta name="generator" content="Hugo 0.123.1">
 
   
   
-  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.css">
   
-  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css">
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/slick/slick.css">
   
-  <link rel="stylesheet" href="http://localhost:1313/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/themify-icons/themify-icons.css">
   
-  <link rel="stylesheet" href="http://localhost:1313/plugins/venobox/venobox.css">
+  <link rel="stylesheet" href="https://lnty17.github.io/plugins/venobox/venobox.css">
   
 
   
   
-  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+  <link rel="stylesheet" href="https://lnty17.github.io/scss/style.min.css" media="screen">
 
   
-  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="https://lnty17.github.io/images/favicon.ico" type="image/x-icon">
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J08ZKSMF3F"></script>
@@ -55,22 +55,22 @@
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "豪拜兒|提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧",
-      "image": "http:\/\/localhost:1313\/images/og-image.png",
+      "headline": "提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 - 豪拜兒",
+      "image": "https:\/\/lnty17.github.io\/images/og-image.png",
       "author": {
         "@type": "Person",
         "name": "豪拜兒"
       },
-      "datePublished": "2024-06-08 18:07:47 \u002b0800 CST",
+      "datePublished": "2024-10-23 18:07:47 \u002b0800 CST",
       "publisher": {
         "@type": "Organization",
         "name": "",
         "logo": {
           "@type": "ImageObject",
-          "url": "http:\/\/localhost:1313\/images/logo1.png"
+          "url": "https:\/\/lnty17.github.io\/images/logo1.png"
         }
       },
-      "description": "在 Excel 中，除了基本的 SUM 函數外，還有兩個非常實用的「兄弟」函數：SUMIF 和 SUMIFS。這兩個函數的名稱已經很直觀地告訴我們它們的作用，讓我們來看看..."
+      "description": "了解如何通過 Excel 中的 SUMIF 和 SUMIFS 函數，依據單一或多個條件進行數字求和，大幅提升工作效率。本文將逐步介紹這兩個實用函數的操作和應用範例。"
     }
     </script>
     
@@ -86,8 +86,8 @@
   <div class="container">
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="http://localhost:1313/"><img class="img-fluid"
-          src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+      <a class="navbar-brand mobile-view" href="https://lnty17.github.io/"><img class="img-fluid"
+          src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -99,26 +99,26 @@
           </ul>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="http://localhost:1313/"><img class="img-fluid"
-            src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+        <a class="navbar-brand mx-auto desktop-view" href="https://lnty17.github.io/"><img class="img-fluid"
+            src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
 
         <ul class="navbar-nav">
           
           
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:1313/">所有文章</a>
+            <a class="nav-link" href="https://lnty17.github.io/">所有文章</a>
           </li>
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:1313/categories/3c%E9%9B%BB%E5%99%A8/">3C&amp;電器</a>
+            <a class="nav-link" href="https://lnty17.github.io/categories/3c%E9%9B%BB%E5%99%A8/">3C電器</a>
           </li>
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:1313/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/">毛小孩專區</a>
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%9C%8B%E5%85%A7%E6%97%85%E9%81%8A/">國內旅遊</a>
           </li>
           
           
@@ -130,15 +130,13 @@
             </a>
             <div class="dropdown-menu">
               
-              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%B0%8F%E7%89%A9%E7%A6%AE%E7%89%A9/">紓壓小物</a>
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E7%94%9F%E6%B4%BB%E7%94%A8%E5%93%81/">生活用品</a>
               
-              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/ai%E7%9B%B8%E9%97%9C/">AI相關</a>
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
               
-              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">實用網站</a>
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
               
-              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E9%9F%B3%E6%A8%82%E5%88%86%E4%BA%AB/">音樂分享</a>
-              
-              <a class="dropdown-item" href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E6%97%A5%E5%B8%B8%E7%94%A8%E5%93%81/">生活用品</a>
+              <a class="dropdown-item" href="https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A/">期間限定</a>
               
             </div>
           </li>
@@ -146,13 +144,19 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:1313/categories/%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A/">期間限定</a>
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E9%80%81%E7%A6%AE%E8%87%AA%E7%94%A8/">送禮自用</a>
           </li>
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:1313/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%80%91/">毛小孩們</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/">學習專區</a>
           </li>
           
           
@@ -163,7 +167,7 @@
         <div class="search pl-lg-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
-            <form action="http://localhost:1313//search" class="h-100">
+            <form action="https://lnty17.github.io//search" class="h-100">
               <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
@@ -193,83 +197,119 @@
           <span>By 豪拜兒</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>08 June 2024</span>
+          <span>23 October 2024</span>
           
         </div>
         
         
         
         <div class="content mb-5">
-          <h1 id="豪拜兒提升excel效率掌握sumif與sumifs函數的使用技巧">豪拜兒|提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧</h1>
-<p><img src="../../images/excel/excel.png" alt="image"></p>
-<p>在 Excel 中，除了基本的 SUM 函數外，還有兩個非常實用的「兄弟」函數：SUMIF 和 SUMIFS。這兩個函數的名稱已經很直觀地告訴我們它們的作用，讓我們來看看它們如何幫助我們更精確地進行數字求和操作。</p>
-<p>首先是 SUMIF 函數，這個函數可以根據一個條件範圍來計算符合指定條件的數字總和。例如，當我們需要計算某一類別的數量時，就可以使用 SUMIF 函數來快速獲取結果。舉例來說，假設我們有一個包含水果類別和對應數量的表格，我們可以使用 SUMIF 函數來計算所有水果的總數量。</p>
-<p>接下來是 SUMIFS 函數，這個函數不僅可以應用單一條件，還可以同時應用多個條件來進行數字求和。這使得我們可以更靈活地進行數據分析，例如同時滿足類別是水果且名稱是鳳梨的數量求和。SUMIFS 函數的語法更為靈活，允許我們按需指定多個範圍和對應的條件，這樣可以更精確地定位並計算我們需要的數值。</p>
-<p>這些函數的應用不僅限於數據分析專業人士，對於日常工作中需要進行數字統計和報表製作的人來說同樣重要。通過掌握這些函數，您可以更加高效地處理數據，提升工作效率，並確保計算的準確性。無論是財務報表的總計算、庫存管理的統計還是銷售分析的數字匯總，這些函數都能為您帶來便利和價值。</p>
-<p>在接下來的範例中，我們將具體演示如何使用 SUMIF 函數來計算特定條件下的數量，並展示 SUMIFS 函數如何應用多個條件來精確計算數字。讓我們一起深入了解和學習這些實用的 Excel 函數，提升我們的數據處理能力吧！</p>
-<h3 id="使用-sumif-函數計算特定條件下的數量">使用 SUMIF 函數計算特定條件下的數量</h3>
-<p>假設我們有一個表格，包含了不同類別的產品和對應的數量，我們想計算所有屬於「水果」類別的產品數量。</p>
-<p><img src="../../images/excel/SUMIF1.png" alt="image"></p>
-<h5 id="步驟一輸入-sumif-函數在選擇的儲存格中輸入-sumif-函數例如">步驟一、輸入 SUMIF 函數：在選擇的儲存格中輸入 SUMIF 函數，例如：</h5>
-<p><code>=SUMIF(A2:A12, E5, C2:C12)</code></p>
+          <h1 id="提升excel效率掌握sumif與sumifs函數的使用技巧">提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧</h1>
+<img src="../../images/excel%e6%96%87%e7%ab%a0%e5%b0%81%e9%9d%a2/SUMIF%e5%92%8cSUMIFS.png" alt="SUMIF 與 SUMIFS 函數使用教學" loading="lazy">
+
+<p>在 Excel 中，除了常見的 <strong>SUM 函數</strong> 外，<strong>SUMIF</strong> 和 <strong>SUMIFS</strong> 是兩個進階且非常實用的函數，特別適合在依據條件進行數字求和時使用。這兩個函數能夠根據條件篩選並匯總數據，讓你在處理數據時更加高效。</p>
+<h2 id="sumif-函數依據單一條件進行數字求和">SUMIF 函數：依據單一條件進行數字求和</h2>
+<p><strong>SUMIF</strong> 函數適合當你需要依據單一條件對特定範圍內的數字進行求和。它可以幫助你快速計算滿足條件的數據總和，避免手動篩選和計算。</p>
+<h3 id="sumif-函數語法">SUMIF 函數語法</h3>
+<p><code>=SUMIF(範圍, 條件, [求和範圍])</code></p>
+<p><strong>範圍</strong>：要檢查的條件範圍。
+<strong>條件</strong>：用來判斷是否符合求和的標準。
+<strong>求和範圍</strong>：要進行數字求和的範圍（可選，如果未指定，則使用條件範圍）。</p>
+<h3 id="範例根據類別計算產品數量">範例：根據類別計算產品數量</h3>
+<p>假設我們有一個包含產品類別和對應數量的表格，我們可以使用 SUMIF 函數來計算「水果」類別的總數量。</p>
+<h5 id="步驟一輸入-sumif-函數"><em><strong>步驟一：輸入 SUMIF 函數</strong></em></h5>
+<p>在指定儲存格中輸入以下公式：</p>
+<p><code>=SUMIF(A2:A12, &quot;水果&quot;, C2:C12)</code></p>
 <ul>
-<li>A2:A12：條件範圍，這裡是產品類別的範圍。</li>
+<li><em><strong>A2</strong></em>：類別範圍。</li>
+<li><em><strong>水果</strong></em>：條件。</li>
+<li><em><strong>C2</strong></em>：數量範圍。</li>
 </ul>
-<p><img src="../../images/excel/SUMIF2.png" alt="image"></p>
+<img src="../../images/excel/SUMIF4.png" alt="SUMIF 函數範例" loading="lazy">
+
+<h5 id="步驟二按-enter-鍵"><em><strong>步驟二：按 Enter 鍵</strong></em></h5>
+<p>按下 Enter 鍵，Excel 會計算「水果」類別的總數量。</p>
+<img src="../../images/excel/SUMIF5.png" alt="SUMIF 函數範例" loading="lazy">
+
+<hr>
+<h2 id="sumifs-函數依據多條件進行數字求和">SUMIFS 函數：依據多條件進行數字求和</h2>
+<p>如果你需要同時滿足多個條件來進行數字求和，這時 SUMIFS 函數會派上用場。SUMIFS 可以依據多個範圍與條件組合進行數據篩選和求和。</p>
+<h3 id="sumifs-函數語法">SUMIFS 函數語法</h3>
+<p><code>=SUMIFS(求和範圍, 條件範圍1, 條件1, [條件範圍2, 條件2, ...])</code></p>
 <ul>
-<li>E5：指定的條件，這裡是要計算「水果」類別的數量。</li>
+<li><em><strong>求和範圍</strong></em>：要進行數字求和的範圍。</li>
+<li><em><strong>條件範圍1</strong></em>：要檢查的第一個條件範圍。</li>
+<li><em><strong>條件1</strong></em>：用來判斷是否符合第一個條件的標準。</li>
+<li><em><strong>條件範圍2</strong></em>、條件2：可選，適用於多條件。</li>
 </ul>
-<p><img src="../../images/excel/SUMIF3.png" alt="image"></p>
+<h3 id="範例根據多條件計算產品數量">範例：根據多條件計算產品數量</h3>
+<p>現在我們希望計算同時屬於「水果」類別且名稱是「鳳梨」的產品數量。可以使用 SUMIFS 函數來實現。</p>
+<h5 id="步驟一輸入-sumifs-函數"><em><strong>步驟一：輸入 SUMIFS 函數</strong></em></h5>
+<p>在儲存格中輸入以下公式：</p>
+<p><code>=SUMIFS(C2:C12, A2:A12, &quot;水果&quot;, B2:B12, &quot;鳳梨&quot;)</code></p>
 <ul>
-<li>C2:C12：數量範圍，這裡是相應的產品數量。</li>
+<li><em><strong>C2</strong></em>：數量範圍。</li>
+<li><em><strong>A2</strong></em>：第一個條件範圍（類別）。</li>
+<li><em><strong>水果</strong></em>：第一個條件。</li>
+<li><em><strong>B2</strong></em>：第二個條件範圍（產品名稱）。</li>
+<li><em><strong>鳳梨</strong></em>：第二個條件。</li>
 </ul>
-<p><img src="../../images/excel/SUMIF4.png" alt="image"></p>
-<h5 id="步驟二按-enter-鍵計算">步驟二、按 Enter 鍵計算</h5>
-<p>按 Enter 鍵完成函數輸入，Excel 將會計算符合條件的數量並顯示在所選儲存格中。</p>
-<p><img src="../../images/excel/SUMIF5.png" alt="image"></p>
-<h3 id="使用-sumifs-函數應用多個條件計算數量">使用 SUMIFS 函數應用多個條件計算數量</h3>
-<p>現在，我們想計算同時符合多個條件的產品數量，例如屬於「水果」類別且名稱是「鳳梨」的數量。</p>
-<h5 id="步驟一輸入-sumifs-函數在選擇的儲存格中輸入-sumifs-函數例如">步驟一、輸入 SUMIFS 函數：在選擇的儲存格中輸入 SUMIFS 函數，例如：</h5>
-<p><code>=SUMIFS(C2:C12, A2:A12, E5, B2:B12, F5)</code></p>
+<img src="../../images/excel/SUMIF10.png" alt="SUMIF 函數範例" loading="lazy">
+
+<h5 id="步驟二按-enter-鍵-1"><em><strong>步驟二：按 Enter 鍵</strong></em></h5>
+<p>按下 Enter 鍵，Excel 會計算同時符合「水果」且名稱為「鳳梨」的數量。</p>
+<img src="../../images/excel/SUMIF11.png" alt="SUMIFS 函數範例" loading="lazy">
+
+<hr>
+<h2 id="小結">小結</h2>
+<p>學會 SUMIF 和 SUMIFS 函數的應用，可以幫助你在 Excel 中更高效地進行條件篩選和數字求和操作。無論是在財務、數據分析還是日常報表中，這兩個函數都是強大的工具。</p>
+<hr>
+<h2 id="為什麼需要學習-excelai-工具無法完全取代-excel-的理由">為什麼需要學習 Excel？AI 工具無法完全取代 Excel 的理由</h2>
+<p>學習 Excel 是每位現代職場人士必備的技能之一。<strong>Excel</strong> 不僅可以提升數據處理、分析能力，還能讓我們在工作中大幅提高效率。透過掌握 Excel 公式、圖表、VBA 巨集等技巧，許多重複性工作都可以被自動化處理，這能大大減少人為錯誤，並加快工作進度。</p>
+<p><strong>Excel</strong> 尤其在以下領域中發揮著關鍵作用：</p>
+<ol>
+<li><strong>財務與會計</strong>：Excel 的數據處理功能讓它成為財務人員的得力助手，無論是生成財務報表、進行預算編制，還是管理應收應付款。</li>
+<li><strong>數據分析與商業決策</strong>：Excel 可用來進行高效的數據分析，通過樞紐分析和圖表快速提取數據背後的洞見，幫助管理層作出明智的商業決策。</li>
+<li><strong>專案管理與行政工作</strong>：Excel 的自訂格式和範本功能可以用來管理專案進度，進行工作安排，讓行政工作者更輕鬆地跟進日常任務。</li>
+</ol>
+<h4 id="ai-工具的崛起與局限性">AI 工具的崛起與局限性</h4>
+<p>隨著 <strong>AI 工具</strong>（如 ChatGPT）的崛起，您可能會想：還需要學習 Excel 嗎？事實上，<strong>AI 工具</strong>確實能夠幫助生成並解釋 Excel 中的公式，這對解決一些簡單的數據處理問題非常有幫助。例如：</p>
 <ul>
-<li>C2:C12：數量範圍，這裡是產品數量的範圍。</li>
+<li><strong>免費版的 ChatGPT 3.5</strong> 可以生成基本公式，如 <code>SUM</code>、<code>VLOOKUP</code>、<code>IF</code>，並解釋它們的用途。</li>
+<li><strong>付費版的 ChatGPT 4.0</strong> 能進一步協助處理更複雜的數據分析任務，如多步驟公式、數據模型和自動化流程。</li>
 </ul>
-<p><img src="../../images/excel/SUMIF6.png" alt="image"></p>
+<p>然而，對於不熟悉 Excel 的人來說，單靠 AI 工具往往很難有效驗證結果，也難以靈活應對各種數據處理場景。因此，<strong>學習 Excel 的基礎知識仍然是必要的</strong>，這能幫助您更好地理解 AI 工具的輸出，並高效地與 AI 協同工作。</p>
+<hr>
+<h3 id="書本自學從入門到進階的學習資源">書本自學：從入門到進階的學習資源</h3>
+<p>如果你偏愛通過閱讀學習，以下這幾本書都是提升工作效率的好選擇，適合從入門到進階的 Excel 使用者。</p>
+<h4 id="1-excel-自學聖經-第二版">1. 《Excel 自學聖經 (第二版)》</h4>
+<p><strong><a href="https://tinyurl.com/2ac9m68h">點我前往金石堂 《Excel 自學聖經 (第二版)》</a></strong></p>
+<p><strong><a href="https://s.shopee.tw/5ppaiZQT93">點我前往蝦皮 《Excel 自學聖經 (第二版)》</a></strong></p>
+<p>這本書被廣泛推薦為入門級的 Excel 學習資源，涵蓋從基本操作到高階應用。書中配有大量範例與圖表，能幫助讀者更好地掌握 Excel 中的公式、函數、資料整理等技巧。特別適合想要全面掌握 Excel 基礎的讀者。</p>
+<h4 id="2-excel-最強商業實戰書濃縮於一冊">2. 《Excel 最強商業實戰書：濃縮於一冊！》</h4>
+<p><strong><a href="https://tinyurl.com/25urgx24">點我前往金石堂 《Excel 最強商業實戰書：濃縮於一冊！》</a></strong></p>
+<p><strong><a href="https://s.shopee.tw/2fsYwlh099">點我前往蝦皮 《Excel 最強商業實戰書：濃縮於一冊！》</a></strong></p>
+<p>這本書專注於商業應用場景，適合希望將 Excel 應用於財務、商業決策、數據分析等領域的使用者。書中的實例非常接地氣，能幫助您快速應用到實際工作中，是提升職場競爭力的利器。</p>
+<hr>
+<h3 id="線上課程彈性學習提升效率">線上課程：彈性學習，提升效率</h3>
+<p>線上課程提供了靈活的學習方式，不僅可以讓您在任何時間、任何地點進行學習，還能隨時更新學習內容，確保您掌握的技能與最新趨勢接軌。這對於工作繁忙的專業人士來說尤為方便，此外線上課程的價格通常比實體課程更具競爭力。</p>
+<h4 id="hahow-線上課程平台">Hahow 線上課程平台</h4>
+<p><strong>Hahow</strong> 是一個受歡迎的學習平台，涵蓋多種專業課程，適合不同層級的學習者。平台上的課程內容實用，並且由專業講師授課，讓學員可以在短時間內掌握實用技能。</p>
 <ul>
-<li>A2:A12：第一個範圍，這裡是產品類別的範圍。</li>
+<li><strong><a href="https://tinyurl.com/29po3mcp">Excel 新手入門必修課</a></strong>：這門課程專為初學者設計，能幫助您快速上手 Excel 的基本操作與數據處理。</li>
+<li><strong><a href="https://tinyurl.com/26h5htqk">職場必備的 Excel 進階技法</a></strong>：針對有一定基礎的使用者，進一步學習進階函數、樞紐分析、圖表設計等技法。</li>
 </ul>
-<p><img src="../../images/excel/SUMIF7.png" alt="image"></p>
+<h4 id="udemy-線上課程平台">Udemy 線上課程平台</h4>
+<p><strong>Udemy</strong> 提供了豐富的課程選擇，無論是技術技能（如 Excel、Python），還是軟技能（如時間管理、領導力），您都能在 Udemy 上找到適合的課程。該平台經常提供折扣，尤其在促銷期間，您可以以實惠的價格學到高品質的內容。</p>
 <ul>
-<li>E5：第一個條件，指定產品類別為「水果」。</li>
+<li><strong><a href="https://tinyurl.com/29kkrgm2">Udemy 線上課程－Excel</a></strong>：這門課程從基礎開始，一直到進階的樞紐分析和數據可視化，適合希望快速提升 Excel 技能的人士。</li>
 </ul>
-<p><img src="../../images/excel/SUMIF8.png" alt="image"></p>
-<ul>
-<li>B2:B12：第二個範圍，這裡是產品名稱的範圍。</li>
-</ul>
-<p><img src="../../images/excel/SUMIF9.png" alt="image"></p>
-<ul>
-<li>F5：第二個條件，指定產品名稱為「鳳梨」。</li>
-</ul>
-<p><img src="../../images/excel/SUMIF10.png" alt="image"></p>
-<h5 id="步驟二按-enter-鍵計算-1">步驟二、按 Enter 鍵計算</h5>
-<p>按 Enter 鍵完成函數輸入，Excel 將會計算同時滿足所有條件的數量並顯示在所選儲存格中。</p>
-<p><img src="../../images/excel/SUMIF11.png" alt="image"></p>
-<h3 id="小結">小結</h3>
-<p>這些操作步驟將幫助您有效地使用 SUMIF 和 SUMIFS 函數來進行數字求和，無論是在日常工作中還是數據分析任務中。</p>
-<h3 id="為什麼需要學習-excel難道不可以依賴-ai-工具嗎">為什麼需要學習 Excel？難道不可以依賴 AI 工具嗎？</h3>
-<p>過去，學習 Excel 不僅能提升數據處理和分析能力，還能顯著提高工作效率。掌握各種 Excel 公式和 VBA 技巧，可以有效提升工作效率，通過自動化功能減少重複性工作。此外，熟練掌握 Excel 也能增加就業競爭力，因為許多職位，尤其是在財務、數據分析和行政等領域，都將其視為基本要求。</p>
-<p>隨著 AI 技術的問世，與 AI 工具合作的情況下，我們可能不再需要從零開始編寫公式或 VBA 程式。例如，免費版的 ChatGPT-3.5 能生成和解釋 Excel 中的常見公式，如 SUM、VLOOKUP、IF 等，並幫助解決基本的數據處理問題。付費版的 ChatGPT-4.0 在公式生成和解釋方面同樣出色，能更好地處理複雜的公式和多步驟的數據分析任務，並提供更精確的幫助，還能協助生成各類型的圖表。</p>
-<p>然而，對於 Excel 完全不熟悉的人，仍然難以與 AI 有效溝通並驗證結果。因此，小編認為，為了更好地與 AI 協作，對 Excel 的基本了解仍然是必要的。建議可以參考以下Hahow學習資源：</p>
-<blockquote>
-<ul>
-<li><strong>Excel 新手入門必修課：<a href="https://tinyurl.com/29po3mcp">點我前往課程介紹</a></strong></li>
-<li><strong>職場必備的 Excel 關鍵技法－進階：<a href="https://tinyurl.com/26h5htqk">點我前往課程介紹</a></strong></li>
-</ul>
-</blockquote>
-<h3 id="為什麼選擇-hahow-線上課程平台">為什麼選擇 Hahow 線上課程平台？</h3>
-<p>Hahow 是一個受歡迎的線上課程平台，提供各種專業課程。選擇 Hahow，可以享受靈活的學習方式，隨時隨地都可以學習，非常適合忙碌的工作人士。平台上的課程由專業講師授課，內容豐富且實用。還可以與其他學員交流學習心得，共同進步。相比坊間動輒上萬元的課程，Hahow 的線上課程不僅省去交通的舟車勞頓，更有價格實惠的絕對優勢。</p>
-<h3 id="更多文章">更多文章</h3>
-<p><em><strong>想要更深入了解Excel的習性和如何照顧牠們嗎？請點擊以下連結閱讀更多相關文章。<a href="https://lnty17.github.io/tags/excel/">點我前往更多文章</a></strong></em></p>
+<hr>
+<h2 id="延伸閱讀">延伸閱讀</h2>
+<p><em><strong>如果您想要更深入了解 Excel 的使用技巧，請點擊以下連結閱讀更多相關文章：<a href="https://lnty17.github.io/tags/excel/">點我前往更多Excel文章</a></strong></em></p>
+<p><em><strong>如果您想要更深入其他VBA 的使用技巧，請點擊以下連結閱讀更多相關文章：<a href="https://lnty17.github.io/tags/vba/">點我前往更多VBA文章</a></strong></em></p>
+<p><em><strong>如果您想要更深入其他Python 的使用技巧，請點擊以下連結閱讀更多相關文章：<a href="https://lnty17.github.io/tags/python/">點我前往更多Python文章</a></strong></em></p>
+<p><em><strong>想要了解更多實用網站嗎？請點擊以下連結閱讀更多相關文章。<a href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E5%A4%A7%E5%B0%8F%E4%BA%8B/%E5%AF%A6%E7%94%A8%E7%B6%B2%E7%AB%99/">點我前往更多文章</a></strong></em></p>
 
         </div>
         
@@ -289,18 +329,18 @@
       <div class="col-lg-4 small-post-border">
         <article class="media">
           
-          <div class="recent-post-thumb mr-3" style="background-image: url('http://localhost:1313/images/lifestyle/iHerb.png');"></div>
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://lnty17.github.io/images/Cat/Cat-Seafood.png');"></div>
           
           <div class="media-body">
             <div class="mb-3 post-meta">
               <span>By 豪拜兒</span>
               
               <span class="border-bottom border-primary px-2 mx-1"></span>
-              <span>01 Sep 2024</span>
+              <span>27 Oct 2024</span>
               
             </div>
-            <a href="http://localhost:1313/blog/iherb/" class="h5 d-block mb-3">iHerb 購物指南、實際使用心得與注意事項 - 豪拜兒</a>
-            <a href="http://localhost:1313/blog/iherb/" class="btn btn-outline-primary">read more</a>
+            <a href="https://lnty17.github.io/blog/cat-seafood/" class="h5 d-block mb-3">貓咪可以吃海鮮嗎？破解貓咪吃海鮮的迷思 - 豪拜兒</a>
+            <a href="https://lnty17.github.io/blog/cat-seafood/" class="btn btn-outline-primary">read more</a>
           </div>
         </article>
       </div>
@@ -308,18 +348,18 @@
       <div class="col-lg-4 small-post-border">
         <article class="media">
           
-          <div class="recent-post-thumb mr-3" style="background-image: url('http://localhost:1313/images/lifestyle/%E7%B0%A1%E7%B4%84%E9%80%8F%E6%98%8E%E6%96%B9%E5%BD%A2%E5%9E%83%E5%9C%BE%E6%A1%B6.jpg');"></div>
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://lnty17.github.io/images/calitter/%E5%AF%B5%E7%89%A9%E6%84%9B%E8%B3%BC.jpg');"></div>
           
           <div class="media-body">
             <div class="mb-3 post-meta">
               <span>By 豪拜兒</span>
               
               <span class="border-bottom border-primary px-2 mx-1"></span>
-              <span>19 Aug 2024</span>
+              <span>26 Oct 2024</span>
               
             </div>
-            <a href="http://localhost:1313/blog/bin/" class="h5 d-block mb-3">簡約、平價且實用的居家垃圾桶推薦｜美觀與功能兼具 - 豪拜兒</a>
-            <a href="http://localhost:1313/blog/bin/" class="btn btn-outline-primary">read more</a>
+            <a href="https://lnty17.github.io/blog/cat-grass/" class="h5 d-block mb-3">貓咪必備！如何選購貓草及貓咪喜愛的種類推薦 - 豪拜兒</a>
+            <a href="https://lnty17.github.io/blog/cat-grass/" class="btn btn-outline-primary">read more</a>
           </div>
         </article>
       </div>
@@ -327,18 +367,18 @@
       <div class="col-lg-4 small-post-border">
         <article class="media">
           
-          <div class="recent-post-thumb mr-3" style="background-image: url('http://localhost:1313/images/lifestyle/%E9%98%B2%E8%87%AD%E5%9C%B0%E6%BC%8F.jpg');"></div>
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://lnty17.github.io/images/calitter/CatEar.png');"></div>
           
           <div class="media-body">
             <div class="mb-3 post-meta">
               <span>By 豪拜兒</span>
               
               <span class="border-bottom border-primary px-2 mx-1"></span>
-              <span>18 Aug 2024</span>
+              <span>26 Oct 2024</span>
               
             </div>
-            <a href="http://localhost:1313/blog/resolve/" class="h5 d-block mb-3">浴室排水孔發臭問題及解決方法：親身測試的有效對策 - 豪拜兒</a>
-            <a href="http://localhost:1313/blog/resolve/" class="btn btn-outline-primary">read more</a>
+            <a href="https://lnty17.github.io/blog/cat-ear/" class="h5 d-block mb-3">貓咪語言解密！讀懂貓耳信號成為喵星語大師！ - 豪拜兒</a>
+            <a href="https://lnty17.github.io/blog/cat-ear/" class="btn btn-outline-primary">read more</a>
           </div>
         </article>
       </div>
@@ -362,33 +402,33 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-5">
-        <a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo1.png" alt="豪拜兒"></a>
+        <a href="https://lnty17.github.io/"><img src="https://lnty17.github.io/images/logo1.png" alt="豪拜兒"></a>
       </div>
       
       
 <script>
-  var indexURL = "http://localhost:1313/index.json"
+  var indexURL = "https://lnty17.github.io/index.json"
 </script>
 
 <!-- JS Plugins -->
 
-<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+<script src="https://lnty17.github.io/plugins/jQuery/jquery.min.js"></script>
 
-<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="https://lnty17.github.io/plugins/bootstrap/bootstrap.min.js"></script>
 
-<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+<script src="https://lnty17.github.io/plugins/slick/slick.min.js"></script>
 
-<script src="http://localhost:1313/plugins/venobox/venobox.min.js"></script>
+<script src="https://lnty17.github.io/plugins/venobox/venobox.min.js"></script>
 
-<script src="http://localhost:1313/plugins/search/fuse.min.js"></script>
+<script src="https://lnty17.github.io/plugins/search/fuse.min.js"></script>
 
-<script src="http://localhost:1313/plugins/search/mark.js"></script>
+<script src="https://lnty17.github.io/plugins/search/mark.js"></script>
 
-<script src="http://localhost:1313/plugins/search/search.js"></script>
+<script src="https://lnty17.github.io/plugins/search/search.js"></script>
 
 <!-- Main Script -->
 
-<script src="http://localhost:1313/js/script.min.js"></script>
+<script src="https://lnty17.github.io/js/script.min.js"></script>
 
 
 
@@ -470,4 +510,20 @@
   </script>
 
 </body>
+  
+ 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          
+          const links = document.querySelectorAll('a[href^="http"]');
+          
+          links.forEach(function(link) {
+            if (link.hostname !== window.location.hostname) {
+              link.setAttribute("target", "_blank");
+              link.setAttribute("rel", "noopener noreferrer");
+            }
+          });
+        });
+      </script>
+      
 </html>

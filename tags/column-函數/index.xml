@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COLUMN 函數 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/column-%E5%87%BD%E6%95%B8/</link>
+    <description>Recent content in COLUMN 函數 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 22 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/column-%E5%87%BD%E6%95%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel教學：使用ROW()和COLUMN()自動更新行列的連續序號 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-row-column/</link>
+      <pubDate>Tue, 22 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-row-column/</guid>
+      <description>Excel教學：使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號 是不是曾經遇過好不容易編排好的序號，卻因為刪除了某行列而需要重新手動調整的麻煩呢？&#xA;在日常使用 Excel 中，經常需要增減行列，這時原本編排好的序號往往會不再連貫。舉例來說，當你刪除了 A 列中的某些行後，從 1 到 11 的序號可能會中斷，變得不再連續。這會影響數據的美觀性，甚至影響後續的數據處理。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SUMIF 函數 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/sumif-%E5%87%BD%E6%95%B8/</link>
+    <description>Recent content in SUMIF 函數 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 23 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/sumif-%E5%87%BD%E6%95%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-sumif/</link>
+      <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-sumif/</guid>
+      <description>提升Excel效率：掌握SUMIF與SUMIFS函數的使用技巧 在 Excel 中，除了常見的 SUM 函數 外，SUMIF 和 SUMIFS 是兩個進階且非常實用的函數，特別適合在依據條件進行數字求和時使用。這兩個函數能夠根據條件篩選並匯總數據，讓你在處理數據時更加高效。</description>
+    </item>
+  </channel>
+</rss>

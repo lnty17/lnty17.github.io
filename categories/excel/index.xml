@@ -6,14 +6,14 @@
     <description>Recent content in Excel on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 19 Sep 2024 18:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 18:07:47 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/excel/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧 - 豪拜兒</title>
-      <link>http://localhost:1313/blog/excel-ctrlg-filled/</link>
-      <pubDate>Thu, 19 Sep 2024 18:07:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/excel-ctrlg-filled/</guid>
-      <description>Excel 教學：一秒填滿取消合併儲存格後的空白格 - 快速解決空白格問題的技巧 在處理大量數據的過程中，許多人遇到過取消合併儲存格後，留下許多空白格的情況。手動一個個填滿這些空白格不僅費時費力，還容易出錯，特別是在數據量大的情況下更是令人頭痛。不過，不用擔心！今天我們將介紹一個高效的解決方法，讓您利用快捷鍵 Ctrl+G，一秒內輕鬆填滿所有空白格，從而大幅提升工作效率。&#xA;Excel 的這個技巧簡單易用，尤其適合需要處理多組數據的用戶。以下是具體操作步驟，無論您是處理小範圍的數據還是大批量的空白格，這個技巧都能幫助您快速完成工作。&#xA;為什麼使用 Ctrl+G 快速填充？ 使用 Ctrl+G 快捷鍵進行空白格填充的好處不僅是速度快，還能保證數據的一致性。當您解除合併儲存格時，通常會留下大量空白儲存格，而這些空格必須快速且準確地填滿，以保持數據表的整潔和準確性。</description>
+      <title>Excel中常用運算函數：MIN、MAX 和 AVERAGE 詳細教學 - 豪拜兒</title>
+      <link>http://localhost:1313/blog/excel-max/</link>
+      <pubDate>Sun, 20 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>http://localhost:1313/blog/excel-max/</guid>
+      <description>Excel中常用運算函數：MIN、MAX 和 AVERAGE 詳細教學 在日常使用 Excel 進行數據分析時，MIN、MAX 和 AVERAGE 是三個非常實用且常用的函數。這些函數分別用來計算數據範圍中的 最小值、最大值 和 平均值，能夠幫助你快速分析和處理大量數據，並做出更準確的業務決策或報表。</description>
     </item>
   </channel>
 </rss>

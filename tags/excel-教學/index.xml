@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel 教學 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/excel-%E6%95%99%E5%AD%B8/</link>
+    <description>Recent content in Excel 教學 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 23 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/excel-%E6%95%99%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-shortcuts/</link>
+      <pubDate>Wed, 23 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-shortcuts/</guid>
+      <description>為什麼要學習 Excel？快速提升工作效率的必備技能的 Excel 快捷鍵 在現代職場中，Excel 已經成為不可或缺的工具，無論是數據處理還是報表製作，Excel 都能幫助快速完成任務。而熟練掌握 Excel 快捷鍵 不僅可以提高工作效率，還能避免手動操作的錯誤。對於任何需要高效數據處理的專業人士來說，掌握這些技巧都是必不可少的。</description>
+    </item>
+    <item>
+      <title>Excel教學：使用ROW()和COLUMN()自動更新行列的連續序號 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-row-column/</link>
+      <pubDate>Tue, 22 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-row-column/</guid>
+      <description>Excel教學：使用ROW()和COLUMN()函數自動更新刪除行列後的連續序號 是不是曾經遇過好不容易編排好的序號，卻因為刪除了某行列而需要重新手動調整的麻煩呢？&#xA;在日常使用 Excel 中，經常需要增減行列，這時原本編排好的序號往往會不再連貫。舉例來說，當你刪除了 A 列中的某些行後，從 1 到 11 的序號可能會中斷，變得不再連續。這會影響數據的美觀性，甚至影響後續的數據處理。</description>
+    </item>
+    <item>
+      <title>Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-product/</link>
+      <pubDate>Mon, 21 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-product/</guid>
+      <description>Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 在上一篇文章中，我們介紹了加法 SUM 函數 的基本用法，幫助大家輕鬆處理數據的總和運算。而今天，我們將進一步介紹 Excel 中另一個非常常用且重要的運算：乘法。無論你是要處理財務報表中的總成本計算，還是進行統計分析中的數據乘積運算，Excel 的乘法技巧都能大大提升你的工作效率。&#xA;Excel 中的乘法應用非常廣泛，特別是在處理大量數據時尤為重要。掌握兩種方法——直接乘法 和 PRODUCT 函數，能幫助你在 Excel 中更高效地完成各種乘法運算，無論是簡單的乘積計算還是複雜的數據分析。</description>
+    </item>
+  </channel>
+</rss>

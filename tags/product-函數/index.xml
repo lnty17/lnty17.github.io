@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PRODUCT 函數 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/product-%E5%87%BD%E6%95%B8/</link>
+    <description>Recent content in PRODUCT 函數 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 21 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/product-%E5%87%BD%E6%95%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-product/</link>
+      <pubDate>Mon, 21 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-product/</guid>
+      <description>Excel乘法運算教學：直接乘法與PRODUCT函數的使用技巧 在上一篇文章中，我們介紹了加法 SUM 函數 的基本用法，幫助大家輕鬆處理數據的總和運算。而今天，我們將進一步介紹 Excel 中另一個非常常用且重要的運算：乘法。無論你是要處理財務報表中的總成本計算，還是進行統計分析中的數據乘積運算，Excel 的乘法技巧都能大大提升你的工作效率。&#xA;Excel 中的乘法應用非常廣泛，特別是在處理大量數據時尤為重要。掌握兩種方法——直接乘法 和 PRODUCT 函數，能幫助你在 Excel 中更高效地完成各種乘法運算，無論是簡單的乘積計算還是複雜的數據分析。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AVERAGE函數 on 豪拜兒</title>
+    <link>https://lnty17.github.io/tags/average%E5%87%BD%E6%95%B8/</link>
+    <description>Recent content in AVERAGE函數 on 豪拜兒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 20 Oct 2024 18:07:47 +0800</lastBuildDate>
+    <atom:link href="https://lnty17.github.io/tags/average%E5%87%BD%E6%95%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel中常用運算函數：MIN、MAX 和 AVERAGE 詳細教學 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/excel-max/</link>
+      <pubDate>Sun, 20 Oct 2024 18:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/excel-max/</guid>
+      <description>Excel中常用運算函數：MIN、MAX 和 AVERAGE 詳細教學 在日常使用 Excel 進行數據分析時，MIN、MAX 和 AVERAGE 是三個非常實用且常用的函數。這些函數分別用來計算數據範圍中的 最小值、最大值 和 平均值，能夠幫助你快速分析和處理大量數據，並做出更準確的業務決策或報表。</description>
+    </item>
+  </channel>
+</rss>
