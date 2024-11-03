@@ -72,16 +72,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/vs-code/</loc>
-    <lastmod>2024-10-31T05:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2024-10-31T05:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/categories/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/</loc>
     <lastmod>2024-10-31T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -137,37 +127,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/excel-%E6%95%99%E5%AD%B8/</loc>
-    <lastmod>2024-10-23T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/excel-sum/</loc>
     <lastmod>2024-10-23T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://lnty17.github.io/blog/excel-cellfomat/</loc>
-    <lastmod>2024-10-23T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/shortcut/</loc>
-    <lastmod>2024-10-23T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/sum-%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-23T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/sumif-%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-23T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/sumifs-%E5%87%BD%E6%95%B8/</loc>
     <lastmod>2024-10-23T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -212,11 +177,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/vlookup/</loc>
-    <lastmod>2024-10-23T09:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/tags/%E5%87%BD%E6%95%B8%E6%95%99%E5%AD%B8/</loc>
     <lastmod>2024-10-23T09:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -227,17 +187,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/column-%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-22T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/excel-row-column/</loc>
-    <lastmod>2024-10-22T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/row-%E5%87%BD%E6%95%B8/</loc>
     <lastmod>2024-10-22T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -252,32 +202,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/product-%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-21T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/tags/%E4%B9%98%E6%B3%95/</loc>
     <lastmod>2024-10-21T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/average%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-20T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/excel-max/</loc>
-    <lastmod>2024-10-20T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/max%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-20T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/min%E5%87%BD%E6%95%B8/</loc>
     <lastmod>2024-10-20T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -313,21 +243,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://lnty17.github.io/blog/excel-lrm/</loc>
-    <lastmod>2024-10-16T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/left%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-16T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/mid%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-16T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/right%E5%87%BD%E6%95%B8/</loc>
     <lastmod>2024-10-16T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -377,11 +292,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/if%E5%87%BD%E6%95%B8/</loc>
-    <lastmod>2024-10-13T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/tags/%E6%A2%9D%E4%BB%B6%E5%88%A4%E6%96%B7/</loc>
     <lastmod>2024-10-13T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -417,26 +327,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/%E5%85%AC%E5%BC%8F%E5%A1%AB%E5%85%85/</loc>
-    <lastmod>2024-10-10T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/%E8%87%AA%E5%8B%95%E5%A1%AB%E5%85%85/</loc>
-    <lastmod>2024-10-10T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/f4/</loc>
-    <lastmod>2024-10-07T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/%E5%8F%83%E7%85%A7/</loc>
-    <lastmod>2024-10-07T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/excel-f4/</loc>
     <lastmod>2024-10-07T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -447,23 +337,18 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</loc>
-    <lastmod>2024-10-06T05:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/dget/</loc>
-    <lastmod>2024-10-05T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/excel-dget/</loc>
     <lastmod>2024-10-05T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/format/</loc>
-    <lastmod>2024-10-05T18:07:47+08:00</lastmod>
+    <loc>https://lnty17.github.io/tags/vs-code/</loc>
+    <lastmod>2024-10-04T05:07:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lnty17.github.io/tags/%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2024-10-04T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -473,11 +358,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://lnty17.github.io/blog/excel-ctrlg/</loc>
-    <lastmod>2024-10-03T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/%E5%AD%B8%E7%BF%92%E5%B0%88%E5%8D%80/</loc>
     <lastmod>2024-10-03T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -493,6 +373,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://lnty17.github.io/blog/vba-automation/</loc>
+    <lastmod>2024-10-01T05:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lnty17.github.io/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</loc>
     <lastmod>2024-10-01T05:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -529,11 +414,6 @@
   </url><url>
     <loc>https://lnty17.github.io/blog/useful-drain/</loc>
     <lastmod>2024-09-21T09:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/date-function/</loc>
-    <lastmod>2024-09-17T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -587,7 +467,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/categories/3c%E5%AE%B6%E9%9B%BB/</loc>
+    <loc>https://lnty17.github.io/categories/3c%E9%9B%BB%E5%99%A8/</loc>
     <lastmod>2024-08-14T18:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -614,16 +494,6 @@
   </url><url>
     <loc>https://lnty17.github.io/blog/useful-ergostand/</loc>
     <lastmod>2024-08-13T04:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/tags/3c%E9%9B%BB%E5%99%A8/</loc>
-    <lastmod>2024-08-11T12:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/categories/3c%E9%9B%BB%E5%99%A8/</loc>
-    <lastmod>2024-08-11T12:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -797,17 +667,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://lnty17.github.io/tags/%E6%89%B9%E9%87%8F%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%A4%BE/</loc>
-    <lastmod>2024-06-01T18:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://lnty17.github.io/blog/useful-swimpool/</loc>
-    <lastmod>2024-04-08T05:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/categories/%E6%AF%9B%E5%B0%8F%E5%AD%A9%E5%B0%88%E5%8D%80/</loc>
     <lastmod>2024-04-08T05:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1003,11 +863,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://lnty17.github.io/blog/3c-feeder/</loc>
-    <lastmod>2024-03-12T22:07:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://lnty17.github.io/categories/%E7%94%9F%E6%B4%BB%E7%94%A8%E5%93%81/</loc>
     <lastmod>2024-03-12T22:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
