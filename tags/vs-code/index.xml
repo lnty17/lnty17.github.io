@@ -6,8 +6,22 @@
     <description>Recent content in VS Code on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 04 Oct 2024 05:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 05:07:47 +0800</lastBuildDate>
     <atom:link href="https://lnty17.github.io/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 的運算符與表達式：數學運算、邏輯判斷與條件計算解析 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/python-operator/</link>
+      <pubDate>Thu, 31 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/python-operator/</guid>
+      <description>Python 的運算符與表達式：數學運算、邏輯判斷與條件計算解析 在程式設計中，運算符和表達式是不可或缺的部分，它們允許我們在程式中進行各種計算和邏輯判斷。Python 提供了多種類型的運算符來處理數字、邏輯判斷等。本篇文章將介紹 Python 中常用的運算符及其應用。&#xA;數學運算符 數學運算符用於進行基本的數學運算，如加法、減法、乘法、除法等。Python 支援以下數學運算符：&#xA;加法（+）：將兩個數字相加。</description>
+    </item>
+    <item>
+      <title>Python 的變數與資料型態完整指南：從定義變數到理解整數、浮點數、字串與布林值的全方位解析 - 豪拜兒</title>
+      <link>https://lnty17.github.io/blog/python-variable/</link>
+      <pubDate>Wed, 30 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/blog/python-variable/</guid>
+      <description>Python 的變數與資料型態完整指南：從定義變數到理解整數、浮點數、字串與布林值的全方位解析 在程式設計中，變數是用來儲存數據的容器，通過變數，我們可以將資料儲存在記憶體中，並在程式的不同部分進行存取與操作。這篇文章將介紹什麼是變數、Python 中的基本資料型態，以及如何正確命名變數。&#xA;什麼是變數，如何定義變數 變數可以理解為一個用來儲存數據的名稱。在 Python 中，定義變數不需要像其他語言（如 Java 或 C++）那樣提前聲明變數的資料型態。你只需要指定一個名稱並賦予一個值，Python 會自動根據值的類型來設定變數的資料型態。</description>
+    </item>
     <item>
       <title>如何在 VS Code 中建立並執行一個新的 Python 專案 - 豪拜兒</title>
       <link>https://lnty17.github.io/blog/python-helloworld/</link>

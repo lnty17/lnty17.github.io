@@ -6,41 +6,76 @@
     <description>Recent content in Tags on 豪拜兒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 27 Oct 2024 10:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 05:07:47 +0800</lastBuildDate>
     <atom:link href="https://lnty17.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>喵星人</title>
-      <link>https://lnty17.github.io/tags/%E5%96%B5%E6%98%9F%E4%BA%BA/</link>
-      <pubDate>Sun, 27 Oct 2024 10:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/tags/%E5%96%B5%E6%98%9F%E4%BA%BA/</guid>
-      <description></description>
-    </item>
     <item>
       <title>寵物</title>
       <link>https://lnty17.github.io/tags/%E5%AF%B5%E7%89%A9/</link>
-      <pubDate>Sun, 27 Oct 2024 10:07:47 +0800</pubDate>
+      <pubDate>Sun, 03 Nov 2024 05:07:47 +0800</pubDate>
       <guid>https://lnty17.github.io/tags/%E5%AF%B5%E7%89%A9/</guid>
       <description></description>
     </item>
     <item>
-      <title>小知識</title>
-      <link>https://lnty17.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AD%98/</link>
-      <pubDate>Sun, 27 Oct 2024 10:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AD%98/</guid>
+      <title>汪星人</title>
+      <link>https://lnty17.github.io/tags/%E6%B1%AA%E6%98%9F%E4%BA%BA/</link>
+      <pubDate>Sun, 03 Nov 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/tags/%E6%B1%AA%E6%98%9F%E4%BA%BA/</guid>
       <description></description>
     </item>
     <item>
       <title>產品</title>
       <link>https://lnty17.github.io/tags/%E7%94%A2%E5%93%81/</link>
-      <pubDate>Sun, 27 Oct 2024 10:07:47 +0800</pubDate>
+      <pubDate>Sun, 03 Nov 2024 05:07:47 +0800</pubDate>
       <guid>https://lnty17.github.io/tags/%E7%94%A2%E5%93%81/</guid>
       <description></description>
     </item>
     <item>
       <title>用品</title>
       <link>https://lnty17.github.io/tags/%E7%94%A8%E5%93%81/</link>
-      <pubDate>Sun, 27 Oct 2024 10:07:47 +0800</pubDate>
+      <pubDate>Sun, 03 Nov 2024 05:07:47 +0800</pubDate>
       <guid>https://lnty17.github.io/tags/%E7%94%A8%E5%93%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>小知識</title>
+      <link>https://lnty17.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AD%98/</link>
+      <pubDate>Fri, 01 Nov 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AD%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://lnty17.github.io/tags/python/</link>
+      <pubDate>Thu, 31 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VS Code</title>
+      <link>https://lnty17.github.io/tags/vs-code/</link>
+      <pubDate>Thu, 31 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>入門指南</title>
+      <link>https://lnty17.github.io/tags/%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Thu, 31 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/tags/%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>程式設計</title>
+      <link>https://lnty17.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</link>
+      <pubDate>Thu, 31 Oct 2024 05:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>喵星人</title>
+      <link>https://lnty17.github.io/tags/%E5%96%B5%E6%98%9F%E4%BA%BA/</link>
+      <pubDate>Sun, 27 Oct 2024 10:07:47 +0800</pubDate>
+      <guid>https://lnty17.github.io/tags/%E5%96%B5%E6%98%9F%E4%BA%BA/</guid>
       <description></description>
     </item>
     <item>
@@ -331,13 +366,6 @@
       <description></description>
     </item>
     <item>
-      <title>汪星人</title>
-      <link>https://lnty17.github.io/tags/%E6%B1%AA%E6%98%9F%E4%BA%BA/</link>
-      <pubDate>Sun, 13 Oct 2024 05:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/tags/%E6%B1%AA%E6%98%9F%E4%BA%BA/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>公式填充</title>
       <link>https://lnty17.github.io/tags/%E5%85%AC%E5%BC%8F%E5%A1%AB%E5%85%85/</link>
       <pubDate>Thu, 10 Oct 2024 18:07:47 +0800</pubDate>
@@ -366,27 +394,6 @@
       <description></description>
     </item>
     <item>
-      <title>Python</title>
-      <link>https://lnty17.github.io/tags/python/</link>
-      <pubDate>Sun, 06 Oct 2024 05:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>入門指南</title>
-      <link>https://lnty17.github.io/tags/%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Sun, 06 Oct 2024 05:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/tags/%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>程式設計</title>
-      <link>https://lnty17.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</link>
-      <pubDate>Sun, 06 Oct 2024 05:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>自動化</title>
       <link>https://lnty17.github.io/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
       <pubDate>Sun, 06 Oct 2024 05:07:47 +0800</pubDate>
@@ -405,13 +412,6 @@
       <link>https://lnty17.github.io/tags/format/</link>
       <pubDate>Sat, 05 Oct 2024 18:07:47 +0800</pubDate>
       <guid>https://lnty17.github.io/tags/format/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VS Code</title>
-      <link>https://lnty17.github.io/tags/vs-code/</link>
-      <pubDate>Fri, 04 Oct 2024 05:07:47 +0800</pubDate>
-      <guid>https://lnty17.github.io/tags/vs-code/</guid>
       <description></description>
     </item>
     <item>
